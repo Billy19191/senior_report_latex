@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{norros95}
+I.~Norros,
+\newblock  1995, ``On the use of Fractional Brownian Motion in the Theory of
+  Connectionless Networks,''
+\newblock {\bf IEEE J. Select. Areas Commun.}, vol. 13, no. 6, pp. 953--962,
+  Aug. 1995.
+
+\bibitem{kim01}
+H.S. Kim and N.B. Shroff,
+\newblock  2001, ``Loss Probability Calculations and Asymptotic Analysis for
+  Finite Buffer Multiplexers,''
+\newblock {\bf IEEE/ACM Trans. Networking}, vol. 9, no. 6, pp. 755--768, Dec.
+  2001.
+
+\bibitem{eun01}
+D.Y. Eun and N.B. Shroff,  2001,
+\newblock ``A Measurement-Analytic Framework for QoS Estimation Based on the
+  Dominant Time Scale,''
+\newblock in {\bf Proc. IEEE INFOCOM'01}, Anchorage, AK, Apr. 2001.
+
+\end{thebibliography}
