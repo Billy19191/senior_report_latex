@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.3)  3 MAY 2026 02:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2026.5.4)  4 MAY 2026 02:46
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/billy191/Desktop/Billy191/senior_report_latex/Report Format Latex/undergrad-sample-thai.tex"
-(/Users/billy191/Desktop/Billy191/senior_report_latex/Report Format Latex/undergrad-sample-thai.tex
+**./undergrad-sample-thai.tex
+(undergrad-sample-thai.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (cpe-thai-project.cls
@@ -18,33 +17,40 @@ Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@chapter=\count276
-\c@section=\count277
-\c@subsection=\count278
-\c@subsubsection=\count279
-\c@paragraph=\count280
-\c@subparagraph=\count281
-\c@figure=\count282
-\c@table=\count283
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 )
 Document Style `CPE thesis/report'.
-(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
+ometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
+ty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.st
+y
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen151
 \Gm@wd@mp=\dimen152
 \Gm@odd@mp=\dimen153
@@ -54,22 +60,34 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
- (/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
+ometry/geometry.cfg))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx
+.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics
+.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/grap
+hics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/xete
+x.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen161
 \ar@mcellbox=\box53
@@ -78,7 +96,9 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip51
 \backup@length=\skip52
 \ar@cellbox=\box54
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts
+.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -86,31 +106,41 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.s
+ty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.s
+ty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.st
+y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen163
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen164
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.st
+y
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count287
+\inf@bad=\count283
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count288
-\leftroot@=\count289
+\uproot@=\count284
+\leftroot@=\count285
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count290
-\DOTSCASE@=\count291
+\classnum@=\count286
+\DOTSCASE@=\count287
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -123,20 +153,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen165
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count292
+\macc@depth=\count288
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count293
+\c@MaxMatrixCols=\count289
 \dotsspace@=\muskip17
-\c@parentequation=\count294
-\dspbrk@lvl=\count295
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
 \tag@help=\toks22
-\row@=\count296
-\column@=\count297
-\maxfields@=\count298
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
 \andhelp@=\toks23
 \eqnshift@=\dimen166
 \alignsep@=\dimen167
@@ -150,34 +180,276 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/xelatex/mathspec/mathspec.sty
-Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection for XeLaTeX)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/xelatex/
+mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox
+.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.sty
+\etb@tempcnta=\count295
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifxetex.s
+ty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontspec/fontspec
+.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3packages/xparse
+/xparse.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3kernel/expl3.st
+y
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
- ********************************************
- * XeTeX is required to compile this document.
- * Sorry!
- ********************************************
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
+nd-xetex.def
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
+\g__graphics_track_int=\count296
+\g__pdfannot_backend_int=\count297
+\g__pdfannot_backend_link_int=\count298
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 
-/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/xelatex/mathspec/mathspec.sty:10: Emergency stop.
-<read *> 
-         
-l.10 \RequireXeTeX
-                  
-*** (cannot \read from terminal in nonstop modes)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontspec/fontspec
+-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count299
+\l__fontspec_language_int=\count300
+\l__fontspec_strnum_int=\count301
+\l__fontspec_tmp_int=\count302
+\l__fontspec_tmpa_int=\count303
+\l__fontspec_tmpb_int=\count304
+\l__fontspec_tmpc_int=\count305
+\l__fontspec_em_int=\count306
+\l__fontspec_emdef_int=\count307
+\l__fontspec_strong_int=\count308
+\l__fontspec_strongdef_int=\count309
+\l__fontspec_tmpa_dim=\dimen172
+\l__fontspec_tmpb_dim=\dimen173
+\l__fontspec_tmpc_dim=\dimen174
 
- 
-Here is how much of TeX's memory you used:
- 2486 strings out of 469630
- 36164 string characters out of 2465662
- 442965 words of memory out of 3000000
- 31324 multiletter control sequences out of 15000+600000
- 627721 words of font info for 40 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 72i,0n,79p,293b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/xelatex/mathspec/mathspec.sty:10:  ==> Fatal error occurred, no output PDF file produced!
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontspec/fontspec
+.cfg)))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.s
+ty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval
+.tex
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutil
+s.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count311
+\c@eu@i=\count312
+\c@mkern=\count313
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/xelatex/
+xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ti
+pa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+\tipaTiiicode=\count314
+\tipasavetokens=\toks28
+\tipachecktokens=\toks29
+LaTeX Encoding Info:    Redeclaring text command \nobreakspace (encoding TU) on
+ input line 1725.
+LaTeX Encoding Info:    Redeclaring text command \copyright (encoding TU) on in
+put line 1739.
+LaTeX Encoding Info:    Redeclaring text command \AA (encoding TU) on input lin
+e 1785.
+LaTeX Encoding Info:    Redeclaring text command \aa (encoding TU) on input lin
+e 1842.
+LaTeX Encoding Info:    Redeclaring text command \textrhookopeno (encoding TU) 
+on input line 3119.
+LaTeX Encoding Info:    Redeclaring text command \textaolig (encoding TU) on in
+put line 3729.
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xl
+txtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.
+sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
+alscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen175
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/me
+talogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks30
+\xl@@everylogo=\toks31
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box57
+\l__xetex_show_hyphens_temp_box=\box58
+\l__xetex_show_hyphens_final_box=\box59
+\g__xetex_show_hyphens_word_box=\box60
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
+.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
+setkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hy
+color/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.
+sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
+fcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
+options/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count315
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen176
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
+ef
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+)
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count318
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
+f
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gr
+eek-fontenc/puenc-greek.def
+File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gr
+eek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
+)
+LaTeX Encoding Info:    Redeclaring text command \textmu (encoding PU) on input
+ line 179.
+)
+LaTeX Encoding Info:    Redeclaring text command \textohm (encoding PU) on inpu
+t line 1176.
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count319
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen177
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count320
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hxetex.d
+ef
+File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
+\pdfm@box=\box61
+\c@Hy@AnnotLevel=\count324
+\HyField@AnnotCount=\count325
+\Fld@listcount=\count326
+\c@bookmark@seq@number=\count327
+
+(/Users/billy191/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
+runfilecheck/rerunfilecheck.sty
+Package: re

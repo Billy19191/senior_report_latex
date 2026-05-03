@@ -13,20 +13,27 @@
 \usepackage{calc}
 \usepackage{array}
 \usepackage{enumitem}
-\setlist[itemize]{itemsep=0pt, parsep=0pt, leftmargin=2em}
-\setlist[enumerate]{itemsep=0pt, parsep=0pt, leftmargin=2em}
-% Stub commands so the Thai abstract section compiles even without TH Sarabun New
-\providecommand{\thaifont}{}
-\providecommand{\textthai}[1]{#1}
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
-%\setotherlanguage{thai}
-%\newfontfamily\thaifont[Script=Thai,Scale=1.23]{TH Sarabun New}
+\setotherlanguage{thai}
+
+% Set Thai font
+% Try the name without spaces if with spaces fails, or specify filename
+\newfontfamily\thaifont{THSarabunNew}[
+  Script=Thai,
+  Scale=1.23,
+  Extension=.ttf,
+  Path=/Users/billy191/Library/Fonts/,
+  BoldFont=THSarabunNew Bold,
+  ItalicFont=THSarabunNew Italic,
+  BoldItalicFont=THSarabunNew BoldItalic
+]
+
 \defaultfontfeatures{Mapping=tex-text,Scale=1.0,LetterSpace=0.0}
 \setmainfont[Scale=1.0,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0]{Times New Roman}
 \emergencystretch=10pt
-%\XeTeXlinebreaklocale "th_TH"	
-%\XeTeXlinebreakskip = 0pt plus 1pt
+\XeTeXlinebreaklocale "th"	
+\XeTeXlinebreakskip = 0pt plus 1pt
 %\setmathfont(Digits)[Scale=1.0,LetterSpace=0,FakeStretch=1.0]{Times New Roman}
 
 
@@ -79,16 +86,16 @@
 \def\appendixnames{Appendix} %%% Appendices or Appendix
 
 \def\thaiworktype{ปริญญานิพนธ์} %  Project or research project % 
-\def\thaidisstitleone{หัวข้อปริญญานิพนธ์บรรทัดแรก}
-\def\thaidisstitletwo{หัวข้อปริญญานิพนธ์บรรทัดสอง}
-\def\thaidissauthor{นายสมศักดิ์ คอมพิวเตอร์}
-\def\thaidissauthortwo{นางสาวสมศรี คอมพิวเตอร์2} %Optional
-\def\thaidissauthorthree{นางสาวสมปอง คอมพิวเตอร์3} %Optional
+\def\thaidisstitleone{KKP Better โมบายแบงก์กิ้งแอปพลิเคชัน}
+\def\thaidisstitletwo{}
+\def\thaidissauthor{นายสิการะ นันทิภัทร์สกุล}
+\def\thaidissauthortwo{นายรัชชานนท์ ธราพรรณ} %Optional
+\def\thaidissauthorthree{} %Optional
 
-\def\thaidissadvisor{รศ.ดร.ที่ปรึกษา วิทยานิพนธ์}
+\def\thaidissadvisor{ผศ. รัชชวิชญ์ สโรชวิกสิต}
 %% Leave this empty if you have no co-advisor
-\def\thaidisscoadvisor{รศ.ดร.ที่ปรึกษา วิทยานิพนธ์ร่วม} %Optional
-\def\thaidisscoadvisortwo{}  % Co-advisor 2 (if any)
+\def\thaidisscoadvisor{อรรถพร ธนจันโรจน์สกุล} %Optional
+\def\thaidisscoadvisortwo{เกษตร สุนทรภัทร์}  % Co-advisor 2 (if any)
 \def\thaidisscoadvisorthree{} % Co-advisor 3 (You better be building space rocket or curing cancer at this point)
 \def\thaidissdegree{วิศวกรรมศาสตรบัณฑิต}
 
@@ -580,12 +587,9 @@ integrates seamlessly with continuous integration/continuous delivery
 it a critical tool for secure banking applications where traceability
 and rollback capabilities are essential (Loeliger \& McCullough, 2012).
 
-\begin{center}
-\includegraphics[width=4.43401in,height=2.70313in]{report_media/media/image62.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.43401in,height=2.70313in]{report_media/media/image62.png}
 \caption{Common Git Workflow}\label{fig:common-git-workflow}
 Source:
 \href{https://www.researchgate.net/figure/Common-Git-Workflow-15_fig1_344675138}{https://www.researchgate.net/figure/Common-Git-Workflow-15\_fig1\_344675138}
@@ -616,12 +620,9 @@ open-source nature and frequent updates from Microsoft's active
 developer community ensure continuous improvements in security and
 performance.
 
-\begin{center}
-\includegraphics[width=4.8485in,height=3.21354in]{report_media/media/image79.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.8485in,height=3.21354in]{report_media/media/image79.png}
 \caption{Visual Studio Code User Interface}\label{fig:visual-studio-code-user-interface}
 Source:
 \href{https://code.visualstudio.com/docs/getstarted/userinterface}{https://code.visualstudio.com/docs/getstarted/userinterface}
@@ -651,12 +652,9 @@ banking backends that demand low-latency processing. Its fast
 compilation times and straightforward syntax also shorten development
 cycles and simplify maintenance.
 
-\begin{center}
-\includegraphics[width=3.71643in,height=3.85938in]{report_media/media/image23.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=3.71643in,height=3.85938in]{report_media/media/image23.png}
 \caption{Golang Code}\label{fig:golang-code}
 Source:
 \href{https://www.bogotobogo.com/GoLang/GoLang_Web.php}{https://www.bogotobogo.com/GoLang/GoLang\_Web.php}
@@ -686,12 +684,9 @@ authentication, biometric login, and encrypted storage, all of which are
 vital for banking applications that handle sensitive personal data
 (Google, 2024b).
 
-\begin{center}
-\includegraphics[width=6.08721in,height=3.73958in]{report_media/media/image14.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.08721in,height=3.73958in]{report_media/media/image14.png}
 \caption{Flutter Material 3 Design}\label{fig:flutter-material-3-design}
 Source:
 \href{https://github.com/flutter/flutter/issues/91605}{https://github.com/flutter/flutter/issues/91605}
@@ -723,12 +718,9 @@ and reliable API communication is critical, Postman provides a
 controlled environment to verify authentication flows, encryption
 requirements, and error-handling mechanisms before live rollout.
 
-\begin{center}
-\includegraphics[width=4.71646in,height=3.88021in]{report_media/media/image90.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.71646in,height=3.88021in]{report_media/media/image90.png}
 \caption{Navigating Postman}\label{fig:navigating-postman}
 Source:
 \href{https://learning.postman.com/docs/getting-started/basics/navigating-postman/}{https://learning.postman.com/docs/getting-started/basics/navigating-postman/}
@@ -757,12 +749,9 @@ Its compatibility with GitHub Actions and GitLab CI makes it a flexible
 backbone for hybrid CI/CD strategies that require both cloud and
 on-premise deployments (Sharma \& Sood, 2021).
 
-\begin{center}
-\includegraphics[width=4.8831in,height=2.60938in]{report_media/media/image2.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.8831in,height=2.60938in]{report_media/media/image2.png}
 \caption{Jenkins (Software)}\label{fig:jenkins-software}
 Source:
 \href{https://en.wikipedia.org/wiki/Jenkins_\%28software\%29}{https://en.wikipedia.org/wiki/Jenkins\_\%28software\%29}
@@ -791,12 +780,9 @@ before public deployment, which is especially critical in financial
 applications where regulatory compliance and user trust are paramount
 (Zhang et al., 2022).
 
-\begin{center}
-\includegraphics[width=5.50301in,height=2.72984in]{report_media/media/image52.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.50301in,height=2.72984in]{report_media/media/image52.png}
 \caption{Firebase App Distribution Workflow}\label{fig:firebase-app-distribution-workflow}
 Source:
 \href{https://takamii.hatenablog.com/entry/2021/01/10/174039}{https://takamii.hatenablog.com/entry/2021/01/10/174039}
@@ -825,12 +811,9 @@ logic across Android, iOS, and backend services. The language is
 officially supported by Google for Android development, ensuring
 long-term ecosystem stability and tooling support (Google, 2024d).
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.19444in]{report_media/media/image60.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.19444in]{report_media/media/image60.png}
 \caption{Kotlin Code Implementation}\label{fig:kotlin-code-implementation}
 Source:
 \href{https://ibyteinfomatics.com/blog/tag/java-vs-kotlin/}{https://ibyteinfomatics.com/blog/tag/java-vs-kotlin/}
@@ -859,12 +842,9 @@ open-source community ensures continuous updates and security patches,
 which is crucial for maintaining compliance with financial regulations
 (Richardson, 2018; Pivotal Software, 2024).
 
-\begin{center}
-\includegraphics[width=4.98264in,height=3.20313in]{report_media/media/image58.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.98264in,height=3.20313in]{report_media/media/image58.png}
 \caption{Spring Boot Microservice Architecture Diagram}\label{fig:spring-boot-microservice-architecture-diagram}
 Source:
 \href{https://spring.io/microservices}{https://spring.io/microservices}
@@ -930,12 +910,9 @@ distributed services. Its open-source community and CNCF incubation
 status ensure active development and enterprise reliability. (Apache
 APISIX Documentation, 2024; CNCF Landscape, 2024)
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.72222in]{report_media/media/image63.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.72222in]{report_media/media/image63.png}
 \caption{APISIX Process of Centralized}\label{fig:apisix-process-of-centralized}
 Source:
 \href{https://apisix.apache.org/blog/2022/01/04/authing/}{https://apisix.apache.org/blog/2022/01/04/authing/}
@@ -968,12 +945,9 @@ evolving financial applications. With an active community and commercial
 support options, Lura offers both flexibility and production-grade
 stability. (Lura Project, 2024)
 
-\begin{center}
-\includegraphics[width=5.87847in,height=2.91971in]{report_media/media/image73.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.87847in,height=2.91971in]{report_media/media/image73.png}
 \caption{Lura Project Implementation}\label{fig:lura-project-implementation}
 Source:
 \href{https://github.com/luraproject/lura}{https://github.com/luraproject/lura}
@@ -1000,12 +974,9 @@ underpins essential services that require both precision and resilience,
 making it a trusted foundation for secure financial operations
 (PostgreSQL Global Development Group, n.d.-a).
 
-\begin{center}
-\includegraphics[width=5.00156in,height=2.92933in]{report_media/media/image24.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.00156in,height=2.92933in]{report_media/media/image24.png}
 \caption{PostgreSQL Architecture}\label{fig:postgresql-architecture}
 Source:
 \href{https://docs.netapp.com/us-en/ontap-apps-dbs/postgres/postgres-architecture.html}{https://docs.netapp.com/us-en/ontap-apps-dbs/postgres/postgres-architecture.html}
@@ -1034,12 +1005,9 @@ user experiences for time-sensitive operations like balance inquiries,
 transaction lookups, and identity verification, ensuring the platform
 remains responsive under heavy load (Redis, 2025a).
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.83333in]{report_media/media/image46.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.83333in]{report_media/media/image46.png}
 \caption{Redis Cluster Flow Diagram}\label{fig:redis-cluster-flow-diagram}
 Source:
 \href{https://www.somkiat.cc/redis-architecture/}{https://www.somkiat.cc/redis-architecture/}
@@ -1066,12 +1034,9 @@ real-time analytics pipelines, monitoring, and compliance reporting,
 ensuring that both operational visibility and regulatory requirements
 are met (Apache Kafka, n.d.-a).
 
-\begin{center}
-\includegraphics[width=6.27083in,height=2.08663in]{report_media/media/image45.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.27083in,height=2.08663in]{report_media/media/image45.png}
 \caption{Apache Kafka Data Flow}\label{fig:apache-kafka-data-flow}
 Source:
 \href{https://medium.com/@sachin28/how-industries-solve-their-use-cases-with-kafka-b0e5f8434662}{https://medium.com/@sachin28/how-industries-solve-their-use-cases-with-kafka-b0e5f8434662}
@@ -1101,12 +1066,9 @@ daily operations, the platform ensures reliability, transparency, and
 accountability across all environments (Grafana Labs, n.d.; Dynatrace,
 2025; Splunk, 2025).
 
-\begin{center}
-\includegraphics[width=5.20063in,height=2.71249in]{report_media/media/image82.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.20063in,height=2.71249in]{report_media/media/image82.png}
 \caption{Grafana Dashboard}\label{fig:grafana-dashboard}
 Source:
 \href{https://grafana.com/oss/grafana/}{https://grafana.com/oss/grafana/}
@@ -1130,12 +1092,9 @@ approach reduces coupling, supports horizontal scaling, and enables
 continuous delivery, which is critical for a financial application that
 must evolve rapidly while remaining stable and secure (Newman, 2021).
 
-\begin{center}
-\includegraphics[width=5.03628in,height=2.26339in]{report_media/media/image38.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.03628in,height=2.26339in]{report_media/media/image38.png}
 \caption{Microservice architecture diagram}\label{fig:microservice-architecture-diagram}
 Source:
 \href{https://webandcrafts.com/blog/what-is-microservices-architecture}{https://webandcrafts.com/blog/what-is-microservices-architecture}
@@ -1161,12 +1120,9 @@ long-term system evolution. By leveraging proven design principles, the
 platform achieves greater development efficiency and consistency across
 teams (Gamma, Helm, Johnson, \& Vlissides, 1994; Angelov, 2020).
 
-\begin{center}
-\includegraphics[width=6.26772in,height=1.56944in]{report_media/media/image6.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=1.56944in]{report_media/media/image6.png}
 \caption{Bloc Design Pattern With State Management}\label{fig:bloc-design-pattern-with-state-management}
 Source:
 \href{https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5}{https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5}
@@ -1193,12 +1149,9 @@ Overall, the BFF pattern enhances user experience by streamlining
 communication between diverse clients and the underlying microservices
 (Richardson, 2018; Newman, 2021).
 
-\begin{center}
-\includegraphics[width=6.30769in,height=3.24361in,alt={Javarevisited: How does The BFF (Backend For Frontend) Pattern Work?}]{report_media/media/image18.jpg}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.30769in,height=3.24361in,alt={Javarevisited: How does The BFF (Backend For Frontend) Pattern Work?}]{report_media/media/image18.jpg}
 \caption{Backends For Frontend (BFF) Implementation}\label{fig:backends-for-frontend-bff-implementation}
 Source:
 \href{https://javarevisited.blogspot.com/2023/06/how-does-bff-backend-for-frontend.html}{https://javarevisited.blogspot.com/2023/06/how-does-bff-backend-for-frontend.html}
@@ -1238,12 +1191,9 @@ This approach simplifies backend integration, supports scalability, and
 ensures compliance with security and performance standards (Richardson,
 2018; Lura Project, n.d.;).
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image10.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image10.png}
 \caption{API Gateway Visualization}\label{fig:api-gateway-visualization}
 Source:
 \href{https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern}{https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern}
@@ -1278,12 +1228,9 @@ Together, these tools support frequent and reliable releases, enabling
 rapid iteration while maintaining compliance and security standards
 (Fowler, 2006; GitHub, n.d.; Jenkins, 2024).
 
-\begin{center}
-\includegraphics[width=5.79715in,height=2.43634in]{report_media/media/image80.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.79715in,height=2.43634in]{report_media/media/image80.png}
 \caption{CI/CD Pipelines Workflow}\label{fig:cicd-pipelines-workflow}
 Source:
 \href{https://testrigor.com/blog/what-is-cicd/}{https://testrigor.com/blog/what-is-cicd/}
@@ -1320,12 +1267,9 @@ For the KKP Better platform, adopting Cloud-Native design ensures
 services are modular, portable, and scalable, supporting rapid iteration
 while maintaining security and high availability (Burns, 2017).
 
-\begin{center}
-\includegraphics[width=5.3912in,height=2.65978in]{report_media/media/image92.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.3912in,height=2.65978in]{report_media/media/image92.png}
 \caption{Docker Container Construct Workflow}\label{fig:docker-container-construct-workflow}
 Source:
 \href{https://medium.com/t-t-software-solution/\%E0\%B8\%9D\%E0\%B8\%B6\%E0\%B8\%81\%E0\%B8\%A7\%E0\%B8\%B4\%E0\%B8\%8A\%E0\%B8\%B2-docker-image-container-8765a513f2b4}{https://medium.com/t-t-software-solution/\%E0\%B8\%9D\%E0\%B8\%B6\%E0\%B8\%81\%E0\%B8\%A7\%E0\%B8\%B4\%E0\%B8\%8A\%E0\%B8\%B2-docker-image-container-8765a513f2b4}
@@ -1358,12 +1302,9 @@ For KKP Better, this layered process is critical to ensure security,
 performance, and compliance in financial services (Myers, Sandler, \&
 Badgett, 2011).
 
-\begin{center}
-\includegraphics[width=6.11979in,height=3.20222in]{report_media/media/image78.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.11979in,height=3.20222in]{report_media/media/image78.png}
 \caption{Manual Testing Process}\label{fig:manual-testing-process}
 Source:
 \href{https://www.esds.co.in/blog/manual-testing-process-lifecycle/}{https://www.esds.co.in/blog/manual-testing-process-lifecycle/}
@@ -1399,12 +1340,9 @@ around private key handling, the platform minimizes risks of compromise
 and ensures long-term system integrity (Diffie \& Hellman, 1976;
 Stallings, 2017).
 
-\begin{center}
-\includegraphics[width=5.42032in,height=2.92887in]{report_media/media/image26.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.42032in,height=2.92887in]{report_media/media/image26.png}
 \caption{Private Key Encryption}\label{fig:private-key-encryption}
 Source:
 \href{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}
@@ -1432,12 +1370,9 @@ ensures strong trust between clients, backend services, and external
 systems, aligning with industry best practices for secure digital
 transactions (Diffie \& Hellman, 1976; Stallings, 2017).
 
-\begin{center}
-\includegraphics[width=5.5195in,height=2.7743in]{report_media/media/image64.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=5.5195in,height=2.7743in]{report_media/media/image64.png}
 \caption{Public Key Encryption}\label{fig:public-key-encryption}
 Source:
 \href{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}
@@ -1463,12 +1398,9 @@ key signature, KKP Better ensures that all operations meet the highest
 standards of reliability and trust (Rivest, Shamir, \& Adleman, 1978;
 NIST, 2020).
 
-\begin{center}
-\includegraphics[width=6.62619in,height=3.16551in]{report_media/media/image94.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.62619in,height=3.16551in]{report_media/media/image94.png}
 \caption{Digital Signature Flow}\label{fig:digital-signature-flow}
 Source:
 \href{https://www.sectigo.com/resource-library/how-digital-signatures-work}{https://www.sectigo.com/resource-library/how-digital-signatures-work}
@@ -1494,12 +1426,9 @@ sensitive operations, thereby protecting users from account takeover and
 ensuring compliance with strict financial security standards (Fowler,
 2006; OWASP, 2021).
 
-\begin{center}
-\includegraphics[width=4.62915in,height=3.01563in]{report_media/media/image11.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.62915in,height=3.01563in]{report_media/media/image11.png}
 \caption{Digital Signature Verification}\label{fig:digital-signature-verification}
 Source:
 \href{https://github.com/element-hq/element-web/issues/15877}{https://github.com/element-hq/element-web/issues/15877}
@@ -1530,12 +1459,9 @@ positions itself not only as a banking app but also as a digital
 lifestyle platform, making it a leader in customer engagement
 (Kasikornbank, n.d.).
 
-\begin{center}
-\includegraphics[width=4.44641in,height=2.21181in]{report_media/media/image43.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.44641in,height=2.21181in]{report_media/media/image43.png}
 \caption{K PLUS by Kasikorn Bank}\label{fig:k-plus-by-kasikorn-bank}
 Source:
 \href{https://www.pornkamol.com/work/kplus}{https://www.pornkamol.com/work/kplus}
@@ -1558,12 +1484,9 @@ engagement. Its large user base and integration with SCB's digital
 ecosystem make it one of the strongest competitors in the Thai banking
 sector (Siam Commercial Bank, n.d.).
 
-\begin{center}
-\includegraphics[width=3.58489in,height=2.37391in]{report_media/media/image61.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=3.58489in,height=2.37391in]{report_media/media/image61.png}
 \caption{SCB EASY by Siam Commercial Bank}\label{fig:scb-easy-by-siam-commercial-bank}
 Source:
 \href{https://medium.com/@minnsittux/redesigning-scb-easy-app-design-challenge-cacaf4997ae4}{https://medium.com/@minnsittux/redesigning-scb-easy-app-design-challenge-cacaf4997ae4}
@@ -1585,12 +1508,9 @@ verification and dynamic PIN systems. Krungthai NEXT plays a crucial
 role in national financial infrastructure, making it indispensable for
 government-backed digital payments and services (Krungthai Bank, n.d.).
 
-\begin{center}
-\includegraphics[width=4.83489in,height=2.44536in]{report_media/media/image5.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.83489in,height=2.44536in]{report_media/media/image5.png}
 \caption{Krungthai NEXT by Krungthai Bank}\label{fig:krungthai-next-by-krungthai-bank}
 Source:
 \href{https://www.macthai.com/2020/09/23/krungthai-next/}{https://www.macthai.com/2020/09/23/krungthai-next/}
@@ -1613,12 +1533,9 @@ businesses. Its design is more conservative but highly reliable,
 aligning with Bangkok Bank's image as a stable and trustworthy financial
 institution (Bangkok Bank, n.d.).
 
-\begin{center}
-\includegraphics[width=3.20833in,height=4.625in]{report_media/media/image7.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=3.20833in,height=4.625in]{report_media/media/image7.png}
 \caption{Bangkok Bank Mobile Banking by Bangkok Bank}\label{fig:bangkok-bank-mobile-banking-by-bangkok}
 Source:
 \href{https://www.bangkokbank.com/en/Personal/Digital-Banking/Bualuang-mBanking/How-to-Use/MobileTopUp}{https://www.bangkokbank.com/en/Personal/Digital-Banking/Bualuang-mBanking/How-to-Use/MobileTopUp}
@@ -1641,12 +1558,9 @@ platform that helps users ``get more from life,'' aligning with the
 bank's branding after the TMB--Thanachart merger (TMBThanachart Bank
 (TTB), n.d.).
 
-\begin{center}
-\includegraphics[width=6.0058in,height=3.3912in]{report_media/media/image36.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.0058in,height=3.3912in]{report_media/media/image36.png}
 \caption{TTB Touch by TMBThanachart Bank}\label{fig:ttb-touch-by-tmbthanachart-bank}
 Source:
 \href{https://thailandinsurancenews.com/featured/ttb-\%E0\%B8\%8A\%E0\%B8\%B9-4-\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%A2\%E0\%B8\%B8\%E0\%B8\%97\%E0\%B8\%98\%E0\%B9\%8C-\%E0\%B8\%82\%E0\%B8\%A2\%E0\%B8\%B2\%E0\%B8\%A2\%E0\%B8\%90\%E0\%B8\%B2\%E0\%B8\%99\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%B8\%E0\%B9\%88/}{https://thailandinsurancenews.com/featured/ttb-\%E0\%B8\%8A\%E0\%B8\%B9-4-\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%A2\%E0\%B8\%B8\%E0\%B8\%97\%E0\%B8\%98\%E0\%B9\%8C-\%E0\%B8\%82\%E0\%B8\%A2\%E0\%B8\%B2\%E0\%B8\%A2\%E0\%B8\%90\%E0\%B8\%B2\%E0\%B8\%99\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%B8\%E0\%B9\%88/}
@@ -1669,12 +1583,9 @@ combining financial services with lifestyle benefits, positioning
 Krungsri as a modern and customer-oriented digital bank (Bank of Ayudhya
 (Krungsri), n.d.).
 
-\begin{center}
-\includegraphics[width=4.5739in,height=3.04926in]{report_media/media/image66.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=4.5739in,height=3.04926in]{report_media/media/image66.png}
 \caption{Krungsri Mobile App by Krungsri Bank}\label{fig:krungsri-mobile-app-by-krungsri-bank}
 Source:
 \href{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users}{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users}
@@ -1684,154 +1595,14 @@ From the Figure~\ref{fig:krungsri-mobile-app-by-krungsri-bank}, the interface hi
 blending financial management with lifestyle perks, strengthening
 customer engagement.
 
-\section{Mobile Banking Feature Comparison\\}
+\section{Mobile Banking Feature Comparison}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=7.27431in]{report_media/media/market_compare.png}
+\caption{Mobile Banking Feature Comparison}\label{fig:mobile-banking-feature-comparison}
+\end{figure}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2965}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1224}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1192}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1337}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1660}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1434}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Feature
-Category}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{K PLUS}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{SCB EASY}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Krungthai
-NEXT}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Bangkok
-Bank}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{KKP
-Better}
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Points / Rewards / Gift
-Program.
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Money Compartmentalization /\\
-Digital Wallet
-Division\strut
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-AI / Personalized
-Recommendations
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Financial Planning (Retirement planning, Tax planning,
-etc.)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✖️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Card / Account Lock-Unlock
-Feature
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Investment / Mutual Funds / Stocks /
-Insurance
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Loan / Credit Card Application
-In-App
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-Consolidated Asset / Wealth
-Dashboard
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-✔️
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\end{longtable}
-
-\emph{Table 2.1 Mobile Banking Application Feature Comparison}
 
 \hfill\break
 
@@ -1939,12 +1710,9 @@ maintaining consistent performance and operational reliability.
 The system architecture is divided into distinct layers, ranging from
 the client application to legacy banking integrations.
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.09722in]{report_media/media/image31.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.09722in]{report_media/media/image31.png}
 \caption{KKP Better System Architecture}\label{fig:kkp-better-system-architecture}
 \end{figure}
 
@@ -2186,21 +1954,15 @@ explicitly authorized by the account owner. By implementing a strict
 verification process on the user's trusted device, the system
 significantly mitigates the risk of unauthorized actions.
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image4.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image4.png}
 \caption{User Interface for Request Authentication Feature (1)}\label{fig:user-interface-for-request-authentication-feature}
 \end{figure}
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image86.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image86.png}
 \caption{User Interface for Request Authentication Feature (2)}\label{fig:user-interface-for-request-authentication-feature}
 \end{figure}
 
@@ -2239,28 +2001,28 @@ seamless user experience:
 
 \begin{itemize}
 \item
-  \textbf{Verify PIN Screen\\
-  }Implemented the PIN verification screen using the shared component,
+  \textbf{Verify PIN Screen}
+  Implemented the PIN verification screen using the shared component,
   enabling customers to verify their identity for Medium-risk
   authentication requests.
 \item
-  \textbf{Request Authentication List Screen\\
-  }Built the screen that displays all pending authentication requests.
+  \textbf{Request Authentication List Screen}
+  Built the screen that displays all pending authentication requests.
   The focus was on proper data loading and smooth navigation into each
   request item.
 \item
-  \textbf{Request Authentication Details Screen\\
-  }Developed the detailed view for each request, including UI layout and
+  \textbf{Request Authentication Details Screen}
+  Developed the detailed view for each request, including UI layout and
   Accept/Decline actions. The logic was structured to connect with
   additional verification flows depending on the request's risk level.
 \item
-  \textbf{Request Authentication Result Screens (Accepted/Rejected)\\
-  }Implemented clear and separate result screens for Accepted and
+  \textbf{Request Authentication Result Screens (Accepted/Rejected)}
+  Implemented clear and separate result screens for Accepted and
   Rejected outcomes, giving users a complete and reassuring end-state
   after responding to a request.
 \item
-  \textbf{Notification Inbox \& Push Notification Integration\\
-  }Developed the notification layer to allow the app to receive push
+  \textbf{Notification Inbox \& Push Notification Integration}
+  Developed the notification layer to allow the app to receive push
   notifications and inbox messages when CSM issues a new request.
   Tapping a notification directs the user directly into the Request
   Authentication flow.
@@ -2299,7 +2061,7 @@ all scenarios. Key improvements included:
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.65056in,height=2.68599in]{report_media/media/image15.png}
+\includegraphics[width=6.65056in,height=2.68599in]{report_media/media/request_authen_user_flow.png}
 
 \caption{User Flow Diagram for Request Authentication Feature}\label{fig:user-flow-diagram-for-request-authentication}
 \end{figure}
@@ -2348,30 +2110,21 @@ clarity and scalability, the feature is divided into three main flows:
 fully responsible for developing and completing all components of flow
 (c), the core tax planning feature.
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image34.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image34.png}
 \caption{User Interface for Tax Planning Feature (1)}\label{fig:user-interface-for-tax-planning-feature}
 \end{figure}
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image51.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image51.png}
 \caption{User Interface for Tax Planning Feature (2)}\label{fig:user-interface-for-tax-planning-feature}
 \end{figure}
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image95.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image95.png}
 \caption{User Interface for Tax Planning Feature (3)}\label{fig:user-interface-for-tax-planning-feature}
 \end{figure}
 
@@ -2400,31 +2153,28 @@ The main development work involved building all essential screens and
 interactions that form the core experience of Flow C. The tasks
 included:
 
-\begin{center}
-\includegraphics[width=6.26772in,height=0.52778in]{report_media/media/image41.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=0.52778in]{report_media/media/image41.png}
 \caption{Jira Tasks for Tax Planning Development}\label{fig:jira-tasks-for-tax-planning-development}
 \end{figure}
 
 \begin{itemize}
 \item
-  \textbf{Tax Calculation Loading Screen\\
-  }Implemented a responsive loading interface that displays during tax
+  \textbf{Tax Calculation Loading Screen}
+  Implemented a responsive loading interface that displays during tax
   computation and prepares users for the result flow.
 \item
-  \textbf{Tax Rate Summary Screen\\
-  }Developed the initial summary screen showing the user's tax bracket
+  \textbf{Tax Rate Summary Screen}
+  Developed the initial summary screen showing the user's tax bracket
   and rate using bar chart visualization for clarity.
 \item
-  \textbf{Enhancements to the Tax Rate Summary Screen\\
-  }Improved readability, supported multiple result scenarios, and
+  \textbf{Enhancements to the Tax Rate Summary Screen}
+  Improved readability, supported multiple result scenarios, and
   refined data presentation to ensure accurate interpretation.
 \item
-  \textbf{Tax Result Landing Screen\\
-  }Built the final results page with detailed tax breakdowns, stable
+  \textbf{Tax Result Landing Screen}
+  Built the final results page with detailed tax breakdowns, stable
   navigation logic, and correct data refresh behavior when users modify
   earlier information.
 \end{itemize}
@@ -2438,38 +2188,31 @@ During integration with other tax planning flows, several issues were
 identified, requiring focused debugging and refinement to ensure full
 system stability:
 
-\protect\includegraphics[width=6.26772in,height=0.31944in]{report_media/media/image30.png}
-
-\begin{center}
-\includegraphics[width=6.26772in,height=2.08333in]{report_media/media/image59.png}
-\end{center}
-
-\begin{center}
-\includegraphics[width=6.26772in,height=1.54167in]{report_media/media/image54.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=0.31944in]{report_media/media/image30.png}
+\includegraphics[width=6.26772in,height=2.08333in]{report_media/media/image59.png}
+\includegraphics[width=6.26772in,height=1.54167in]{report_media/media/image54.png}
 \caption{Jira Defects for Tax Planning Development}\label{fig:jira-defects-for-tax-planning-development}
 \end{figure}
 
 \begin{itemize}
 \item
-  \textbf{Fixes for the Tax Rate Summary Screen\\
-  }Corrected display inaccuracies, adjusted summary logic, and ensured
+  \textbf{Fixes for the Tax Rate Summary Screen}
+  Corrected display inaccuracies, adjusted summary logic, and ensured
   tax brackets rendered correctly across all scenarios.
 \item
-  \textbf{Result Landing Screen Corrections\\
-  }Resolved issues involving navigation inconsistencies, data
+  \textbf{Result Landing Screen Corrections}
+  Resolved issues involving navigation inconsistencies, data
   synchronization problems, and UI errors that occurred when users
   edited information mid-flow.
 \item
-  \textbf{Net Income \& Calculation Accuracy Fixes\\
-  }Addressed logic errors, mismatches between backend and UI values, and
+  \textbf{Net Income \& Calculation Accuracy Fixes}
+  Addressed logic errors, mismatches between backend and UI values, and
   edge cases that affected the correctness of the final tax results.
 \item
-  \textbf{Custom Budget Flow Adjustments\\
-  }Fixed syncing issues where updated budget values were not reflected
+  \textbf{Custom Budget Flow Adjustments}
+  Fixed syncing issues where updated budget values were not reflected
   downstream, ensuring consistent and accurate calculations.
 \end{itemize}
 
@@ -2481,7 +2224,7 @@ finish.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=2.38889in]{report_media/media/image88.png}
+\includegraphics[width=6.26772in,height=2.38889in]{report_media/media/tax_planning_user_flow.png}
 
 \caption{User Flow Diagram for Tax Planning Feature}\label{fig:user-flow-diagram-for-tax-planning}
 \end{figure}
@@ -2549,68 +2292,59 @@ impact existing functionalities.
 \paragraph{Core Feature Development}
 
 The core development focused on implementing the new segmentation tier
-into both backend and frontend components.\\
-\strut \\
-\begin{center}
-\includegraphics[width=6.26772in,height=0.61111in]{report_media/media/image9.png}
-\end{center}
+into both backend and frontend components.
 
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=0.61111in]{report_media/media/image9.png}
 \caption{Jira Tasks for Segmentation Feature Development}\label{fig:jira-tasks-for-segmentation-feature-development}
 \end{figure}
 
 \begin{itemize}
-\item
-  \textbf{Frontend Development\textbar{}\\
-  }
-\end{itemize}
-
-\begin{itemize}
-\item
-  Added a new segmentation card widget to the Asset Summary screen
-\item
-  Updated the UI layout to highlight tier information such as Wealth,
-  Edge Platinum, Edge Gold, or None
-\item
-  Set up a dedicated Bloc to manage customer data retrieval, state
-  transitions, and fallback handling
-\item
-  Integrated Firebase Remote Config to control the visibility of
-  segmentation during rollout
-\item
-  Implemented reusable UI components such as the tier badge for future
-  use
-\end{itemize}
-
-\begin{itemize}
-\item
-  \textbf{Backend Development\\
-  }
-\end{itemize}
-
-\begin{itemize}
-\item
-  Added a new segmentCode field in the V3 Customer Information API
-\item
-  Implemented mapping logic to convert raw segmentation values into
-  standardized BFF codes:
-
+\item \textbf{Frontend Development}
   \begin{itemize}
   \item
-    KKP to KKPNONE
+    Added a new segmentation card widget to the Asset Summary screen
   \item
-    EP to KKP\_EDGE\_PLATINUM
+    Updated the UI layout to highlight tier information such as Wealth,
+    Edge Platinum, Edge Gold, or None
   \item
-    EG to KKP\_EDGE\_GOLD
+    Set up a dedicated Bloc to manage customer data retrieval, state
+    transitions, and fallback handling
   \item
-    WEALTH to KKP\_WEALTH
+    Integrated Firebase Remote Config to control the visibility of
+    segmentation during rollout
+  \item
+    Implemented reusable UI components such as the tier badge for future
+    use
   \end{itemize}
-\item
-  Ensured the API returns segmentation directly to the frontend without
-  additional transformation
-\item
-  Maintained backward compatibility with existing services
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Backend Development}
+  \begin{itemize}
+  \item
+    Added a new segmentCode field in the V3 Customer Information API
+  \item
+    Implemented mapping logic to convert raw segmentation values into
+    standardized BFF codes:
+  
+    \begin{itemize}
+    \item
+      KKP to KKPNONE
+    \item
+      EP to KKP\_EDGE\_PLATINUM
+    \item
+      EG to KKP\_EDGE\_GOLD
+    \item
+      WEALTH to KKP\_WEALTH
+    \end{itemize}
+  \item
+    Ensured the API returns segmentation directly to the frontend without
+    additional transformation
+  \item
+    Maintained backward compatibility with existing services
+  \end{itemize}
 \end{itemize}
 
 \paragraph{Defect and Quality Improvements}
@@ -2643,7 +2377,7 @@ delivering a consistent and user-friendly interface.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=2.94444in]{report_media/media/image33.png}
+\includegraphics[width=6.26772in,height=2.94444in]{report_media/media/segmentation_user_flow.png}
 
 \caption{User Flow Diagram for Segmentation Feature}\label{fig:user-flow-diagram-for-segmentation-feature}
 \end{figure}
@@ -2651,9 +2385,7 @@ delivering a consistent and user-friendly interface.
 
 
 This diagram shows a simple decision flow that determines where the user
-should go after starting from the Home Screen.
-
-The flow begins when the user is on the Home Screen. Before allowing
+should go after starting from the Home Screen. The flow begins when the user is on the Home Screen. Before allowing
 access to the next feature, the system checks whether the user currently
 has an active session. If the session exists, the user is allowed to
 proceed directly to the Asset Summary Screen. If the session does not
@@ -2662,12 +2394,9 @@ their identity before continuing.
 
 \subsubsection{Sequence Diagram}
 
-\begin{center}
-\includegraphics[width=6.0349in,height=3.42791in]{report_media/media/image89.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.0349in,height=3.42791in]{report_media/media/image89.png}
 \caption{Sequence Diagram of customer-information}\label{fig:sequence-diagram-of-customerinformation}
 \end{figure}
 
@@ -2697,12 +2426,9 @@ secure experience by eliminating redundant logins and ensuring smooth
 data exchange between the banking system and the external platform
 (third party)
 
-\begin{center}
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image42.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image42.png}
 \caption{User Interface for Privilege Feature}\label{fig:user-interface-for-privilege-feature}
 \end{figure}
 
@@ -2749,119 +2475,83 @@ enabling access to the Privilege Platform through the Asset Summary
 page.
 
 \begin{itemize}
-\item
-  \textbf{Privilege WebView \& UI Integration}
+\item \textbf{Privilege WebView \& UI Integration}
+  \begin{itemize}
+  \item
+    Developed a new Flutter screen aligned with the Figma design,
+    including layout, loading states, and fallback cases.
+  \item
+    Integrated the shared Generic Error Modal and customized its
+    navigation behavior to ensure that users are returned safely to the
+    previous page.
+  \item
+    Updated the modal UI by replacing the default ``Close'' action with
+    ``Back to previous page'' for a clearer user experience.
+  \end{itemize}
+
+\item \textbf{State Propagation and Navigation Handling}
+  \begin{itemize}
+  \item
+    When retrieving customer information, the system first reads from
+    cache, then falls back to calling the service if cached data is
+    missing or outdated.
+  \item
+    If both attempts fail, the screen transitions into an unrecoverable
+    error state and displays the Generic Error Modal.
+  \item
+    After dismissal, the navigation logic automatically returns the user
+    to the previous page to prevent users from remaining on a
+    non-functional screen.
+  \end{itemize}
+
+\item \textbf{Common Service Integration}
+  
+  The API prepares all required data before launching the Privilege Platform, handling:
+  \begin{itemize}
+  \item \textbf{webViewUrl}: Retrieved dynamically through Manual Configuration, enabling flexible updates to the external Privilege URL.
+  \item \textbf{accessToken}: Generated by connecting to the CPS Service. This token authenticates the customer when accessing the third-party platform.
+  \end{itemize}
+
+\item \textbf{Entry Point \& WebView Launch}
+  \begin{itemize}
+  \item
+    Added a new Privilege button to the Asset Summary page.
+  \item
+    Controlled the button visibility using a Feature Flag (Manual Configuration), allowing business teams to enable or disable the feature as needed.
+  \item
+    When tapped, the application appends the accessToken to the webViewUrl and loads it in the in-app WebView.
+  \end{itemize}
+
+\item \textbf{Edge Case Handling}
+  
+  To ensure reliability, several fallback behaviors were implemented:
+  \begin{itemize}
+  \item \textbf{Service Down}: Displays an Error Modal if the Privilege Platform cannot be reached.
+  \item \textbf{Null Segmentation}: Prevents invalid access and shows a generic error message when segmentation data is missing.
+  \end{itemize}
+
+  These measures ensure stability and protect the user experience across various failure scenarios.
 \end{itemize}
-
-\begin{itemize}
-\item
-  Developed a new Flutter screen aligned with the Figma design,
-  including layout, loading states, and fallback cases.
-\item
-  Integrated the shared Generic Error Modal and customized its
-  navigation behavior to ensure that users are returned safely to the
-  previous page.
-\item
-  Updated the modal UI by replacing the default ``Close'' action with
-  ``Back to previous page'' for a clearer user experience.
-\end{itemize}
-
-\textbf{State Propagation and Navigation
-Handling}
-
-\begin{itemize}
-\item
-  When retrieving customer information, the system first reads from
-  cache, then falls back to calling the service if cached data is
-  missing or outdated.
-\item
-  If both attempts fail, the screen transitions into an unrecoverable
-  error state and displays the Generic Error Modal.
-\item
-  After dismissal, the navigation logic automatically returns the user
-  to the previous page to prevent users from remaining on a
-  non-functional screen.
-\end{itemize}
-
-\textbf{Common Service
-Integration}
-
-\begin{quote}
-The API prepares all required data before launching the Privilege
-Platform, handling:
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{webViewUrl}\\
-  Retrieved dynamically through Manual Configuration, enabling flexible
-  updates to the external Privilege URL.
-\item
-  \textbf{accessToken\\
-  }Generated by connecting to the CPS Service. This token authenticates
-  the customer when accessing the third-party platform.
-\end{itemize}
-
-\textbf{Entry Point \& WebView
-Launch}
-
-\begin{itemize}
-\item
-  Added a new Privilege button to the Asset Summary page.
-\item
-  Controlled the button visibility using a Feature Flag (Manual
-  Configuration), allowing business teams to enable or disable the
-  feature as needed.
-\item
-  When tapped, the application appends the accessToken to the webViewUrl
-  and loads it in the in-app WebView.
-\end{itemize}
-
-\textbf{Edge Case
-Handling}
-
-\begin{quote}
-To ensure reliability, several fallback behaviors were implemented:
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{Service Down\\
-  }Displays an Error Modal if the Privilege Platform cannot be reached.
-\item
-  \textbf{Null Segmentation\\
-  }Prevents invalid access and shows a generic error message when
-  segmentation data is missing.
-\end{itemize}
-
-\begin{quote}
-These measures ensure stability and protect the user experience across
-various failure scenarios.
-\end{quote}
 
 \paragraph{Defect and Quality Improvements}
 
 During development, several technical and UI issues were identified and
 resolved to ensure accurate behavior across the application.
 
-\begin{center}
-\includegraphics[width=6.26772in,height=0.56944in]{report_media/media/image50.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.26772in,height=0.56944in]{report_media/media/image50.png}
 \caption{Jira Defects for Privilege Development}\label{fig:jira-defects-for-privilege-development}
 \end{figure}
 
 \begin{itemize}
-\item
-  \textbf{Privilege Webview (Incorrect behavior)\\
-  }A defect caused an incorrect error button to appear, and closing the
-  modal redirected users to a blank screen. Fixes included:\\
-  Refining the error UI layout
-\end{itemize}
+\item \textbf{Privilege Webview (Incorrect behavior)}
+  
+  A defect caused an incorrect error button to appear, and closing the
+  modal redirected users to a blank screen. Fixes included:
 
-\begin{itemize}
+  \begin{itemize}
+    \item    Refining the error UI layout
 \item
   Correcting modal dismissal behavior
 \item
@@ -2869,43 +2559,31 @@ resolved to ensure accurate behavior across the application.
 \item
   Updating navigation to return users to the correct screen
 \end{itemize}
-
-\begin{quote}
-These refinements created a more stable and predictable interaction
-flow.
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{Firebase Remote Configuration\\
-  }QA reported a mismatch where the Privilege button remained visible
-  despite being disabled via Manual Configuration. Resolutions included:
 \end{itemize}
 
+
 \begin{itemize}
-\item
-  Debugging the Remote Config evaluation flow
-\item
-  Updating the logic that reads and applies the configuration values
-\item
-  Ensuring UI elements react instantly and accurately to config updates
+\item \textbf{Firebase Remote Configuration}
+  
+  QA reported a mismatch where the Privilege button remained visible despite being disabled via Manual Configuration. Resolutions included:
+  \begin{itemize}
+  \item Debugging the Remote Config evaluation flow
+  \item Updating the logic that reads and applies the configuration values
+  \item Ensuring UI elements react instantly and accurately to config updates
+  \end{itemize}
 \end{itemize}
 
-\begin{quote}
 This improvement prevents outdated UI states and ensures consistent
 feature toggling during staging, testing, and rollout.
-\end{quote}
 
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.27083in,height=3.88377in]{report_media/media/image39.png}
+\includegraphics[width=6.27083in,height=3.88377in]{report_media/media/privilege_user_flow.png}
 
 \caption{User Flow Diagram for Privilege Feature}\label{fig:user-flow-diagram-for-privilege-feature}
 \end{figure}
-
-
 
 This flow describes how the app handles navigation to a third-party
 privilege webview, depending on where the user starts and whether a
@@ -2919,7 +2597,7 @@ the system checks if the user has an active session.
 If the user starts from the Home Screen and a session exists, they are
 taken straight to the Third Party Privilege Webview. If no session
 exists, they are redirected to the PIN Screen. After successful
-verification, they continue to the Third Party Privile›ge Webview.
+verification, they continue to the Third Party Privilege Webview.
 
 If the user accesses the feature through the All Services Screen, the
 same session check is performed. When a session is valid, the user
@@ -2928,12 +2606,9 @@ through the PIN Screen before being allowed to continue.
 
 \subsubsection{Sequence Diagram}
 
-\begin{center}
-\includegraphics[width=6.20313in,height=3.06098in]{report_media/media/image20.png}
-\end{center}
-
 \begin{figure}[H]
 \centering
+\includegraphics[width=6.20313in,height=3.06098in]{report_media/media/image20.png}
 \caption{Sequence Diagram of customer-privilege-session}\label{fig:sequence-diagram-of-customerprivilegesession}
 \end{figure}
 
@@ -3039,15 +2714,29 @@ This required implementing multiple new screens and updating the
 underlying data models to handle the complexity of multi-destination
 transfers.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=0.25in]{report_media/media/image75.png}
-\end{center}
+\caption{Jira Tasks for Better Box Development (1)}\label{fig:jira-tasks-for-better-box-development-1}
+\end{figure}
 
-\begin{center}
-\includegraphics[width=6.26772in,height=0.75in]{report_media/media/image17.png}\includegraphics[width=6.26772in,height=0.51389in]{report_media/media/image1.png}\includegraphics[width=6.26772in,height=0.5in]{report_media/media/image44.png}
-\end{center}
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.75in]{report_media/media/image17.png}
+\caption{Jira Tasks for Better Box Development (2)}\label{fig:jira-tasks-for-better-box-development-2}
+\end{figure}
 
-Figure 3.x Jira Tasks for Better Box Development
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.51389in]{report_media/media/image1.png}
+\caption{Jira Tasks for Better Box Development (3)}\label{fig:jira-tasks-for-better-box-development-3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.5in]{report_media/media/image44.png}
+\caption{Jira Tasks for Better Box Development (4)}\label{fig:jira-tasks-for-better-box-development-4}
+\end{figure}
 
 \begin{itemize}
 \item
@@ -3127,25 +2816,35 @@ adherence to KKP's stringent security and design standards.
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.32813in,height=1.53758in]{report_media/media/image56.png}
-\hfill\break
+\caption{Jira Defects for Better Box Development (1)}\label{fig:jira-defects-for-better-box-development}
+\end{figure}
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image25.png}
-\hfill\break
+\caption{Jira Defects for Better Box Development (2)}\label{fig:jira-defects-for-better-box-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=2.79167in]{report_media/media/image83.png}
-\hfill\break
+\caption{Jira Defects for Better Box Development (3)}\label{fig:jira-defects-for-better-box-development-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image19.png}
-\caption{Jira Defects for Better Box Development}\label{fig:jira-defects-for-better-box-development}
+\caption{Jira Defects for Better Box Development (4)}\label{fig:jira-defects-for-better-box-development-3}
 \end{figure}
 
 \begin{itemize}
 \item
   \textbf{Move Money Screen (Critical Logic and Input Validation)}
-\end{itemize}
 
-\begin{quote}
+
 Defects related to the primary fund allocation screen were prioritized
 due to their direct impact on financial accuracy and user trust. Key
 issues involved complex state management and financial precision errors:
-\end{quote}
 
 \begin{itemize}
 \item
@@ -3167,18 +2866,16 @@ issues involved complex state management and financial precision errors:
   corrected to ensure end-to-end observability and auditability during
   the transaction lifecycle.
 \end{itemize}
+\end{itemize}
+
 
 \begin{itemize}
 \item
   \textbf{Move Money Transaction Screen (UI/UX Consistency and
-  Observability)}
-\end{itemize}
-
-\begin{quote}
-Issues identified in the transaction summary and success screens
+  Observability)}Issues identified in the transaction summary and success screens
 primarily centered on maintaining a consistent user experience and
 ensuring adequate logging for debugging:
-\end{quote}
+
 
 \begin{itemize}
 \item
@@ -3202,14 +2899,15 @@ ensuring adequate logging for debugging:
   was corrected by integrating necessary tracking logic for system
   transparency.
 \end{itemize}
+\end{itemize}
 
 \subsubsection{User Flow Diagram}
 
-\begin{center}
-\includegraphics[width=6.26772in,height=2.77778in]{report_media/media/image65.png}
-\end{center}
-Figure
-3.X User Flow Diagram for Better Box Feature
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=2.77778in]{report_media/media/better_box_user_flow.png}
+\caption{User Flow Diagram for Better Box Feature}\label{fig:user-flow-diagram-for-better-box-feature}
+\end{figure}
 
 This flow describes how users interact with the Better Box feature, from
 accessing the feature to allocating funds into selected boxes.
@@ -3236,11 +2934,11 @@ without selecting any destination box.
 
 \subsubsection{Sequence Diagram}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.39063in,height=4.42673in]{report_media/media/image57.jpg}
-\end{center}
-Figure
-3.x Sequence Diagram of eligible-pocket
+\caption{Sequence Diagram of eligible-pocket}\label{fig:sequence-diagram-of-eligible-pocket}
+\end{figure}
 
 The sequence diagram illustrates how the GET /v1/eligible-pocket API
 retrieves and validates eligible pocket data for use in the Better Box
@@ -3289,7 +2987,7 @@ compliance with banking regulations and security standards.
 \centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image13.png}
 
-\caption{User Interface for Ultimate FCD Feature (1)}\label{fig:user-interface-for-ultimate-fcd-feature}
+\caption{User Interface for Ultimate FCD Feature (1)}\label{fig:user-interface-for-ultimate-fcd-feature-1}
 \end{figure}
 
 
@@ -3298,7 +2996,7 @@ compliance with banking regulations and security standards.
 \centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image12.png}
 
-\caption{User Interface for Ultimate FCD Feature (2)}\label{fig:user-interface-for-ultimate-fcd-feature}
+\caption{User Interface for Ultimate FCD Feature (2)}\label{fig:user-interface-for-ultimate-fcd-feature-2}
 \end{figure}
 
 
@@ -3307,7 +3005,7 @@ compliance with banking regulations and security standards.
 \centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image91.png}
 
-\caption{User Interface for Ultimate FCD Feature (3)}\label{fig:user-interface-for-ultimate-fcd-feature}
+\caption{User Interface for Ultimate FCD Feature (3)}\label{fig:user-interface-for-ultimate-fcd-feature-3}
 \end{figure}
 
 
@@ -3316,7 +3014,7 @@ compliance with banking regulations and security standards.
 \centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image28.png}
 
-\caption{User Interface for Ultimate FCD Feature (4)}\label{fig:user-interface-for-ultimate-fcd-feature}
+\caption{User Interface for Ultimate FCD Feature (4)}\label{fig:user-interface-for-ultimate-fcd-feature-4}
 \end{figure}
 
 
@@ -3325,7 +3023,7 @@ compliance with banking regulations and security standards.
 \centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image16.png}
 
-\caption{User Interface for Ultimate FCD Feature (5)}\label{fig:user-interface-for-ultimate-fcd-feature}
+\caption{User Interface for Ultimate FCD Feature (5)}\label{fig:user-interface-for-ultimate-fcd-feature-5}
 \end{figure}
 
 
@@ -3363,77 +3061,54 @@ screens, handling state persistence for interrupted flows, and
 integrating with multiple backend services for product information and
 transaction execution.
 
-\begin{center}
-\includegraphics[width=6.30349in,height=1.00521in]{report_media/media/image70.png}\includegraphics[width=6.26772in,height=1.26389in]{report_media/media/image55.png}\includegraphics[width=6.26772in,height=1.51389in]{report_media/media/image22.png}
-\end{center}
-Figure
-3.X Jira Tasks for Ultimate FCD Development
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.30349in,height=1.00521in]{report_media/media/image70.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (1)}\label{fig:jira-tasks-for-ultimate-fcd-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.26389in]{report_media/media/image55.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (2)}\label{fig:jira-tasks-for-ultimate-fcd-development-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.51389in]{report_media/media/image22.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (3)}\label{fig:jira-tasks-for-ultimate-fcd-development-3}
+\end{figure}
 
 \begin{itemize}
-\item
-  \textbf{Ultimate FCD Account Opening Flow\\
-  }
+\item \textbf{Ultimate FCD Account Opening Flow}
+  \begin{itemize}
+  \item \textbf{Product Shelf Implementation}: Developed the Product Shelf Page and Product Highlight Page to showcase available FCD products, ensuring a clear presentation of the offering.
+  \item \textbf{Multi-Currency Selection}: Built the Select Currency Page to allow users to choose their preferred foreign currency and implemented the Confirm Information Page for final account detail verification.
+  \item \textbf{Identity Verification Integration}: Incorporated mandatory security steps, including the PIN Screen Page and Face Recognition, to verify the user's identity before account creation.
+  \item \textbf{End-to-End Onboarding}: Implemented the full flow, culminating in the Open Account Success and Save Slip screen, which confirms successful account creation.
+  \item \textbf{Resume Capability}: Integrated logic to support resuming the account opening flow via a push notification if the process is interrupted.
+  \end{itemize}
 \end{itemize}
 
 \begin{itemize}
-\item
-  \textbf{Product Shelf Implementation\\
-  }Developed the Product Shelf Page and Product Highlight Page to
-  showcase available FCD products, ensuring a clear presentation of the
-  offering.
-\item
-  \textbf{Multi-Currency Selection\\
-  }Built the Select Currency Page to allow users to choose their
-  preferred foreign currency and implemented the Confirm Information
-  Page for final account detail verification.
-\item
-  \textbf{Identity Verification Integration\\
-  }Incorporated mandatory security steps, including the PIN Screen Page
-  and Face Recognition, to verify the user\textquotesingle s identity
-  before account creation.
-\item
-  \textbf{End-to-End Onboarding\\
-  }Implemented the full flow, culminating in the Open Account Success
-  and Save Slip screen, which confirms successful account creation.
-\item
-  \textbf{Resume Capability\\
-  }Integrated logic to support resuming the account opening flow via a
-  push notification if the process is interrupted.
+\item \textbf{Currency Exchange Feature}
+  \begin{itemize}
+  \item \textbf{Exchange Screens}: Developed the necessary UI/UX for the new exchange feature, including the Buy/Sell Foreign Currency page and the Select FCD Currency Page.
+  \item \textbf{Transaction Flow}: Created the sequence for selecting the source/destination account (Select Account Page), inputting the amount (Input Amount page), and consolidating details on the Review Page.
+  \item \textbf{Transaction Completion}: Built the final Slip page to display the result of the currency exchange transaction.
+  \end{itemize}
 \end{itemize}
 
 \begin{itemize}
-\item
-  \textbf{Currency Exchange Feature\\
-  }
+\item \textbf{System and Data Alignment}
+  \begin{itemize}
+  \item Integrated with relevant backend APIs, such as the GET /v2/open-account-efcd-product API, to retrieve and validate FCD product data.
+  \item Ensured the system supports the new product type and code, enabling the complete replacement of the legacy e-FCD saving account.
+  \end{itemize}
 \end{itemize}
-
-\begin{itemize}
-\item
-  \textbf{Exchange Screens\\
-  }Developed the necessary UI/UX for the new exchange feature, including
-  the Buy/Sell Foreign Currency page and the Select FCD Currency Page.
-\item
-  \textbf{Transaction Flow\\
-  }Created the sequence for selecting the source/destination account
-  (Select Account Page), inputting the amount (Input Amount page), and
-  consolidating details on the Review Page.
-\item
-  \textbf{Transaction Completion\\
-  }Built the final Slip page to display the result of the currency
-  exchange transaction.
-\end{itemize}
-
-\begin{itemize}
-\item
-  \textbf{System and Data Alignment}
-\end{itemize}
-
-\begin{quote}
-Integrated with relevant backend APIs, such as the GET
-/v2/open-account-efcd-product API, to retrieve and validate FCD product
-data. Ensured the system supports the new product type and code,
-enabling the complete replacement of the legacy e-FCD saving account.
-\end{quote}
 
 \paragraph{Defect and Quality Improvements}
 
@@ -3443,11 +3118,17 @@ the complexity of the multi-step account opening. These improvements
 were essential for ensuring compliance, data accuracy, and a smooth user
 journey across both primary flows.
 
-\begin{center}
-\includegraphics[width=6.26772in,height=1.76389in]{report_media/media/image27.png}\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image3.png}
-\end{center}
-Figure
-3.X Jira Defects for Ultimate FCD Development
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.76389in]{report_media/media/image27.png}
+\caption{Jira Defects for Ultimate FCD Development (1)}\label{fig:jira-defects-for-ultimate-fcd-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image3.png}
+\caption{Jira Defects for Ultimate FCD Development (2)}\label{fig:jira-defects-for-ultimate-fcd-development-2}
+\end{figure}
 
 \begin{itemize}
 \item
@@ -3466,11 +3147,11 @@ behavior and reliability.
 
 \subsubsection{User Flow Diagram}
 
-\begin{center}
-\includegraphics[width=6.27083in,height=1.97292in]{report_media/media/image48.png}
-\end{center}
-Figure
-3.x User Flow Diagram for Ultimate FCD Feature (Open Account)
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.27083in,height=1.97292in]{report_media/media/ultimated_fcd_user_flow_1.png}
+\caption{User Flow Diagram for Ultimate FCD Feature (Open Account)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-open-account}
+\end{figure}
 
 This flow describes the process of opening a Foreign Currency Deposit
 (FCD) account through the Ultimate FCD feature, guiding users from
@@ -3495,11 +3176,11 @@ screen, where the account details are confirmed and a transaction slip
 can be saved. Finally, the flow ends by returning the user to the Home
 Screen.
 
-\begin{center}
-\includegraphics[width=6.27083in,height=1.60417in]{report_media/media/image72.png}
-\end{center}
-Figure
-3.x User Flow Diagram for Ultimate FCD Feature (Exchange)
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.27083in,height=1.60417in]{report_media/media/ultimate_fcd_user_flow_2.png}
+\caption{User Flow Diagram for Ultimate FCD Feature (Exchange)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-exchange}
+\end{figure}
 
 This flow describes the process of performing a foreign currency
 exchange through the Ultimate FCD feature, guiding users from entry to
@@ -3526,11 +3207,11 @@ exchange flow.
 
 \subsubsection{Sequence Diagram}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=7.06944in]{report_media/media/image32.png}
-\end{center}
-Figure
-3.x Sequence Diagram of open-account-efcd-product
+\caption{Sequence Diagram of open-account-efcd-product}\label{fig:sequence-diagram-of-open-account-efcd-product}
+\end{figure}
 
 The GET /v2/open-account-efcd-product API is responsible for preparing
 and returning the list of available Foreign Currency Deposit (FCD)
@@ -3675,7 +3356,7 @@ Web Tokens (JWT) to manage user sessions efficiently and securely.
 
 \chapter{IMPLEMENTATION AND RESULT}
 
-\section{Team Overview}
+\section{Team Structure}
 
 The development of the KKP Better Mobile Banking Application is executed
 by the Mobile Channel team, which is organized into multiple
@@ -3833,41 +3514,33 @@ the CI/CD pipelines to ensure zero-downtime releases, security
 compliance, and reliable distribution to end-users.
 
 \begin{itemize}
-\item
-  \textbf{Mobile Application Distribution}
-\end{itemize}
+\item \textbf{Mobile Application Distribution}
+  
+  The frontend application is released separately to the public application stores:
 
-\begin{quote}
-The frontend application is released separately to the public
-application stores:
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=5.79688in,height=3.62064in]{report_media/media/image53.png}
+  \caption{KKP Better On Google Play}\label{fig:kkp-better-on-google-play}
+  \end{figure}
 
-\begin{center}
-\includegraphics[width=5.79688in,height=3.62064in]{report_media/media/image53.png}
-\end{center}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=5.70332in,height=4.36749in]{report_media/media/image96.png}
+  \caption{KKP Better On App Store}\label{fig:kkp-better-on-app-store}
+  \end{figure}
 
-\begin{center}
-\includegraphics[width=5.70332in,height=4.36749in]{report_media/media/image96.png}
-\end{center}
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{Android: } Production builds are distributed through
-  Firebase App Distribution, leading to the final release on the Google
-  Play Store.
-\item
-  \textbf{iOS:} Production builds are submitted via Apple TestFlight for
-  secure external beta testing before the official release on the Apple
-  App Store
+  \begin{itemize}
+  \item \textbf{Android}: Production builds are distributed through Firebase App Distribution, leading to the final release on the Google Play Store.
+  \item \textbf{iOS}: Production builds are submitted via Apple TestFlight for secure external beta testing before the official release on the Apple App Store.
+  \end{itemize}
 \end{itemize}
 
 \begin{itemize}
 \item
   \textbf{Backend Production Deployment}
-\end{itemize}
 
-\begin{quote}
-The backend microservices utilize a cloud-native platform orchestrated
+  The backend microservices utilize a cloud-native platform orchestrated
 by Kubernetes, enabling deployment across both on-premise private
 clusters and public cloud environments. Once the code passes User
 Acceptance Testing (UAT), validated Docker container images are promoted
@@ -3876,13 +3549,16 @@ automated self-healing and zero-downtime updates. This hybrid deployment
 process is fully automated by Jenkins pipelines, which execute security
 scans, create final container images, and manage deployment to the
 designated cluster.
-\end{quote}
+
+\end{itemize}
 
 \section{Request Authentication}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image4.png}
-\end{center}
+\caption{User Interface of Request Authentication}\label{fig:user-interface-of-request-authentication-160848}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -3907,7 +3583,14 @@ transactions.
 Additionally, fallback mechanisms are implemented to handle failures
 such as incorrect PIN input, session expiration, or service
 unavailability, ensuring a smooth and continuous user
-experience.\includegraphics[width=6.26772in,height=4.65278in]{report_media/media/image77.png}
+experience.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=4.65278in]{report_media/media/image77.png}
+\caption{Request Authentication Code}
+\label{fig:request-authentication-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -3937,9 +3620,11 @@ securely.
 
 \section{Tax Planning}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image51.png}
-\end{center}
+\caption{User Interface of Tax Planning}\label{fig:user-interface-of-tax-planning-163342}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -3960,7 +3645,14 @@ compare outcomes and choose the best financial strategy.
 
 The architecture ensures secure data handling, real-time processing, and
 scalability, making it suitable for handling complex financial
-computations.\includegraphics[width=6.26772in,height=5.16667in]{report_media/media/image21.png}
+computations.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=5.16667in]{report_media/media/image21.png}
+\caption{Tax Planning Code}
+\label{fig:tax-planning-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -3994,7 +3686,12 @@ responsiveness.
 
 \section{Privilege}
 
-\protect\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image49.png}
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image49.png}
+\caption{User Interface of Privilege}
+\label{fig:user-interface-of-privilege}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -4014,9 +3711,12 @@ APIs to handle authentication, data retrieval, and session management.
 Proper error handling mechanisms are also implemented to manage service
 downtime or API failures.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=5.26389in]{report_media/media/image40.png}
-\end{center}
+\caption{Privilege Code}
+\label{fig:privilege-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -4041,9 +3741,11 @@ disrupting the overall application flow.
 
 \section{Segmentation}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image42.png}
-\end{center}
+\caption{User Interface of Segmentation}\label{fig:user-interface-of-segmentation-167657}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -4059,9 +3761,12 @@ On the backend, the system retrieves user financial data via BFF APIs
 and calculates the segmentation tier based on predefined business rules.
 The feature ensures accurate and real-time data representation.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=5.29167in]{report_media/media/image85.png}
-\end{center}
+\caption{Segmentation Code}
+\label{fig:segmentation-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -4083,9 +3788,11 @@ without displaying incorrect information.
 
 \section{Better Box}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image35.png}
-\end{center}
+\caption{User Interface of Better Box}\label{fig:user-interface-of-better-box-169117}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -4101,9 +3808,12 @@ provided within the application to initiate money movement.
 On the backend, APIs handle fund transfers, balance updates, and
 transaction validation, ensuring secure and consistent operations.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=4.83333in]{report_media/media/image67.png}
-\end{center}
+\caption{Better Box Code}
+\label{fig:better-box-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -4125,9 +3835,11 @@ feedback and system stability is maintained.
 
 \section{Ultimate FCD}
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image13.png}
-\end{center}
+\caption{User Interface of Ultimate FCD}\label{fig:user-interface-of-ultimate-fcd-170642}
+\end{figure}
 
 \subsection{Technical Implementation}
 
@@ -4144,9 +3856,12 @@ On the backend, the system supports new product types, handles account
 creation, and manages currency-related operations through secure APIs
 and integration with core banking systems.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=4.65278in]{report_media/media/image81.png}
-\end{center}
+\caption{Ultimate FCD Code}
+\label{fig:ultimate-fcd-code}
+\end{figure}
 
 \subsection{Challenges}
 
@@ -4174,11 +3889,11 @@ evaluate system engagement in real time. By combining high-level summary
 metrics with detailed trend visualizations, the dashboard supports
 effective data-driven decision-making.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[width=6.26772in,height=4.09722in]{report_media/media/image74.png}
-\end{center}
-Figure
-3.X Application Metric Overview
+\caption{KKP Better Application Metric Overview}\label{fig:application-metric-overview}
+\end{figure}
 
 \subsection{Summary Metrics (Top Section)}
 
@@ -4305,7 +4020,56 @@ opportunities remain to further enhance user retention and engagement
 rates through targeted improvements, such as personalized experiences,
 feature optimization, and strategic user engagement initiatives.
 
+\section{Testing of the Implementation}
+To ensure system correctness and reliability, testing was conducted
+at multiple levels, including unit testing, integration testing, and
+functional testing. The primary goal of this phase is to validate that
+each component works as expected under both normal and edge-case
+conditions.
+At the unit testing level, all developed modules in the system were
+thoroughly tested. This includes major modules such as the Deposit
+Module and Financial Planning Module, where unit tests were implemented
+to validate business logic, API handlers, and data processing
+functions. Each unit test focuses on verifying input-output behavior,
+including handling invalid inputs, empty responses, and error
+scenarios, ensuring that individual components function correctly in
+isolation.
+The effectiveness of the unit testing process is reflected in the code
+coverage reports. The Deposit Module achieved a high line coverage of
+95.5\%, while the Financial Planning Module reached 100\% coverage,
+indicating that most critical logic paths and edge cases are
+thoroughly tested.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=4.09722in]{report_media/media/unit_test_deposit.png}
+\caption{Code Coverage Report (Unit Test - Deposit Module)}\label{fig:unit-test-deposit}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=4.09722in]{report_media/media/unit_test_fininacial.png}
+\caption{Code Coverage Report (Unit Test - Financial Module)}\label{fig:unit-test-financial}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=4.09722in]{report_media/media/unit_code_example.png}
+\caption{Unit Test Code Example}\label{fig:unit-test-code-example}
+\end{figure}
+
+On the frontend side, Flutter components and state management were also tested to ensure that user interactions correctly update the UI and maintain consistent application states.
+In addition to unit testing, integration testing was performed to validate communication between the mobile application and backend services. API endpoints were tested to ensure correct response structures, status codes, and proper error handling. This is particularly important in a microservice-based architecture, where multiple services must interact seamlessly to complete a single user operation.
+
+Functional testing was also conducted to verify complete user flows, such as request authentication, tax calculation, and account-related operations. These tests confirm that the system behaves correctly from an end-user perspective and that all features are accessible and usable as intended.
+
+\section{Achievement of the System}
+
+The developed system demonstrates a high level of completion and successfully fulfills the defined project objectives. All major features, including Request Authentication, Tax Planning, Segmentation, Privilege, Better Box, and Ultimate FCD, have been fully implemented and integrated into a unified mobile banking application. Each module works cohesively within the system, ensuring that users can access multiple financial services through a single platform without fragmentation.
+
+From a technical perspective, the system achieves strong performance, scalability, and stability. The use of Flutter enables a consistent cross-platform experience across mobile devices, while the Golang-based microservices architecture supports high concurrency and efficient request processing. In addition, the system incorporates secure authentication mechanisms and protected API communication, ensuring that sensitive financial operations are handled safely and reliably.
+
+In terms of functionality, the application provides a comprehensive set of financial tools that enhance user experience and usability. Features such as guided tax planning, secure transaction authentication, and structured savings management help users better manage their financial activities. The system operates without critical errors during testing and demonstrates stable behavior under various scenarios, indicating its readiness for real-world deployment in a banking environment.
 
 \hfill\break
 
@@ -4446,424 +4210,8 @@ competitiveness in the evolving digital banking landscape.
 
 \hfill\break
 
-
-\textbf{REFERENCES}
-
-Amos, D., et al. (2023). \emph{Practical VS Code: Mastering Visual
-Studio Code}. O'Reilly Media.
-
-Angelov, S. (2020). \emph{Flutter Clean Architecture: Applying Design
-Patterns in Dart \& Flutter}. Independently Published.
-
-Apache APISIX. (2024).
-\href{https://apisix.apache.org/docs/apisix/getting-started/README/}{https://apisix.apache.org/docs/apisix/getting-started/README/}\\
-Apache APISIX Documentation. (2024). \emph{High-Performance Cloud-Native
-API Gateway.}
-\href{https://apisix.apache.org/blog/2021/09/06/python-helps-you-quickly-with-apache-apisix-development/\#apache-apisix}{https://apisix.apache.org/blog/2021/09/06/python-helps-you-quickly-with-apache-apisix-development/\#apache-apisix}
-
-Apache Kafka. (n.d.-a). \emph{Apache Kafka documentation}.
-\href{https://kafka.apache.org/documentation/}{https://kafka.apache.org/documentation/}
-
-Apple. (2024). TestFlight beta testing.
-\href{https://developer.apple.com/testflight/}{https://developer.apple.com/testflight/}
-
-Bangkok Bank. (n.d.). \emph{Bangkok Bank Mobile Banking}. Bangkok Bank
-Public Company Limited.
-\href{https://www.bangkokbank.com}{https://www.bangkokbank.com}
-
-Bank of Ayudhya (Krungsri). (n.d.). \emph{Krungsri Mobile App (KMA)}.
-Bank of Ayudhya Public Company Limited.
-\href{https://www.krungsri.com}{https://www.krungsri.com}
-
-Breslav, A., et al. (2017). \emph{Kotlin in Action}. Manning
-Publications.
-
-Burns, B. (2017). \emph{Designing Distributed Systems: Patterns and
-Paradigms for Scalable, Reliable Services.} O'Reilly Media.
-
-Chacon, S., \& Straub, B. (2021). \emph{Pro Git} (2nd ed.). Apress.
-\href{https://git-scm.com/book/en/v2}{https://git-scm.com/book/en/v2}
-
-Cloudflare. (2025a). \emph{Cloudflare Web Application Firewall (WAF)
-overview}.
-\href{https://developers.cloudflare.com/waf/}{https://developers.cloudflare.com/waf/}\\
-Cloudflare. (2025b). \emph{Get started with WAF}.
-\href{https://developers.cloudflare.com/waf/get-started/}{https://developers.cloudflare.com/waf/get-started/}
-
-CNCF Landscape. (2024). \emph{Cloud Native Computing Foundation
-Projects.}
-\href{https://landscape.cncf.io/}{https://landscape.cncf.io/}
-
-Diffie, W., \& Hellman, M. (1976). \emph{New directions in
-cryptography}. IEEE Transactions on Information Theory, 22(6), 644--654.
-
-Donovan, A. A., \& Kernighan, B. W. (2016). \emph{The Go Programming
-Language}. Addison-Wesley.
-
-Dynatrace. (2025). \emph{What is Dynatrace?.}
-\href{https://docs.dynatrace.com/docs/discover-dynatrace/what-is-dynatrace}{https://docs.dynatrace.com/docs/discover-dynatrace/what-is-dynatrace}
-
-Fowler, M. (2006). \emph{Continuous Integration}. ThoughtWorks.
-\href{https://martinfowler.com/articles/continuousIntegration.html}{https://martinfowler.com/articles/continuousIntegration.html}
-
-Gamma, E., Helm, R., Johnson, R., \& Vlissides, J. (1994). \emph{Design
-Patterns: Elements of Reusable Object-Oriented Software}.
-Addison-Wesley.
-
-GitHub. (n.d.). \emph{Understanding GitHub Actions.}
-\href{https://docs.github.com/en/actions/get-started/understand-github-actions}{https://docs.github.com/en/actions/get-started/understand-github-actions}
-
-Go Team. (2024). \emph{Go language documentation.}
-\href{https://go.dev/doc/}{https://go.dev/doc/}
-
-Google. (2024a). \emph{Flutter overview.}
-\href{https://flutter.dev/}{https://flutter.dev/}
-
-Google. (2024b). \emph{Flutter security and plugins.}
-\href{https://flutter.dev/security}{https://flutter.dev/security}
-
-Google. (2024c). \emph{Firebase app distribution.}
-\href{https://firebase.google.com/docs/app-distribution}{https://firebase.google.com/docs/app-distribution}
-
-Google. (2024d). \emph{Android Basics with Compose.}
-\href{https://developer.android.com/courses/android-basics-compose/course}{https://developer.android.com/courses/android-basics-compose/course}
-
-Grafana Labs. (n.d.). \emph{Grafana technical documentation}.
-\href{https://grafana.com/docs/}{https://grafana.com/docs/}
-
-Jenkins. (2024). \emph{Jenkins user documentation.}
-\href{https://www.jenkins.io/doc/}{https://www.jenkins.io/doc/}
-
-JetBrains. (2024). \emph{Kotlin language reference.}
-\href{https://kotlinlang.org/docs/home.html}{https://kotlinlang.org/docs/home.html}
-
-Johnson, R., et al. (2023). \emph{Spring in Action} (6th ed.). Manning
-Publications.
-
-Kasikornbank. (n.d.). \emph{K PLUS Mobile Banking}. Kasikornbank Public
-Company Limited.
-\href{https://www.kasikornbank.com}{https://www.kasikornbank.com}
-
-Krungthai Bank. (n.d.). \emph{Krungthai NEXT}. Krungthai Bank Public
-Company Limited.
-\href{https://www.krungthai.com}{https://www.krungthai.com}
-
-Loeliger, J., \& McCullough, M. (2012). \emph{Version Control with Git}
-(2nd ed.). O'Reilly Media.
-
-Lura Project. (2024). \emph{The Lura Project Gateway Documentation}.
-\href{https://luraproject.org/}{https://luraproject.org/}
-
-Lura Project. (n.d.). \emph{The Lura Project Documentation}.
-\href{https://luraproject.org/}{https://luraproject.org/}
-
-Microsoft. (2024a). \emph{Visual Studio Code documentation.}
-\href{https://code.visualstudio.com/docs}{https://code.visualstudio.com/docs}
-
-Microsoft. (2024b). \emph{VS Code Remote Development.}
-\href{https://code.visualstudio.com/docs/remote/remote-overview}{https://code.visualstudio.com/docs/remote/remote-overview}
-
-Myers, G. J., Sandler, C., \& Badgett, T. (2011). \emph{The Art of
-Software Testing} (3rd ed.). Wiley.
-
-Newman, S. (2021). \emph{Building Microservices: Designing Fine-Grained
-Systems} (2nd ed.). O'Reilly Media.
-
-NIST. (2020). \emph{Digital Signature Standard (DSS)}. National
-Institute of Standards and Technology.
-
-OWASP. (2021). \emph{Mobile Security Testing Guide (MSTG)}. Open Web
-Application Security Project.
-
-Pivotal Software, Inc. (2024). \emph{Spring Boot reference
-documentation.}
-\href{https://docs.spring.io/spring-boot/}{https://docs.spring.io/spring-boot/}
-
-PostgreSQL Global Development Group. (n.d.-a). \emph{PostgreSQL
-documentation}.
-\href{https://www.postgresql.org/docs/}{https://www.postgresql.org/docs/}\\
-\strut \\
-Postman. (2024a). \emph{Postman API platform overview.}
-\href{https://www.postman.com/product/api-platform/}{https://www.postman.com/product/api-platform/}\\
-Postman. (2024b). \emph{Newman CLI for automated testing.}
-\href{https://learning.postman.com/docs/collections/using-newman/}{https://learning.postman.com/docs/collections/using-newman/}
-
-Redis. (2025a). \emph{Redis documentation}.
-\href{https://redis.io/docs/latest/}{https://redis.io/docs/latest/}
-
-Richardson, C. (2018). \emph{Microservices Patterns: With examples in
-Java}. Manning Publications.
-
-Rivest, R., Shamir, A., \& Adleman, L. (1978). \emph{A method for
-obtaining digital signatures and public-key cryptosystems}.
-Communications of the ACM, 21(2), 120--126.
-
-Sharma, R., \& Sood, M. (2021). Automated CI/CD pipelines using Jenkins.
-\emph{International Journal of Computer Applications}, 183(42), 15--21.
-
-Siam Commercial Bank. (n.d.). \emph{SCB EASY}. The Siam Commercial Bank
-Public Company Limited.
-\href{https://www.scb.co.th}{https://www.scb.co.th}
-
-Splunk. (2025). \emph{What is Splunk?.}
-\href{https://www.fortinet.com/resources/cyberglossary/what-is-splunk}{https://www.fortinet.com/resources/cyberglossary/what-is-splunk}
-
-Stallings, W. (2017). \emph{Cryptography and Network Security:
-Principles and Practice} (7th ed.). Pearson.
-
-TMBThanachart Bank (TTB). (n.d.). \emph{TTB Touch}. TMBThanachart Bank
-Public Company Limited.
-\href{https://www.ttbbank.com}{https://www.ttbbank.com}
-
-Yu, Y., et al. (2021). Cross-platform UI frameworks: A performance
-comparison. \emph{ACM Transactions on Mobile Computing}, 20(5), 1--24.
-
-Zhang, Y., et al. (2022). Continuous mobile testing with Firebase and
-TestFlight. \emph{Journal of Mobile Computing}, 11(3), 45--58.
-
-Zhao, J., \& Wang, L. (2022). Automated API testing and collaborative
-development with Postman. \emph{Software Practice \& Experience}, 52(7),
-1234--1250.
-
-\textbf{---------------------------------------------------------}
-
-\textbf{Scratch Draft Section}
-
-\textbf{DO NOT EXPORT AFTER THIS}
-
-\textbf{---------------------------------------------------------}
-
-\textbf{บทที่ 4 Outline
-}
-
-\section{Team Overview - UX/UI, PO, Frontend, Backend, QA}
-
-\section{Working Process - Sprint, แต่ละช่วงทำอะไร}
-
-\section{Development Process}
-
-\begin{itemize}
-\item
-  \textbf{when enter new feature, we have to checkout new branch from
-  develop branch to freeze code at the current version}
-\end{itemize}
-
-\textbf{4.x Application Deploy on Prod}
-
-\section{Request Authentication}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-\section{Tax Planning}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-\section{Privilege}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-\section{Segmentation}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-\section{Better Box}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-\section{Ultimate FCD}
-
-\begin{itemize}
-\item
-  \textbf{Technical Overview}
-\item
-  \textbf{Challenges}
-\item
-  \textbf{Resolutions}
-\end{itemize}
-
-4.X Application Metric Overview
-
-\textbf{บทที่ 5 Outline
-}
-
-5.1 Conclusion
-
-5.2 Key Achievements
-
-5.3 Discussion of Problems and Solutions
-
-5.4 Lessons Learned
-
-5.5 Limitation
-
-5.6 Future Refinements
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%% Comment this in your report to show only references you have
-%%%% cited. Otherwise, all the references below will be shown.
-%\nocite{*}
-%% Use the kmutt.bst for bibtex bibliography style 
-%% You must have cpe.bib and string.bib in your current directory.
-%% You may go to file .bbl to manually edit the bib items.
-
-% Sept, 2021 by Thanin
-% improve url breaks to prevent unnecessary big white spaces in some cases
-\makeatletter
-\g@addto@macro{\UrlBreaks}{\UrlOrds}
-\makeatother
-% 
-
 \bibliographystyle{kmutt}
 \bibliography{string,cpe}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix{First appendix title}
-\noindent{\large\bf Put appropriate topic here} \\
-
-This is where you put hardware circuit diagrams, detailed experimental data in tables or source codes, etc.. \\ \bigskip
-
- \begin{figure}[!h]
-\caption{This is the figure x11 \href{https://www.google.com} {https://www.google.com}}\label{fig:x1}
-\end{figure}
-
-This appendix describes two static allocation methods for fGn (or fBm)
-traffic. Here, $\lambda$ and $C$ are respectively the traffic arrival
-rate and the service rate per dimensionless time step. Their unit are
-converted to a physical time unit by multiplying the step size
-$\Delta$. For a fBm self-similar traffic source,
-Norros~\cite{norros95} provides its EB as
-\begin{equation}\label{eq:norros}
-  C = \lambda + (\kappa(H)\sqrt{-2\ln\epsilon})^{1/H}a^{1/(2H)}x^{-(1-H)/H}\lambda^{1/(2H)}
-\end{equation}
-where $\kappa(H) = H^H(1-H)^{(1-H)}$. Simplicity in the calculation is
-the attractive feature of (\ref{eq:norros}).
-
-The MVA technique developed in~\cite{kim01} so far provides the most
-accurate estimation of the loss probability compared to previous
-bandwidth allocation techniques according to simulation results.
-Consider a discrete-time queueing system with constant service rate
-$C$ and input process $\lambda_n$ with $\mathbb{E}\{\lambda_n\} =
-\lambda$ and $\mathrm{Var}\{\lambda_n\} = \sigma^2$.  Define $X_n \equiv
-\sum_{k=1}^n \lambda_k - Cn$.  The loss probability due to the MVA
-approach is given by
-\begin{equation}\label{eq:loss_mva}
-  \varepsilon \approx \alpha e^{-m_x/2}
-\end{equation}
-where
-\begin{equation}\label{eq:mx}
-m_x = \min_{n \geq 0} \frac{((C-\lambda)n + B)^2}{\mathrm{Var}\{X_n\}} =
-\frac{((C-\lambda)n^\ast + B)^2}{\mathrm{Var}\{X_{n^{\ast}}\}}
-\end{equation} 
-and 
-\begin{equation}\label{eq:alpha}
-  \alpha =
-  \frac{1}{\lambda\sqrt{2\pi\sigma^2}}\exp\left(\frac{(C-\lambda)^2}{2\sigma^2}\right)
-  \int_C^\infty (r-C)\exp\left(\frac{(r-\lambda)^2}{2\sigma^2}\right)\, dr
-\end{equation}
-For a given $\varepsilon$, we numerically solve for $C$ that satisfies
-(\ref{eq:loss_mva}). Any search algorithm can be used to do the task.
-Here, the bisection method is used.  
-
-Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
-$C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
-MVA technique basically approximates the input process $\lambda_n$
-with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
-represented by the autocovariance function.  In particular, the
-variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
-\begin{equation}
-  \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
-\end{equation} 
-Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
-by assuming specific traffic models or by off-line analysis in case of
-traces.  In most practical situations, $C_{\lambda}(l)$ will not be
-known in advance, and an on-line measurement algorithm developed
-in~\cite{eun01} is required to jointly determine both $n^\ast$ and
-$m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
-n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
-the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
-can be easily measured, it is not the case for $\sigma^2$ and $H$.
-Consequently, the MVA technique suffers from the need of prior
-knowledge traffic parameters.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%% The 2nd appendix %%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix{Second appendix title}
-\noindent{\large\bf Put appropriate topic here} \\
-
-
- \begin{figure}[!h]
-\caption{This is the figure x11 \href{https://www.google.com} {https://www.google.com}}\label{fig:x1}
-\end{figure}
-
-Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
-$C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
-MVA technique basically approximates the input process $\lambda_n$
-with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
-represented by the autocovariance function.  In particular, the
-variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
-\begin{equation}
-  \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
-\end{equation} 
-
-\noindent{\large\bf Add more topic as you need} \\
-
-Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
-by assuming specific traffic models or by off-line analysis in case of
-traces.  In most practical situations, $C_{\lambda}(l)$ will not be
-known in advance, and an on-line measurement algorithm developed
-in~\cite{eun01} is required to jointly determine both $n^\ast$ and
-$m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
-n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
-the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
-can be easily measured, it is not the case for $\sigma^2$ and $H$.
-Consequently, the MVA technique suffers from the need of prior
-knowledge traffic parameters. 
-
-
-
 
 
 \end{document}
