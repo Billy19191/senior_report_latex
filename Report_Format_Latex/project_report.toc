@@ -3,10 +3,8 @@
 \contentsline {chapterx}{\mdseries THAI ABSTRACT}{iii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries ACKNOWLEDGMENTS}{iv}{Doc-Start}%
 \contentsline {chapterx}{\mdseries CONTENTS}{v}{Doc-Start}%
-\contentsline {chapterx}{\mdseries LIST OF TABLES}{ix}{Doc-Start}%
-\contentsline {chapterx}{\mdseries LIST OF FIGURES}{x}{Doc-Start}%
-\contentsline {chapterx}{\mdseries LIST OF SYMBOLS}{xiii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries LIST OF TECHNICAL VOCABULARY AND ABBREVATIONS}{xiv}{Doc-Start}%
+\contentsline {chapterx}{\mdseries LIST OF FIGURES}{ix}{Doc-Start}%
+\contentsline {chapterx}{\mdseries LIST OF TECHNICAL VOCABULARY AND ABBREVATIONS}{xii}{Doc-Start}%
 \contentsline {chapterxx}{\mdseries \bf CHAPTER}{1}{chapter.1}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {1.}\hskip -0.5em INTRODUCTION}}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Project Introduction \& Problem Statements}{1}{section.1.1}%

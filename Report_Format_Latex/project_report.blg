@@ -5,48 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: kmutt.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Reallocating 'name_of_file' (item size: 1) to 4 items.
-I found no \citation commands---while reading file project_report.aux
 Database file #1: string.bib
 Database file #2: cpe.bib
-You've used 0 entries,
+You've used 55 entries,
             2177 wiz_defined-function locations,
-            770 strings with 7440 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            1028 strings with 13851 characters,
+and the built_in function-call counts, 12591 in all, are:
+= -- 1218
+> -- 489
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 206
+- -- 146
+* -- 745
+:= -- 2178
+add.period$ -- 55
+call.type$ -- 55
+change.case$ -- 184
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 55
+duplicate$ -- 474
+empty$ -- 1157
+format.name$ -- 146
+if$ -- 2628
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 55
+missing$ -- 32
+newline$ -- 243
+num.names$ -- 110
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 178
 quote$ -- 0
-skip$ -- 1
+skip$ -- 413
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 415
+swap$ -- 55
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 194
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 122
+width$ -- 57
+write$ -- 570

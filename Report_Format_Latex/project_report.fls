@@ -217,10 +217,6 @@ INPUT ./project_report.toc
 INPUT ./project_report.toc
 INPUT project_report.toc
 OUTPUT project_report.toc
-INPUT ./project_report.lot
-INPUT ./project_report.lot
-INPUT project_report.lot
-OUTPUT project_report.lot
 INPUT ./project_report.lof
 INPUT ./project_report.lof
 INPUT project_report.lof
@@ -550,5 +546,3 @@ INPUT ./project_report.bbl
 INPUT ./project_report.bbl
 INPUT project_report.bbl
 INPUT project_report.aux
-INPUT ./project_report.out
-INPUT ./project_report.out
