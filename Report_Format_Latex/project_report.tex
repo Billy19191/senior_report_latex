@@ -1977,114 +1977,11 @@ explicitly authorized by the account owner. By implementing a strict
 verification process on the user's trusted device, the system
 significantly mitigates the risk of unauthorized actions.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image4.png}
-\caption{User Interface for Request Authentication Feature (1)}\label{fig:user-interface-for-request-authentication-feature-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image86.png}
-\caption{User Interface for Request Authentication Feature (2)}\label{fig:user-interface-for-request-authentication-feature-2}
-\end{figure}
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the Request Authentication feature involved a series
-of tasks aimed at designing, implementing, and refining a secure
-end-to-end user flow for authorizing sensitive requests from the
-Customer Management Service (CSM). The Jira tasks covered system
-understanding, core feature development, and quality improvement. The
-work is summarized as follows:
-
-\paragraph{System Preparation and Technical Understanding}
-
-Before development began, we focused on understanding the existing
-system architecture, mobile development workflow, and the security
-standards required for banking applications. This preparation included
-studying the project structure, development conventions, and performing
-a deep dive into Flutter fundamentals to ensure coding consistency and
-maintainability throughout the feature development.
-
-\paragraph{Core Feature Development}
-
-The Request Authentication feature consists of multiple connected
-screens and flows. Each part was developed to ensure a complete and
-seamless user experience:
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.58333in]{report_media/media/image84.png}
-
-\caption{Jira Tasks for Request Authentication Development (1)}\label{fig:jira-tasks-for-request-authentication-development-1}
-\end{figure}
-
-
-
-\begin{itemize}
-\item
-  \textbf{Verify PIN Screen}
-  Implemented the PIN verification screen using the shared component,
-  enabling customers to verify their identity for Medium-risk
-  authentication requests.
-\item
-  \textbf{Request Authentication List Screen}
-  Built the screen that displays all pending authentication requests.
-  The focus was on proper data loading and smooth navigation into each
-  request item.
-\item
-  \textbf{Request Authentication Details Screen}
-  Developed the detailed view for each request, including UI layout and
-  Accept/Decline actions. The logic was structured to connect with
-  additional verification flows depending on the request's risk level.
-\item
-  \textbf{Request Authentication Result Screens (Accepted/Rejected)}
-  Implemented clear and separate result screens for Accepted and
-  Rejected outcomes, giving users a complete and reassuring end-state
-  after responding to a request.
-\item
-  \textbf{Notification Inbox \& Push Notification Integration}
-  Developed the notification layer to allow the app to receive push
-  notifications and inbox messages when CSM issues a new request.
-  Tapping a notification directs the user directly into the Request
-  Authentication flow.
-\end{itemize}
-
-\paragraph{Defect and Quality Improvements}
-
-After completing the core development, we focused on improving
-reliability, fixing defects, and ensuring correct system behavior across
-all scenarios. Key improvements included:
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.04167in]{report_media/media/image68.png}
-
-\caption{Jira Tasks for Request Authentication Development (2)}\label{fig:jira-tasks-for-request-authentication-development-2}
-\end{figure}
-
-
-
-\begin{itemize}
-\item
-  Fixing navigation behavior to prevent users from swiping right to exit
-  the feature, ensuring navigation follows the intended design.
-\item
-  Adding missing access logs to the Authorize List screen to support
-  auditing and compliance.
-\item
-  Investigating issues related to backend dependencies such as
-  acceptance failures and request status not updating. These cases were
-  analyzed and reassigned to the backend team when the root cause
-  originated outside the mobile application.
-\end{itemize}
-
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.65056in,height=2.68599in]{report_media/media/request_authen_user_flow.png}
+\includegraphics[width=5.5in,height=2.68599in]{report_media/media/request_authen_user_flow.png}
 
 \caption{User Flow Diagram for Request Authentication Feature}\label{fig:user-flow-diagram-for-request-authentication}
 \end{figure}
@@ -2133,121 +2030,13 @@ clarity and scalability, the feature is divided into three main flows:
 fully responsible for developing and completing all components of flow
 (c), the core tax planning feature.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image34.png}
-\caption{User Interface for Tax Planning Feature (1)}\label{fig:user-interface-for-tax-planning-feature-1}
-\end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image51.png}
-\caption{User Interface for Tax Planning Feature (2)}\label{fig:user-interface-for-tax-planning-feature-2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image95.png}
-\caption{User Interface for Tax Planning Feature (3)}\label{fig:user-interface-for-tax-planning-feature-3}
-\end{figure}
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the Tax Planning feature required coordination across
-multiple flows and squads, with our team fully responsible for
-implementing all components within Flow C. The assigned tasks ranged
-from foundational setup to core UI development and final issue
-resolution during integration. The work can be categorized into three
-main areas:
-
-\paragraph{System Preparation and Technical Understanding}
-
-At the beginning of the feature, our team focused on understanding how
-Flow C connects with the earlier tax flows and how the calculation logic
-is structured. This involved reviewing the outputs from Flow B,
-analyzing data models, and aligning UI requirements with the product
-specifications. We also studied shared components, chart behaviors, and
-backend response formats to ensure that Flow C could be developed
-consistently and accurately.
-
-\paragraph{Core Feature Development}
-
-The main development work involved building all essential screens and
-interactions that form the core experience of Flow C. The tasks
-included:
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.52778in]{report_media/media/image41.png}
-\caption{Jira Tasks for Tax Planning Development}\label{fig:jira-tasks-for-tax-planning-development}
-\end{figure}
-
-\begin{itemize}
-\item
-  \textbf{Tax Calculation Loading Screen}
-  Implemented a responsive loading interface that displays during tax
-  computation and prepares users for the result flow.
-\item
-  \textbf{Tax Rate Summary Screen}
-  Developed the initial summary screen showing the user's tax bracket
-  and rate using bar chart visualization for clarity.
-\item
-  \textbf{Enhancements to the Tax Rate Summary Screen}
-  Improved readability, supported multiple result scenarios, and
-  refined data presentation to ensure accurate interpretation.
-\item
-  \textbf{Tax Result Landing Screen}
-  Built the final results page with detailed tax breakdowns, stable
-  navigation logic, and correct data refresh behavior when users modify
-  earlier information.
-\end{itemize}
-
-These components formed the foundation of Flow C and delivered a
-complete, user-friendly tax result experience.
-
-\paragraph{Defect and Quality Improvements}
-
-During integration with other tax planning flows, several issues were
-identified, requiring focused debugging and refinement to ensure full
-system stability:
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.31944in]{report_media/media/image30.png}
-\includegraphics[width=6.26772in,height=2.08333in]{report_media/media/image59.png}
-\includegraphics[width=6.26772in,height=1.54167in]{report_media/media/image54.png}
-\caption{Jira Defects for Tax Planning Development}\label{fig:jira-defects-for-tax-planning-development}
-\end{figure}
-
-\begin{itemize}
-\item
-  \textbf{Fixes for the Tax Rate Summary Screen}
-  Corrected display inaccuracies, adjusted summary logic, and ensured
-  tax brackets rendered correctly across all scenarios.
-\item
-  \textbf{Result Landing Screen Corrections}
-  Resolved issues involving navigation inconsistencies, data
-  synchronization problems, and UI errors that occurred when users
-  edited information mid-flow.
-\item
-  \textbf{Net Income \& Calculation Accuracy Fixes}
-  Addressed logic errors, mismatches between backend and UI values, and
-  edge cases that affected the correctness of the final tax results.
-\item
-  \textbf{Custom Budget Flow Adjustments}
-  Fixed syncing issues where updated budget values were not reflected
-  downstream, ensuring consistent and accurate calculations.
-\end{itemize}
-
-These improvements strengthened the reliability of Flow C and ensured
-that the entire tax planning process worked seamlessly from start to
-finish.
 
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=2.38889in]{report_media/media/tax_planning_user_flow.png}
+\includegraphics[width=5.5in,height=2.38889in]{report_media/media/tax_planning_user_flow.png}
 
 \caption{User Flow Diagram for Tax Planning Feature}\label{fig:user-flow-diagram-for-tax-planning}
 \end{figure}
@@ -2284,123 +2073,11 @@ segmentation box and button. The segmentation is calculated based on the
 customer\textquotesingle s total savings and investments across
 Kiatnakin Phatra Financial Group (KKPFG) entities.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image49.png}
-\caption{User Interface for Segmentation Feature}\label{fig:user-interface-for-segmentation-feature}
-\end{figure}
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the segmentation feature required coordinated work
-across both frontend and backend services. The tasks involved analyzing
-existing customer data flows, introducing new segmentation logic from
-the core banking system, and updating the user interface to present the
-correct tier. Challenges mainly arose from integrating new data fields,
-ensuring compatibility with existing services, and maintaining UI
-consistency across different customer scenarios.
-
-\paragraph{System Preparation and Technical Understanding}
-
-During the preparation phase, we reviewed the existing architecture of
-the Asset Summary screen and analyzed how customer information was
-retrieved and cached. This included understanding the Customer
-Information Common Service, identifying required model updates, and
-confirming how segmentation data would be injected into the
-LandingAssetBloc. We also validated the end-to-end data path from the
-Core Banking System to the Backend for Frontend layer and finally to the
-Flutter UI. This ensured that adding a new segmentation field would not
-impact existing functionalities.
-
-\paragraph{Core Feature Development}
-
-The core development focused on implementing the new segmentation tier
-into both backend and frontend components.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.61111in]{report_media/media/image9.png}
-\caption{Jira Tasks for Segmentation Feature Development}\label{fig:jira-tasks-for-segmentation-feature-development}
-\end{figure}
-
-\begin{itemize}
-\item \textbf{Frontend Development}
-  \begin{itemize}
-  \item
-    Added a new segmentation card widget to the Asset Summary screen
-  \item
-    Updated the UI layout to highlight tier information such as Wealth,
-    Edge Platinum, Edge Gold, or None
-  \item
-    Set up a dedicated Bloc to manage customer data retrieval, state
-    transitions, and fallback handling
-  \item
-    Integrated Firebase Remote Config to control the visibility of
-    segmentation during rollout
-  \item
-    Implemented reusable UI components such as the tier badge for future
-    use
-  \end{itemize}
-\end{itemize}
-
-\begin{itemize}
-\item \textbf{Backend Development}
-  \begin{itemize}
-  \item
-    Added a new segmentCode field in the V3 Customer Information API
-  \item
-    Implemented mapping logic to convert raw segmentation values into
-    standardized BFF codes:
-  
-    \begin{itemize}
-    \item
-      KKP to KKPNONE
-    \item
-      EP to KKP\_EDGE\_PLATINUM
-    \item
-      EG to KKP\_EDGE\_GOLD
-    \item
-      WEALTH to KKP\_WEALTH
-    \end{itemize}
-  \item
-    Ensured the API returns segmentation directly to the frontend without
-    additional transformation
-  \item
-    Maintained backward compatibility with existing services
-  \end{itemize}
-\end{itemize}
-
-\paragraph{Defect and Quality Improvements}
-
-During development, several issues and edge cases were resolved to
-ensure stability, accuracy, and smooth user experience.
-
-\begin{itemize}
-\item
-  Missing or null segmentation data now defaults safely to the KKP
-  segment
-\item
-  Improved Bloc state synchronization to ensure consistent updates for
-  customer name, tier, and asset summary
-\item
-  Adjusted UI layout, spacing, and typography to match the design system
-\item
-  Added retry logic for cached customer data retrieval and fallback to
-  network requests when necessary
-\item
-  Enhanced navigation behavior including bottom sheets, deep links, and
-  pull-to-refresh handling
-\end{itemize}
-
-These improvements ensure that the segmentation feature performs
-reliably across different customer types and device conditions while
-delivering a consistent and user-friendly interface.
-
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=2.94444in]{report_media/media/segmentation_user_flow.png}
+\includegraphics[width=5.5in,height=2.94444in]{report_media/media/segmentation_user_flow.png}
 
 \caption{User Flow Diagram for Segmentation Feature}\label{fig:user-flow-diagram-for-segmentation-feature}
 \end{figure}
@@ -2449,161 +2126,12 @@ secure experience by eliminating redundant logins and ensuring smooth
 data exchange between the banking system and the external platform
 (third party)
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image42.png}
-\caption{User Interface for Privilege Feature}\label{fig:user-interface-for-privilege-feature}
-\end{figure}
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the Privilege Feature began with establishing the
-foundational integration between the mobile application and the external
-Privilege Platform. The work involved designing secure data retrieval,
-preparing WebView navigation, and resolving early technical
-uncertainties related to authentication, token handling, and
-cross-platform communication. Throughout implementation, multiple issues
-were identified and addressed to ensure system correctness, UI
-consistency, and a smooth user experience.
-
-\paragraph{System Preparation and Technical Understanding}
-
-Before implementing the feature, the team conducted a detailed technical
-analysis to ensure proper integration with the third-party Privilege
-Platform. Key preparation tasks included:
-
-\begin{itemize}
-\item
-  Understanding the session-generation flow required to authenticate
-  users securely.
-\item
-  Reviewing token lifecycle management and evaluating security concerns
-  around passing tokens to an external WebView.
-\item
-  Analyzing the communication flow between the mobile application, the
-  Customer Profile Service (CPS), and the Privilege Platform.
-\item
-  Identifying potential risks such as service unavailability, missing
-  segmentation values, and navigation fallback behaviors.
-\end{itemize}
-
-This preparation phase built a clear technical foundation and ensured
-that the architecture supported a secure and stable connection between
-internal services and the external platform.
-
-\paragraph{Core Feature Development}
-
-This stage focused on implementing all essential components required for
-enabling access to the Privilege Platform through the Asset Summary
-page.
-
-\begin{itemize}
-\item \textbf{Privilege WebView \& UI Integration}
-  \begin{itemize}
-  \item
-    Developed a new Flutter screen aligned with the Figma design,
-    including layout, loading states, and fallback cases.
-  \item
-    Integrated the shared Generic Error Modal and customized its
-    navigation behavior to ensure that users are returned safely to the
-    previous page.
-  \item
-    Updated the modal UI by replacing the default ``Close'' action with
-    ``Back to previous page'' for a clearer user experience.
-  \end{itemize}
-
-\item \textbf{State Propagation and Navigation Handling}
-  \begin{itemize}
-  \item
-    When retrieving customer information, the system first reads from
-    cache, then falls back to calling the service if cached data is
-    missing or outdated.
-  \item
-    If both attempts fail, the screen transitions into an unrecoverable
-    error state and displays the Generic Error Modal.
-  \item
-    After dismissal, the navigation logic automatically returns the user
-    to the previous page to prevent users from remaining on a
-    non-functional screen.
-  \end{itemize}
-
-\item \textbf{Common Service Integration}
-  
-  The API prepares all required data before launching the Privilege Platform, handling:
-  \begin{itemize}
-  \item \textbf{webViewUrl}: Retrieved dynamically through Manual Configuration, enabling flexible updates to the external Privilege URL.
-  \item \textbf{accessToken}: Generated by connecting to the CPS Service. This token authenticates the customer when accessing the third-party platform.
-  \end{itemize}
-
-\item \textbf{Entry Point \& WebView Launch}
-  \begin{itemize}
-  \item
-    Added a new Privilege button to the Asset Summary page.
-  \item
-    Controlled the button visibility using a Feature Flag (Manual Configuration), allowing business teams to enable or disable the feature as needed.
-  \item
-    When tapped, the application appends the accessToken to the webViewUrl and loads it in the in-app WebView.
-  \end{itemize}
-
-\item \textbf{Edge Case Handling}
-  
-  To ensure reliability, several fallback behaviors were implemented:
-  \begin{itemize}
-  \item \textbf{Service Down}: Displays an Error Modal if the Privilege Platform cannot be reached.
-  \item \textbf{Null Segmentation}: Prevents invalid access and shows a generic error message when segmentation data is missing.
-  \end{itemize}
-
-  These measures ensure stability and protect the user experience across various failure scenarios.
-\end{itemize}
-
-\paragraph{Defect and Quality Improvements}
-
-During development, several technical and UI issues were identified and
-resolved to ensure accurate behavior across the application.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.56944in]{report_media/media/image50.png}
-\caption{Jira Defects for Privilege Development}\label{fig:jira-defects-for-privilege-development}
-\end{figure}
-
-\begin{itemize}
-\item \textbf{Privilege Webview (Incorrect behavior)}
-  
-  A defect caused an incorrect error button to appear, and closing the
-  modal redirected users to a blank screen. Fixes included:
-
-  \begin{itemize}
-    \item    Refining the error UI layout
-\item
-  Correcting modal dismissal behavior
-\item
-  Ensuring the WebView closes cleanly
-\item
-  Updating navigation to return users to the correct screen
-\end{itemize}
-\end{itemize}
-
-
-\begin{itemize}
-\item \textbf{Firebase Remote Configuration}
-  
-  QA reported a mismatch where the Privilege button remained visible despite being disabled via Manual Configuration. Resolutions included:
-  \begin{itemize}
-  \item Debugging the Remote Config evaluation flow
-  \item Updating the logic that reads and applies the configuration values
-  \item Ensuring UI elements react instantly and accurately to config updates
-  \end{itemize}
-\end{itemize}
-
-This improvement prevents outdated UI states and ensures consistent
-feature toggling during staging, testing, and rollout.
 
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.27083in,height=3.88377in]{report_media/media/privilege_user_flow.png}
+\includegraphics[width=5.5in,height=3.88377in]{report_media/media/privilege_user_flow.png}
 
 \caption{User Flow Diagram for Privilege Feature}\label{fig:user-flow-diagram-for-privilege-feature}
 \end{figure}
@@ -2631,7 +2159,7 @@ through the PIN Screen before being allowed to continue.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.20313in,height=3.06098in]{report_media/media/image20.png}
+\includegraphics[width=5.5in,height=3.06098in]{report_media/media/image20.png}
 \caption{Sequence Diagram of customer-privilege-session}\label{fig:sequence-diagram-of-customerprivilegesession}
 \end{figure}
 
@@ -2663,272 +2191,12 @@ for bulk transfers and an intuitive workflow, Better Box helps users
 manage their finances more efficiently while maintaining clarity and
 control over how their money is distributed.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image93.png}
-
-\caption{User Interface for Better Box Feature (1)}\label{fig:user-interface-for-better-box-feature-1}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image69.png}
-
-\caption{User Interface for Better Box Feature (2)}\label{fig:user-interface-for-better-box-feature-2}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image35.png}
-
-\caption{User Interface for Better Box Feature (3)}\label{fig:user-interface-for-better-box-feature-3}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image47.png}
-
-\caption{User Interface for Better Box Feature (4)}\label{fig:user-interface-for-better-box-feature-4}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image87.png}
-
-\caption{User Interface for Better Box Feature (5)}\label{fig:user-interface-for-better-box-feature-5}
-\end{figure}
-
-
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the Better Box feature involved a series of tasks
-focused on designing, implementing, and optimizing a flexible fund
-allocation system within the KKP Better application. The goal was to
-create a seamless user experience for managing multiple savings pockets
-and performing bulk transactions efficiently. The Jira tasks covered
-system understanding, feature implementation, and handling complex
-transaction scenarios. The work is summarized as follows:
-
-\paragraph{System Preparation and Technical Understanding}
-
-Before development began, we focused on understanding the existing
-system architecture, especially the integration between frontend modules
-and backend services that support financial transactions. This
-preparation included studying the project structure, API communication
-patterns, and transaction handling flows. Additionally, we reviewed
-Flutter development practices and state management approaches to ensure
-scalability and maintainability when implementing dynamic UI components
-such as multiple boxes, fund allocation flows, and validation.
-
-\paragraph{Core Feature Development}
-
-This feature focused on revamping the money transfer experience to
-support bulk fund allocation and integrating new UI/API specifications.
-This required implementing multiple new screens and updating the
-underlying data models to handle the complexity of multi-destination
-transfers.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image75.png}
-\caption{Jira Tasks for Better Box Development (1)}\label{fig:jira-tasks-for-better-box-development-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.75in]{report_media/media/image17.png}
-\caption{Jira Tasks for Better Box Development (2)}\label{fig:jira-tasks-for-better-box-development-2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.51389in]{report_media/media/image1.png}
-\caption{Jira Tasks for Better Box Development (3)}\label{fig:jira-tasks-for-better-box-development-3}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.5in]{report_media/media/image44.png}
-\caption{Jira Tasks for Better Box Development (4)}\label{fig:jira-tasks-for-better-box-development-4}
-\end{figure}
-
-\begin{itemize}
-\item
-  \textbf{Bulk Allocation Flow Implementation}
-\end{itemize}
-
-\begin{quote}
-The entire user flow was designed and built to allow for the allocation
-of funds from a single source account to multiple "virtual boxes" in one
-bulk transaction. This foundation included the Pocket Move Money Screen,
-which was developed in alignment with the Figma design and incorporated
-the necessary UI layout, loading states, and fallback cases. A new Bloc
-architecture (event, Bloc, state) was set up to manage the new complex
-transfer flow. A critical component of this screen was robust input
-validation logic, ensuring that the input amount for transfers does not
-exceed the pocket balance, and preventing submission of negative values
-or other sensitive cases.
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{Source and Destination of Fund Screens}
-\end{itemize}
-
-\begin{quote}
-Dedicated screens were developed for users to precisely select the
-source savings account and define the target destination boxes. The
-Select Source of Fund Screen was created to limit selection to a single
-source pocket, with internal logic ensuring this source pocket cannot
-simultaneously be selected as a destination. Conversely, the Select
-Destination of Fund Screen allows users to select a single pocket or
-multiple pockets for bulk allocation, while enforcing the constraint
-that the destination(s) must not be the source of funds.
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{Review and Confirmation Screens}
-\end{itemize}
-
-\begin{quote}
-The flow culminates with the Review Confirmation Screen, which
-consolidates the total transfer amounts, the source pocket, and all
-destination pockets for final user validation. Users are also provided
-with the ability to add a memo for the transaction before proceeding.
-Following confirmation, the system incorporates the Move Money Lottie
-Loading Screen, a transitional interface featuring animation for a
-smooth processing experience. Finally, the Move Money Success Screen
-displays the detailed information of the successful transaction,
-mirroring the data shown on the review screen, and offers seamless
-navigation back to the pocket details screen or the home screen.
-\end{quote}
-
-\begin{itemize}
-\item
-  \textbf{API Integration and Flexibility}
-\end{itemize}
-
-\begin{quote}
-To technically support this new functionality, the feature model was
-updated and integrated with new backend API specifications specifically
-designed to support the atomic execution of bulk transfers. Furthermore,
-development focused on establishing Multiple Entry Points, ensuring the
-money movement flow could be initiated from various flexible locations
-within the application
-\end{quote}
-
-\paragraph{Defect and Quality Improvements}
-
-In order to, resolving functional and visual defects identified during
-Quality Assurance (QA) and integration testing. These improvements were
-crucial for ensuring the financial integrity, high usability, and
-overall reliability of the bulk allocation feature before release. The
-rigorous defect resolution process reinforced system stability and
-adherence to KKP's stringent security and design standards.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.32813in,height=1.53758in]{report_media/media/image56.png}
-\caption{Jira Defects for Better Box Development (1)}\label{fig:jira-defects-for-better-box-development}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image25.png}
-\caption{Jira Defects for Better Box Development (2)}\label{fig:jira-defects-for-better-box-development-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=2.79167in]{report_media/media/image83.png}
-\caption{Jira Defects for Better Box Development (3)}\label{fig:jira-defects-for-better-box-development-2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image19.png}
-\caption{Jira Defects for Better Box Development (4)}\label{fig:jira-defects-for-better-box-development-3}
-\end{figure}
-
-\begin{itemize}
-\item
-  \textbf{Move Money Screen (Critical Logic and Input Validation)}
-
-
-Defects related to the primary fund allocation screen were prioritized
-due to their direct impact on financial accuracy and user trust. Key
-issues involved complex state management and financial precision errors:
-
-\begin{itemize}
-\item
-  \textbf{Inaccurate Sensitive Details}\\
-  Design and implementation was found to be inaccurate in handling
-  sensitive financial details, which required strict hardening of
-  frontend display logic to match high-precision backend calculations.
-\item
-  \textbf{Input State Management Flaws\\
-  }A critical logic defect prevented the "pill amount" input from
-  clearing correctly when the input amount changed. This necessitated an
-  update to the Bloc state management to ensure input fields accurately
-  reflected the current transaction status
-\item
-  \textbf{Missing Transitional Data\\
-  }Transaction-critical data, such as the transaction number, was
-  occasionally missing on the transition screen when the fund transfer
-  was initiated via an extra entry point. This gap in data handling was
-  corrected to ensure end-to-end observability and auditability during
-  the transaction lifecycle.
-\end{itemize}
-\end{itemize}
-
-
-\begin{itemize}
-\item
-  \textbf{Move Money Transaction Screen (UI/UX Consistency and
-  Observability)}Issues identified in the transaction summary and success screens
-primarily centered on maintaining a consistent user experience and
-ensuring adequate logging for debugging:
-
-
-\begin{itemize}
-\item
-  \textbf{Design and Requirement Drift\\
-  }Defects stemmed from discrepancies between the design specifications
-  and the implementation regarding visual elements such as font size,
-  notification bar colors, and wrong screen transitions. These were
-  resolved through iterative refinement to ensure alignment with the
-  final design system.
-\item
-  \textbf{Navigation and Scrolling Defects\\
-  }Inconsistent screen transition behavior and scrolling errors created
-  a non-smooth user experience. The navigation logic was revised to
-  ensure clean flow completion and predictable returns to the previous
-  screen.
-\item
-  \textbf{Missing Automate Tracking IDs\\
-  }A crucial defect involved missing automatic IDs for tracking specific
-  widgets in the screen. This omission impaired the ability to conduct
-  detailed behavioral analytics and audit specific user actions, which
-  was corrected by integrating necessary tracking logic for system
-  transparency.
-\end{itemize}
-\end{itemize}
 
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=2.77778in]{report_media/media/better_box_user_flow.png}
+\includegraphics[width=5.5in,height=2.77778in]{report_media/media/better_box_user_flow.png}
 \caption{User Flow Diagram for Better Box Feature}\label{fig:user-flow-diagram-for-better-box-feature}
 \end{figure}
 
@@ -2959,7 +2227,7 @@ without selecting any destination box.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.39063in,height=4.42673in]{report_media/media/image57.jpg}
+\includegraphics[width=5.7in,height=4.42673in]{report_media/media/image57.jpg}
 \caption{Sequence Diagram of eligible-pocket}\label{fig:sequence-diagram-of-eligible-pocket}
 \end{figure}
 
@@ -3006,173 +2274,12 @@ integrating currency selection, exchange functionality, and digital
 onboarding. The system enhances user experience while ensuring
 compliance with banking regulations and security standards.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image13.png}
-
-\caption{User Interface for Ultimate FCD Feature (1)}\label{fig:user-interface-for-ultimate-fcd-feature-1}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image12.png}
-
-\caption{User Interface for Ultimate FCD Feature (2)}\label{fig:user-interface-for-ultimate-fcd-feature-2}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image91.png}
-
-\caption{User Interface for Ultimate FCD Feature (3)}\label{fig:user-interface-for-ultimate-fcd-feature-3}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image28.png}
-
-\caption{User Interface for Ultimate FCD Feature (4)}\label{fig:user-interface-for-ultimate-fcd-feature-4}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image16.png}
-
-\caption{User Interface for Ultimate FCD Feature (5)}\label{fig:user-interface-for-ultimate-fcd-feature-5}
-\end{figure}
-
-
-
-\subsubsection{Jira Task \& Problem}
-
-The development of the Ultimate FCD feature involved a series of tasks
-focused on designing and implementing a seamless digital account opening
-journey for foreign currency deposits. The goal was to provide a
-user-friendly flow that handles multiple steps such as product
-selection, currency selection, identity verification, and account
-confirmation. The Jira tasks covered system understanding, feature
-implementation, and handling edge cases such as validation errors,
-partial success scenarios, and system failures. The work is summarized
-as follows:
-
-\paragraph{System Preparation and Technical Understanding}
-
-Before development began, we focused on understanding the existing
-system architecture, particularly the services related to account
-opening, customer verification, and currency exchange. This preparation
-included studying API structures, backend workflows, and integration
-points between frontend and backend systems. Additionally, we reviewed
-Flutter development practices and navigation flows to support multi-step
-user journeys, ensuring that the implementation remains scalable,
-maintainable, and consistent with the overall application design.
-
-\paragraph{Core Feature Development}
-
-The core development for the Ultimate FCD feature focused on creating
-two complete user journeys: the seamless digital account opening flow
-for multiple foreign currencies, and a new, enhanced currency exchange
-flow. This work required developing a complex, multi-step sequence of
-screens, handling state persistence for interrupted flows, and
-integrating with multiple backend services for product information and
-transaction execution.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.30349in,height=1.00521in]{report_media/media/image70.png}
-
-\caption{Jira Tasks for Ultimate FCD Development (1)}\label{fig:jira-tasks-for-ultimate-fcd-development-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.26389in]{report_media/media/image55.png}
-
-\caption{Jira Tasks for Ultimate FCD Development (2)}\label{fig:jira-tasks-for-ultimate-fcd-development-2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.51389in]{report_media/media/image22.png}
-
-\caption{Jira Tasks for Ultimate FCD Development (3)}\label{fig:jira-tasks-for-ultimate-fcd-development-3}
-\end{figure}
-
-\begin{itemize}
-\item \textbf{Ultimate FCD Account Opening Flow}
-  \begin{itemize}
-  \item \textbf{Product Shelf Implementation}: Developed the Product Shelf Page and Product Highlight Page to showcase available FCD products, ensuring a clear presentation of the offering.
-  \item \textbf{Multi-Currency Selection}: Built the Select Currency Page to allow users to choose their preferred foreign currency and implemented the Confirm Information Page for final account detail verification.
-  \item \textbf{Identity Verification Integration}: Incorporated mandatory security steps, including the PIN Screen Page and Face Recognition, to verify the user's identity before account creation.
-  \item \textbf{End-to-End Onboarding}: Implemented the full flow, culminating in the Open Account Success and Save Slip screen, which confirms successful account creation.
-  \item \textbf{Resume Capability}: Integrated logic to support resuming the account opening flow via a push notification if the process is interrupted.
-  \end{itemize}
-\end{itemize}
-
-\begin{itemize}
-\item \textbf{Currency Exchange Feature}
-  \begin{itemize}
-  \item \textbf{Exchange Screens}: Developed the necessary UI/UX for the new exchange feature, including the Buy/Sell Foreign Currency page and the Select FCD Currency Page.
-  \item \textbf{Transaction Flow}: Created the sequence for selecting the source/destination account (Select Account Page), inputting the amount (Input Amount page), and consolidating details on the Review Page.
-  \item \textbf{Transaction Completion}: Built the final Slip page to display the result of the currency exchange transaction.
-  \end{itemize}
-\end{itemize}
-
-\begin{itemize}
-\item \textbf{System and Data Alignment}
-  \begin{itemize}
-  \item Integrated with relevant backend APIs, such as the GET /v2/open-account-efcd-product API, to retrieve and validate FCD product data.
-  \item Ensured the system supports the new product type and code, enabling the complete replacement of the legacy e-FCD saving account.
-  \end{itemize}
-\end{itemize}
-
-\paragraph{Defect and Quality Improvements}
-
-During the integration and testing phase, several key defects and
-stability issues were identified and resolved, particularly concerning
-the complexity of the multi-step account opening. These improvements
-were essential for ensuring compliance, data accuracy, and a smooth user
-journey across both primary flows.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=1.76389in]{report_media/media/image27.png}
-\caption{Jira Defects for Ultimate FCD Development (1)}\label{fig:jira-defects-for-ultimate-fcd-development-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image3.png}
-\caption{Jira Defects for Ultimate FCD Development (2)}\label{fig:jira-defects-for-ultimate-fcd-development-2}
-\end{figure}
-
-\begin{itemize}
-\item
-  \textbf{Ultimate FCD Account Opening Flow (Incorrect Behavior)}
-\end{itemize}
-
-\begin{quote}
-A number of critical defects were identified in the user interface and
-underlying logic during integration and testing. Due to the complexity
-of the multi-step flow, initial implementation revealed deficiencies in
-design alignment and core business logic. Additionally, inconsistencies
-were noted in the implementation of transaction logic and error handling
-mechanisms, requiring immediate refinement to ensure proper system
-behavior and reliability.
-\end{quote}
 
 \subsubsection{User Flow Diagram}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.27083in,height=1.97292in]{report_media/media/ultimated_fcd_user_flow_1.png}
+\includegraphics[width=5.5in,height=1.97292in]{report_media/media/ultimated_fcd_user_flow_1.png}
 \caption{User Flow Diagram for Ultimate FCD Feature (Open Account)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-open-account}
 \end{figure}
 
@@ -3201,7 +2308,7 @@ Screen.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.27083in,height=1.60417in]{report_media/media/ultimate_fcd_user_flow_2.png}
+\includegraphics[width=5.5in,height=1.60417in]{report_media/media/ultimate_fcd_user_flow_2.png}
 \caption{User Flow Diagram for Ultimate FCD Feature (Exchange)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-exchange}
 \end{figure}
 
@@ -3232,7 +2339,7 @@ exchange flow.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=7.06944in]{report_media/media/image32.png}
+\includegraphics[width=5.8in,height=7.06944in]{report_media/media/image32.png}
 \caption{Sequence Diagram of open-account-efcd-product}\label{fig:sequence-diagram-of-open-account-efcd-product}
 \end{figure}
 
@@ -3579,8 +2686,14 @@ designated cluster.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image4.png}
-\caption{User Interface of Request Authentication}\label{fig:user-interface-of-request-authentication-160848}
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/2.png}
+\caption{User Interface for Request Authentication Feature (1)}\label{fig:user-interface-for-request-authentication-feature-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/3.png}
+\caption{User Interface for Request Authentication Feature (2)}\label{fig:user-interface-for-request-authentication-feature-2}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3596,6 +2709,98 @@ structured user flow where users can view request details and choose to
 approve or reject the request. Authentication is performed using
 multi-factor methods, primarily PIN and optional biometric verification,
 ensuring strong user identity validation.
+
+\subsubsection{Jira Task \& Problem}
+
+The development of the Request Authentication feature involved a series
+of tasks aimed at designing, implementing, and refining a secure
+end-to-end user flow for authorizing sensitive requests from the
+Customer Management Service (CSM). The Jira tasks covered system
+understanding, core feature development, and quality improvement. The
+work is summarized as follows:
+
+\paragraph{System Preparation and Technical Understanding}
+
+Before development began, we focused on understanding the existing
+system architecture, mobile development workflow, and the security
+standards required for banking applications. This preparation included
+studying the project structure, development conventions, and performing
+a deep dive into Flutter fundamentals to ensure coding consistency and
+maintainability throughout the feature development.
+
+\paragraph{Core Feature Development}
+
+The Request Authentication feature consists of multiple connected
+screens and flows. Each part was developed to ensure a complete and
+seamless user experience:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.58333in]{report_media/media/image84.png}
+
+\caption{Jira Tasks for Request Authentication Development (1)}\label{fig:jira-tasks-for-request-authentication-development-1}
+\end{figure}
+
+
+
+\begin{itemize}
+\item
+  \textbf{Verify PIN Screen}
+  Implemented the PIN verification screen using the shared component,
+  enabling customers to verify their identity for Medium-risk
+  authentication requests.
+\item
+  \textbf{Request Authentication List Screen}
+  Built the screen that displays all pending authentication requests.
+  The focus was on proper data loading and smooth navigation into each
+  request item.
+\item
+  \textbf{Request Authentication Details Screen}
+  Developed the detailed view for each request, including UI layout and
+  Accept/Decline actions. The logic was structured to connect with
+  additional verification flows depending on the request's risk level.
+\item
+  \textbf{Request Authentication Result Screens (Accepted/Rejected)}
+  Implemented clear and separate result screens for Accepted and
+  Rejected outcomes, giving users a complete and reassuring end-state
+  after responding to a request.
+\item
+  \textbf{Notification Inbox \& Push Notification Integration}
+  Developed the notification layer to allow the app to receive push
+  notifications and inbox messages when CSM issues a new request.
+  Tapping a notification directs the user directly into the Request
+  Authentication flow.
+\end{itemize}
+
+\paragraph{Defect and Quality Improvements}
+
+After completing the core development, we focused on improving
+reliability, fixing defects, and ensuring correct system behavior across
+all scenarios. Key improvements included:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.04167in]{report_media/media/image68.png}
+
+\caption{Jira Tasks for Request Authentication Development (2)}\label{fig:jira-tasks-for-request-authentication-development-2}
+\end{figure}
+
+
+
+\begin{itemize}
+\item
+  Fixing navigation behavior to prevent users from swiping right to exit
+  the feature, ensuring navigation follows the intended design.
+\item
+  Adding missing access logs to the Authorize List screen to support
+  auditing and compliance.
+\item
+  Investigating issues related to backend dependencies such as
+  acceptance failures and request status not updating. These cases were
+  analyzed and reassigned to the backend team when the root cause
+  originated outside the mobile application.
+\end{itemize}
+
 
 On the backend, Golang-based microservices handle request validation,
 session management, and communication with authorization services.
@@ -3645,8 +2850,20 @@ securely.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image51.png}
-\caption{User Interface of Tax Planning}\label{fig:user-interface-of-tax-planning-163342}
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/5.png}
+\caption{User Interface for Tax Planning Feature (1)}\label{fig:user-interface-for-tax-planning-feature-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/6.png}
+\caption{User Interface for Tax Planning Feature (2)}\label{fig:user-interface-for-tax-planning-feature-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/7.png}
+\caption{User Interface for Tax Planning Feature (3)}\label{fig:user-interface-for-tax-planning-feature-3}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3669,6 +2886,99 @@ compare outcomes and choose the best financial strategy.
 The architecture ensures secure data handling, real-time processing, and
 scalability, making it suitable for handling complex financial
 computations.
+
+\subsubsection{Jira Task \& Problem}
+
+The development of the Tax Planning feature required coordination across
+multiple flows and squads, with our team fully responsible for
+implementing all components within Flow C. The assigned tasks ranged
+from foundational setup to core UI development and final issue
+resolution during integration. The work can be categorized into three
+main areas:
+
+\paragraph{System Preparation and Technical Understanding}
+
+At the beginning of the feature, our team focused on understanding how
+Flow C connects with the earlier tax flows and how the calculation logic
+is structured. This involved reviewing the outputs from Flow B,
+analyzing data models, and aligning UI requirements with the product
+specifications. We also studied shared components, chart behaviors, and
+backend response formats to ensure that Flow C could be developed
+consistently and accurately.
+
+\paragraph{Core Feature Development}
+
+The main development work involved building all essential screens and
+interactions that form the core experience of Flow C. The tasks
+included:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.52778in]{report_media/media/image41.png}
+\caption{Jira Tasks for Tax Planning Development}\label{fig:jira-tasks-for-tax-planning-development}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Tax Calculation Loading Screen}
+  Implemented a responsive loading interface that displays during tax
+  computation and prepares users for the result flow.
+\item
+  \textbf{Tax Rate Summary Screen}
+  Developed the initial summary screen showing the user's tax bracket
+  and rate using bar chart visualization for clarity.
+\item
+  \textbf{Enhancements to the Tax Rate Summary Screen}
+  Improved readability, supported multiple result scenarios, and
+  refined data presentation to ensure accurate interpretation.
+\item
+  \textbf{Tax Result Landing Screen}
+  Built the final results page with detailed tax breakdowns, stable
+  navigation logic, and correct data refresh behavior when users modify
+  earlier information.
+\end{itemize}
+
+These components formed the foundation of Flow C and delivered a
+complete, user-friendly tax result experience.
+
+\paragraph{Defect and Quality Improvements}
+
+During integration with other tax planning flows, several issues were
+identified, requiring focused debugging and refinement to ensure full
+system stability:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.31944in]{report_media/media/image30.png}
+\includegraphics[width=6.26772in,height=2.08333in]{report_media/media/image59.png}
+\includegraphics[width=6.26772in,height=1.54167in]{report_media/media/image54.png}
+\caption{Jira Defects for Tax Planning Development}\label{fig:jira-defects-for-tax-planning-development}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Fixes for the Tax Rate Summary Screen}
+  Corrected display inaccuracies, adjusted summary logic, and ensured
+  tax brackets rendered correctly across all scenarios.
+\item
+  \textbf{Result Landing Screen Corrections}
+  Resolved issues involving navigation inconsistencies, data
+  synchronization problems, and UI errors that occurred when users
+  edited information mid-flow.
+\item
+  \textbf{Net Income \& Calculation Accuracy Fixes}
+  Addressed logic errors, mismatches between backend and UI values, and
+  edge cases that affected the correctness of the final tax results.
+\item
+  \textbf{Custom Budget Flow Adjustments}
+  Fixed syncing issues where updated budget values were not reflected
+  downstream, ensuring consistent and accurate calculations.
+\end{itemize}
+
+These improvements strengthened the reliability of Flow C and ensured
+that the entire tax planning process worked seamlessly from start to
+finish.
+
 
 \begin{figure}[H]
 \centering
@@ -3711,10 +3021,10 @@ responsiveness.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image49.png}
-\caption{User Interface of Privilege}
-\label{fig:user-interface-of-privilege}
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/12.png}
+\caption{User Interface for Privilege Feature}\label{fig:user-interface-for-privilege-feature}
 \end{figure}
+
 
 \subsection{Technical Implementation}
 
@@ -3733,6 +3043,151 @@ On the backend, the system communicates with external services via BFF
 APIs to handle authentication, data retrieval, and session management.
 Proper error handling mechanisms are also implemented to manage service
 downtime or API failures.
+
+\subsubsection{Jira Task \& Problem}
+
+The development of the Privilege Feature began with establishing the
+foundational integration between the mobile application and the external
+Privilege Platform. The work involved designing secure data retrieval,
+preparing WebView navigation, and resolving early technical
+uncertainties related to authentication, token handling, and
+cross-platform communication. Throughout implementation, multiple issues
+were identified and addressed to ensure system correctness, UI
+consistency, and a smooth user experience.
+
+\paragraph{System Preparation and Technical Understanding}
+
+Before implementing the feature, the team conducted a detailed technical
+analysis to ensure proper integration with the third-party Privilege
+Platform. Key preparation tasks included:
+
+\begin{itemize}
+\item
+  Understanding the session-generation flow required to authenticate
+  users securely.
+\item
+  Reviewing token lifecycle management and evaluating security concerns
+  around passing tokens to an external WebView.
+\item
+  Analyzing the communication flow between the mobile application, the
+  Customer Profile Service (CPS), and the Privilege Platform.
+\item
+  Identifying potential risks such as service unavailability, missing
+  segmentation values, and navigation fallback behaviors.
+\end{itemize}
+
+This preparation phase built a clear technical foundation and ensured
+that the architecture supported a secure and stable connection between
+internal services and the external platform.
+
+\paragraph{Core Feature Development}
+
+This stage focused on implementing all essential components required for
+enabling access to the Privilege Platform through the Asset Summary
+page.
+
+\begin{itemize}
+\item \textbf{Privilege WebView \& UI Integration}
+  \begin{itemize}
+  \item
+    Developed a new Flutter screen aligned with the Figma design,
+    including layout, loading states, and fallback cases.
+  \item
+    Integrated the shared Generic Error Modal and customized its
+    navigation behavior to ensure that users are returned safely to the
+    previous page.
+  \item
+    Updated the modal UI by replacing the default ``Close'' action with
+    ``Back to previous page'' for a clearer user experience.
+  \end{itemize}
+
+\item \textbf{State Propagation and Navigation Handling}
+  \begin{itemize}
+  \item
+    When retrieving customer information, the system first reads from
+    cache, then falls back to calling the service if cached data is
+    missing or outdated.
+  \item
+    If both attempts fail, the screen transitions into an unrecoverable
+    error state and displays the Generic Error Modal.
+  \item
+    After dismissal, the navigation logic automatically returns the user
+    to the previous page to prevent users from remaining on a
+    non-functional screen.
+  \end{itemize}
+
+\item \textbf{Common Service Integration}
+  
+  The API prepares all required data before launching the Privilege Platform, handling:
+  \begin{itemize}
+  \item \textbf{webViewUrl}: Retrieved dynamically through Manual Configuration, enabling flexible updates to the external Privilege URL.
+  \item \textbf{accessToken}: Generated by connecting to the CPS Service. This token authenticates the customer when accessing the third-party platform.
+  \end{itemize}
+
+\item \textbf{Entry Point \& WebView Launch}
+  \begin{itemize}
+  \item
+    Added a new Privilege button to the Asset Summary page.
+  \item
+    Controlled the button visibility using a Feature Flag (Manual Configuration), allowing business teams to enable or disable the feature as needed.
+  \item
+    When tapped, the application appends the accessToken to the webViewUrl and loads it in the in-app WebView.
+  \end{itemize}
+
+\item \textbf{Edge Case Handling}
+  
+  To ensure reliability, several fallback behaviors were implemented:
+  \begin{itemize}
+  \item \textbf{Service Down}: Displays an Error Modal if the Privilege Platform cannot be reached.
+  \item \textbf{Null Segmentation}: Prevents invalid access and shows a generic error message when segmentation data is missing.
+  \end{itemize}
+
+  These measures ensure stability and protect the user experience across various failure scenarios.
+\end{itemize}
+
+\paragraph{Defect and Quality Improvements}
+
+During development, several technical and UI issues were identified and
+resolved to ensure accurate behavior across the application.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=0.56944in]{report_media/media/image50.png}
+\caption{Jira Defects for Privilege Development}\label{fig:jira-defects-for-privilege-development}
+\end{figure}
+
+\begin{itemize}
+\item \textbf{Privilege Webview (Incorrect behavior)}
+  
+  A defect caused an incorrect error button to appear, and closing the
+  modal redirected users to a blank screen. Fixes included:
+
+  \begin{itemize}
+    \item    Refining the error UI layout
+\item
+  Correcting modal dismissal behavior
+\item
+  Ensuring the WebView closes cleanly
+\item
+  Updating navigation to return users to the correct screen
+\end{itemize}
+\end{itemize}
+
+
+\begin{itemize}
+\item \textbf{Firebase Remote Configuration}
+  
+  QA reported a mismatch where the Privilege button remained visible despite being disabled via Manual Configuration. Resolutions included:
+  \begin{itemize}
+  \item Debugging the Remote Config evaluation flow
+  \item Updating the logic that reads and applies the configuration values
+  \item Ensuring UI elements react instantly and accurately to config updates
+  \end{itemize}
+\end{itemize}
+
+This improvement prevents outdated UI states and ensures consistent
+feature toggling during staging, testing, and rollout.
+
 
 \begin{figure}[H]
 \centering
@@ -3766,8 +3221,14 @@ disrupting the overall application flow.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image42.png}
-\caption{User Interface of Segmentation}\label{fig:user-interface-of-segmentation-167657}
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/9.png}
+\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-167657}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/10.png}
+\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-167657}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3784,12 +3245,112 @@ On the backend, the system retrieves user financial data via BFF APIs
 and calculates the segmentation tier based on predefined business rules.
 The feature ensures accurate and real-time data representation.
 
+\subsubsection{Jira Task \& Problem}
+
+The development of the segmentation feature required coordinated work
+across both frontend and backend services. The tasks involved analyzing
+existing customer data flows, introducing new segmentation logic from
+the core banking system, and updating the user interface to present the
+correct tier. Challenges mainly arose from integrating new data fields,
+ensuring compatibility with existing services, and maintaining UI
+consistency across different customer scenarios.
+
+\paragraph{System Preparation and Technical Understanding}
+
+During the preparation phase, we reviewed the existing architecture of
+the Asset Summary screen and analyzed how customer information was
+retrieved and cached. This included understanding the Customer
+Information Common Service, identifying required model updates, and
+confirming how segmentation data would be injected into the
+LandingAssetBloc. We also validated the end-to-end data path from the
+Core Banking System to the Backend for Frontend layer and finally to the
+Flutter UI. This ensured that adding a new segmentation field would not
+impact existing functionalities.
+
+\paragraph{Core Feature Development}
+
+The core development focused on implementing the new segmentation tier
+into both backend and frontend components.
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=5.29167in]{report_media/media/image85.png}
-\caption{Segmentation Code}
-\label{fig:segmentation-code}
+\includegraphics[width=6.26772in,height=0.61111in]{report_media/media/image9.png}
+\caption{Jira Tasks for Segmentation Feature Development}\label{fig:jira-tasks-for-segmentation-feature-development}
 \end{figure}
+
+\begin{itemize}
+\item \textbf{Frontend Development}
+  \begin{itemize}
+  \item
+    Added a new segmentation card widget to the Asset Summary screen
+  \item
+    Updated the UI layout to highlight tier information such as Wealth,
+    Edge Platinum, Edge Gold, or None
+  \item
+    Set up a dedicated Bloc to manage customer data retrieval, state
+    transitions, and fallback handling
+  \item
+    Integrated Firebase Remote Config to control the visibility of
+    segmentation during rollout
+  \item
+    Implemented reusable UI components such as the tier badge for future
+    use
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Backend Development}
+  \begin{itemize}
+  \item
+    Added a new segmentCode field in the V3 Customer Information API
+  \item
+    Implemented mapping logic to convert raw segmentation values into
+    standardized BFF codes:
+  
+    \begin{itemize}
+    \item
+      KKP to KKPNONE
+    \item
+      EP to KKP\_EDGE\_PLATINUM
+    \item
+      EG to KKP\_EDGE\_GOLD
+    \item
+      WEALTH to KKP\_WEALTH
+    \end{itemize}
+  \item
+    Ensured the API returns segmentation directly to the frontend without
+    additional transformation
+  \item
+    Maintained backward compatibility with existing services
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Defect and Quality Improvements}
+
+During development, several issues and edge cases were resolved to
+ensure stability, accuracy, and smooth user experience.
+
+\begin{itemize}
+\item
+  Missing or null segmentation data now defaults safely to the KKP
+  segment
+\item
+  Improved Bloc state synchronization to ensure consistent updates for
+  customer name, tier, and asset summary
+\item
+  Adjusted UI layout, spacing, and typography to match the design system
+\item
+  Added retry logic for cached customer data retrieval and fallback to
+  network requests when necessary
+\item
+  Enhanced navigation behavior including bottom sheets, deep links, and
+  pull-to-refresh handling
+\end{itemize}
+
+These improvements ensure that the segmentation feature performs
+reliably across different customer types and device conditions while
+delivering a consistent and user-friendly interface.
+
 
 \subsection{Challenges}
 
@@ -3813,8 +3374,41 @@ without displaying incorrect information.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image35.png}
-\caption{User Interface of Better Box}\label{fig:user-interface-of-better-box-169117}
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/14.png}
+
+\caption{User Interface for Better Box Feature (1)}\label{fig:user-interface-for-better-box-feature-1}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/15.png}
+\caption{User Interface for Better Box Feature (2)}\label{fig:user-interface-for-better-box-feature-2}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/16.png}
+\caption{User Interface for Better Box Feature (3)}\label{fig:user-interface-for-better-box-feature-3}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/17.png}
+\caption{User Interface for Better Box Feature (4)}\label{fig:user-interface-for-better-box-feature-4}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/18.png}
+\caption{User Interface for Better Box Feature (5)}\label{fig:user-interface-for-better-box-feature-5}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3830,6 +3424,223 @@ provided within the application to initiate money movement.
 
 On the backend, APIs handle fund transfers, balance updates, and
 transaction validation, ensuring secure and consistent operations.
+
+\subsubsection{Jira Task \& Problem}
+
+The development of the Better Box feature involved a series of tasks
+focused on designing, implementing, and optimizing a flexible fund
+allocation system within the KKP Better application. The goal was to
+create a seamless user experience for managing multiple savings pockets
+and performing bulk transactions efficiently. The Jira tasks covered
+system understanding, feature implementation, and handling complex
+transaction scenarios. The work is summarized as follows:
+
+\paragraph{System Preparation and Technical Understanding}
+
+Before development began, we focused on understanding the existing
+system architecture, especially the integration between frontend modules
+and backend services that support financial transactions. This
+preparation included studying the project structure, API communication
+patterns, and transaction handling flows. Additionally, we reviewed
+Flutter development practices and state management approaches to ensure
+scalability and maintainability when implementing dynamic UI components
+such as multiple boxes, fund allocation flows, and validation.
+
+\paragraph{Core Feature Development}
+
+This feature focused on revamping the money transfer experience to
+support bulk fund allocation and integrating new UI/API specifications.
+This required implementing multiple new screens and updating the
+underlying data models to handle the complexity of multi-destination
+transfers.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image75.png}
+\caption{Jira Tasks for Better Box Development (1)}\label{fig:jira-tasks-for-better-box-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.75in]{report_media/media/image17.png}
+\caption{Jira Tasks for Better Box Development (2)}\label{fig:jira-tasks-for-better-box-development-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.51389in]{report_media/media/image1.png}
+\caption{Jira Tasks for Better Box Development (3)}\label{fig:jira-tasks-for-better-box-development-3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.5in]{report_media/media/image44.png}
+\caption{Jira Tasks for Better Box Development (4)}\label{fig:jira-tasks-for-better-box-development-4}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Bulk Allocation Flow Implementation}
+\end{itemize}
+
+\begin{quote}
+The entire user flow was designed and built to allow for the allocation
+of funds from a single source account to multiple "virtual boxes" in one
+bulk transaction. This foundation included the Pocket Move Money Screen,
+which was developed in alignment with the Figma design and incorporated
+the necessary UI layout, loading states, and fallback cases. A new Bloc
+architecture (event, Bloc, state) was set up to manage the new complex
+transfer flow. A critical component of this screen was robust input
+validation logic, ensuring that the input amount for transfers does not
+exceed the pocket balance, and preventing submission of negative values
+or other sensitive cases.
+\end{quote}
+
+\begin{itemize}
+\item
+  \textbf{Source and Destination of Fund Screens}
+\end{itemize}
+
+\begin{quote}
+Dedicated screens were developed for users to precisely select the
+source savings account and define the target destination boxes. The
+Select Source of Fund Screen was created to limit selection to a single
+source pocket, with internal logic ensuring this source pocket cannot
+simultaneously be selected as a destination. Conversely, the Select
+Destination of Fund Screen allows users to select a single pocket or
+multiple pockets for bulk allocation, while enforcing the constraint
+that the destination(s) must not be the source of funds.
+\end{quote}
+
+\begin{itemize}
+\item
+  \textbf{Review and Confirmation Screens}
+\end{itemize}
+
+\begin{quote}
+The flow culminates with the Review Confirmation Screen, which
+consolidates the total transfer amounts, the source pocket, and all
+destination pockets for final user validation. Users are also provided
+with the ability to add a memo for the transaction before proceeding.
+Following confirmation, the system incorporates the Move Money Lottie
+Loading Screen, a transitional interface featuring animation for a
+smooth processing experience. Finally, the Move Money Success Screen
+displays the detailed information of the successful transaction,
+mirroring the data shown on the review screen, and offers seamless
+navigation back to the pocket details screen or the home screen.
+\end{quote}
+
+\begin{itemize}
+\item
+  \textbf{API Integration and Flexibility}
+\end{itemize}
+
+\begin{quote}
+To technically support this new functionality, the feature model was
+updated and integrated with new backend API specifications specifically
+designed to support the atomic execution of bulk transfers. Furthermore,
+development focused on establishing Multiple Entry Points, ensuring the
+money movement flow could be initiated from various flexible locations
+within the application
+\end{quote}
+
+\paragraph{Defect and Quality Improvements}
+
+In order to, resolving functional and visual defects identified during
+Quality Assurance (QA) and integration testing. These improvements were
+crucial for ensuring the financial integrity, high usability, and
+overall reliability of the bulk allocation feature before release. The
+rigorous defect resolution process reinforced system stability and
+adherence to KKP's stringent security and design standards.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.32813in,height=1.53758in]{report_media/media/image56.png}
+\caption{Jira Defects for Better Box Development (1)}\label{fig:jira-defects-for-better-box-development}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image25.png}
+\caption{Jira Defects for Better Box Development (2)}\label{fig:jira-defects-for-better-box-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=2.79167in]{report_media/media/image83.png}
+\caption{Jira Defects for Better Box Development (3)}\label{fig:jira-defects-for-better-box-development-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image19.png}
+\caption{Jira Defects for Better Box Development (4)}\label{fig:jira-defects-for-better-box-development-3}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Move Money Screen (Critical Logic and Input Validation)}
+
+
+Defects related to the primary fund allocation screen were prioritized
+due to their direct impact on financial accuracy and user trust. Key
+issues involved complex state management and financial precision errors:
+
+\begin{itemize}
+\item
+  \textbf{Inaccurate Sensitive Details}\\
+  Design and implementation was found to be inaccurate in handling
+  sensitive financial details, which required strict hardening of
+  frontend display logic to match high-precision backend calculations.
+\item
+  \textbf{Input State Management Flaws\\
+  }A critical logic defect prevented the "pill amount" input from
+  clearing correctly when the input amount changed. This necessitated an
+  update to the Bloc state management to ensure input fields accurately
+  reflected the current transaction status
+\item
+  \textbf{Missing Transitional Data\\
+  }Transaction-critical data, such as the transaction number, was
+  occasionally missing on the transition screen when the fund transfer
+  was initiated via an extra entry point. This gap in data handling was
+  corrected to ensure end-to-end observability and auditability during
+  the transaction lifecycle.
+\end{itemize}
+\end{itemize}
+
+
+\begin{itemize}
+\item
+  \textbf{Move Money Transaction Screen (UI/UX Consistency and
+  Observability)}Issues identified in the transaction summary and success screens
+primarily centered on maintaining a consistent user experience and
+ensuring adequate logging for debugging:
+
+
+\begin{itemize}
+\item
+  \textbf{Design and Requirement Drift\\
+  }Defects stemmed from discrepancies between the design specifications
+  and the implementation regarding visual elements such as font size,
+  notification bar colors, and wrong screen transitions. These were
+  resolved through iterative refinement to ensure alignment with the
+  final design system.
+\item
+  \textbf{Navigation and Scrolling Defects\\
+  }Inconsistent screen transition behavior and scrolling errors created
+  a non-smooth user experience. The navigation logic was revised to
+  ensure clean flow completion and predictable returns to the previous
+  screen.
+\item
+  \textbf{Missing Automate Tracking IDs\\
+  }A crucial defect involved missing automatic IDs for tracking specific
+  widgets in the screen. This omission impaired the ability to conduct
+  detailed behavioral analytics and audit specific user actions, which
+  was corrected by integrating necessary tracking logic for system
+  transparency.
+\end{itemize}
+\end{itemize}
+
 
 \begin{figure}[H]
 \centering
@@ -3858,11 +3669,49 @@ feedback and system stability is maintained.
 
 \section{Ultimate FCD}
 
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=3.52778in]{report_media/media/image13.png}
-\caption{User Interface of Ultimate FCD}\label{fig:user-interface-of-ultimate-fcd-170642}
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/20.png}
+\caption{User Interface for Ultimate FCD Feature (1)}\label{fig:user-interface-for-ultimate-fcd-feature-1}
 \end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/21.png}
+
+\caption{User Interface for Ultimate FCD Feature (2)}\label{fig:user-interface-for-ultimate-fcd-feature-2}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/22.png}
+
+\caption{User Interface for Ultimate FCD Feature (3)}\label{fig:user-interface-for-ultimate-fcd-feature-3}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/23.png}
+
+\caption{User Interface for Ultimate FCD Feature (4)}\label{fig:user-interface-for-ultimate-fcd-feature-4}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/24.png}
+
+\caption{User Interface for Ultimate FCD Feature (5)}\label{fig:user-interface-for-ultimate-fcd-feature-5}
+\end{figure}
+
 
 \subsection{Technical Implementation}
 
@@ -3878,6 +3727,124 @@ process if interrupted.
 On the backend, the system supports new product types, handles account
 creation, and manages currency-related operations through secure APIs
 and integration with core banking systems.
+
+\subsubsection{Jira Task \& Problem}
+
+The development of the Ultimate FCD feature involved a series of tasks
+focused on designing and implementing a seamless digital account opening
+journey for foreign currency deposits. The goal was to provide a
+user-friendly flow that handles multiple steps such as product
+selection, currency selection, identity verification, and account
+confirmation. The Jira tasks covered system understanding, feature
+implementation, and handling edge cases such as validation errors,
+partial success scenarios, and system failures. The work is summarized
+as follows:
+
+\paragraph{System Preparation and Technical Understanding}
+
+Before development began, we focused on understanding the existing
+system architecture, particularly the services related to account
+opening, customer verification, and currency exchange. This preparation
+included studying API structures, backend workflows, and integration
+points between frontend and backend systems. Additionally, we reviewed
+Flutter development practices and navigation flows to support multi-step
+user journeys, ensuring that the implementation remains scalable,
+maintainable, and consistent with the overall application design.
+
+\paragraph{Core Feature Development}
+
+The core development for the Ultimate FCD feature focused on creating
+two complete user journeys: the seamless digital account opening flow
+for multiple foreign currencies, and a new, enhanced currency exchange
+flow. This work required developing a complex, multi-step sequence of
+screens, handling state persistence for interrupted flows, and
+integrating with multiple backend services for product information and
+transaction execution.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.30349in,height=1.00521in]{report_media/media/image70.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (1)}\label{fig:jira-tasks-for-ultimate-fcd-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.26389in]{report_media/media/image55.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (2)}\label{fig:jira-tasks-for-ultimate-fcd-development-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.51389in]{report_media/media/image22.png}
+
+\caption{Jira Tasks for Ultimate FCD Development (3)}\label{fig:jira-tasks-for-ultimate-fcd-development-3}
+\end{figure}
+
+\begin{itemize}
+\item \textbf{Ultimate FCD Account Opening Flow}
+  \begin{itemize}
+  \item \textbf{Product Shelf Implementation}: Developed the Product Shelf Page and Product Highlight Page to showcase available FCD products, ensuring a clear presentation of the offering.
+  \item \textbf{Multi-Currency Selection}: Built the Select Currency Page to allow users to choose their preferred foreign currency and implemented the Confirm Information Page for final account detail verification.
+  \item \textbf{Identity Verification Integration}: Incorporated mandatory security steps, including the PIN Screen Page and Face Recognition, to verify the user's identity before account creation.
+  \item \textbf{End-to-End Onboarding}: Implemented the full flow, culminating in the Open Account Success and Save Slip screen, which confirms successful account creation.
+  \item \textbf{Resume Capability}: Integrated logic to support resuming the account opening flow via a push notification if the process is interrupted.
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Currency Exchange Feature}
+  \begin{itemize}
+  \item \textbf{Exchange Screens}: Developed the necessary UI/UX for the new exchange feature, including the Buy/Sell Foreign Currency page and the Select FCD Currency Page.
+  \item \textbf{Transaction Flow}: Created the sequence for selecting the source/destination account (Select Account Page), inputting the amount (Input Amount page), and consolidating details on the Review Page.
+  \item \textbf{Transaction Completion}: Built the final Slip page to display the result of the currency exchange transaction.
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{System and Data Alignment}
+  \begin{itemize}
+  \item Integrated with relevant backend APIs, such as the GET /v2/open-account-efcd-product API, to retrieve and validate FCD product data.
+  \item Ensured the system supports the new product type and code, enabling the complete replacement of the legacy e-FCD saving account.
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Defect and Quality Improvements}
+
+During the integration and testing phase, several key defects and
+stability issues were identified and resolved, particularly concerning
+the complexity of the multi-step account opening. These improvements
+were essential for ensuring compliance, data accuracy, and a smooth user
+journey across both primary flows.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=1.76389in]{report_media/media/image27.png}
+\caption{Jira Defects for Ultimate FCD Development (1)}\label{fig:jira-defects-for-ultimate-fcd-development-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=0.25in]{report_media/media/image3.png}
+\caption{Jira Defects for Ultimate FCD Development (2)}\label{fig:jira-defects-for-ultimate-fcd-development-2}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Ultimate FCD Account Opening Flow (Incorrect Behavior)}
+\end{itemize}
+
+\begin{quote}
+A number of critical defects were identified in the user interface and
+underlying logic during integration and testing. Due to the complexity
+of the multi-step flow, initial implementation revealed deficiencies in
+design alignment and core business logic. Additionally, inconsistencies
+were noted in the implementation of transaction logic and error handling
+mechanisms, requiring immediate refinement to ensure proper system
+behavior and reliability.
+\end{quote}
+
 
 \begin{figure}[H]
 \centering

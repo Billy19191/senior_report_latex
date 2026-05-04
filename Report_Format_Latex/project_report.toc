@@ -77,95 +77,95 @@
 \contentsline {subsection}{\numberline {3.3.7}Observability and DevOps}{44}{subsection.3.3.7}%
 \contentsline {section}{\numberline {3.4}Feature Development}{45}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Request Authentication Feature}{46}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}Jira Task \& Problem}{47}{subsubsection.3.4.1.1}%
-\contentsline {paragraph}{\numberline {3.4.1.1.1}System Preparation and Technical Understanding}{47}{paragraph.3.4.1.1.1}%
-\contentsline {paragraph}{\numberline {3.4.1.1.2}Core Feature Development}{47}{paragraph.3.4.1.1.2}%
-\contentsline {paragraph}{\numberline {3.4.1.1.3}Defect and Quality Improvements}{48}{paragraph.3.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}User Flow Diagram}{49}{subsubsection.3.4.1.2}%
-\contentsline {subsection}{\numberline {3.4.2}Tax Planning Feature}{49}{subsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.2.1}Jira Task \& Problem}{51}{subsubsection.3.4.2.1}%
-\contentsline {paragraph}{\numberline {3.4.2.1.1}System Preparation and Technical Understanding}{51}{paragraph.3.4.2.1.1}%
-\contentsline {paragraph}{\numberline {3.4.2.1.2}Core Feature Development}{51}{paragraph.3.4.2.1.2}%
-\contentsline {paragraph}{\numberline {3.4.2.1.3}Defect and Quality Improvements}{52}{paragraph.3.4.2.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.2.2}User Flow Diagram}{53}{subsubsection.3.4.2.2}%
-\contentsline {subsection}{\numberline {3.4.3}Segmentation Feature}{53}{subsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.3.1}Jira Task \& Problem}{54}{subsubsection.3.4.3.1}%
-\contentsline {paragraph}{\numberline {3.4.3.1.1}System Preparation and Technical Understanding}{54}{paragraph.3.4.3.1.1}%
-\contentsline {paragraph}{\numberline {3.4.3.1.2}Core Feature Development}{54}{paragraph.3.4.3.1.2}%
-\contentsline {paragraph}{\numberline {3.4.3.1.3}Defect and Quality Improvements}{55}{paragraph.3.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.3.2}User Flow Diagram}{56}{subsubsection.3.4.3.2}%
-\contentsline {subsubsection}{\numberline {3.4.3.3}Sequence Diagram}{56}{subsubsection.3.4.3.3}%
-\contentsline {subsection}{\numberline {3.4.4}Privilege Feature}{57}{subsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.1}Jira Task \& Problem}{57}{subsubsection.3.4.4.1}%
-\contentsline {paragraph}{\numberline {3.4.4.1.1}System Preparation and Technical Understanding}{58}{paragraph.3.4.4.1.1}%
-\contentsline {paragraph}{\numberline {3.4.4.1.2}Core Feature Development}{58}{paragraph.3.4.4.1.2}%
-\contentsline {paragraph}{\numberline {3.4.4.1.3}Defect and Quality Improvements}{59}{paragraph.3.4.4.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.4.2}User Flow Diagram}{60}{subsubsection.3.4.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.4.3}Sequence Diagram}{61}{subsubsection.3.4.4.3}%
-\contentsline {subsection}{\numberline {3.4.5}Better Box Feature}{61}{subsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.5.1}Jira Task \& Problem}{64}{subsubsection.3.4.5.1}%
-\contentsline {paragraph}{\numberline {3.4.5.1.1}System Preparation and Technical Understanding}{64}{paragraph.3.4.5.1.1}%
-\contentsline {paragraph}{\numberline {3.4.5.1.2}Core Feature Development}{64}{paragraph.3.4.5.1.2}%
-\contentsline {paragraph}{\numberline {3.4.5.1.3}Defect and Quality Improvements}{66}{paragraph.3.4.5.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.5.2}User Flow Diagram}{68}{subsubsection.3.4.5.2}%
-\contentsline {subsubsection}{\numberline {3.4.5.3}Sequence Diagram}{69}{subsubsection.3.4.5.3}%
-\contentsline {subsection}{\numberline {3.4.6}Ultimate FCD Feature}{70}{subsection.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.4.6.1}Jira Task \& Problem}{72}{subsubsection.3.4.6.1}%
-\contentsline {paragraph}{\numberline {3.4.6.1.1}System Preparation and Technical Understanding}{73}{paragraph.3.4.6.1.1}%
-\contentsline {paragraph}{\numberline {3.4.6.1.2}Core Feature Development}{73}{paragraph.3.4.6.1.2}%
-\contentsline {paragraph}{\numberline {3.4.6.1.3}Defect and Quality Improvements}{74}{paragraph.3.4.6.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.6.2}User Flow Diagram}{75}{subsubsection.3.4.6.2}%
-\contentsline {subsubsection}{\numberline {3.4.6.3}Sequence Diagram}{77}{subsubsection.3.4.6.3}%
-\contentsline {section}{\numberline {3.5}Security Design}{78}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Risk-Based Authentication (RBA)}{78}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Multi-Factor Authentication (MFA)}{78}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Input Validation}{78}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Encryption in Transit (HTTPS)}{79}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Token-Based Authentication (JWT)}{79}{subsection.3.5.5}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {4.}\hskip -0.5em IMPLEMENTATION AND RESULT}}}{80}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Team Structure}{80}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Working Process}{80}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Development Process}{81}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Production Application}{82}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Request Authentication}{84}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Technical Implementation}{84}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Challenges}{85}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Solutions}{85}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Tax Planning}{86}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Technical Implementation}{86}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Challenges}{87}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Solutions}{87}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Privilege}{88}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Technical Implementation}{88}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Challenges}{89}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Solutions}{89}{subsection.4.7.3}%
-\contentsline {section}{\numberline {4.8}Segmentation}{90}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Technical Implementation}{90}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Challenges}{91}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Solutions}{91}{subsection.4.8.3}%
-\contentsline {section}{\numberline {4.9}Better Box}{92}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Technical Implementation}{92}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}Challenges}{93}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}Solutions}{93}{subsection.4.9.3}%
-\contentsline {section}{\numberline {4.10}Ultimate FCD}{94}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Technical Implementation}{94}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}Challenges}{95}{subsection.4.10.2}%
-\contentsline {subsection}{\numberline {4.10.3}Solutions}{95}{subsection.4.10.3}%
-\contentsline {section}{\numberline {4.11}Application Metric}{95}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}Summary Metrics (Top Section)}{96}{subsection.4.11.1}%
-\contentsline {subsection}{\numberline {4.11.2}Filter and Time Controls}{96}{subsection.4.11.2}%
-\contentsline {subsection}{\numberline {4.11.3}Daily New Users (Line Chart)}{96}{subsection.4.11.3}%
-\contentsline {subsection}{\numberline {4.11.4}Daily Active Users (DAU)}{97}{subsection.4.11.4}%
-\contentsline {subsection}{\numberline {4.11.5}Daily Active Users Ratio}{97}{subsection.4.11.5}%
-\contentsline {subsection}{\numberline {4.11.6}Monthly Section}{97}{subsection.4.11.6}%
-\contentsline {subsection}{\numberline {4.11.7}Analysis}{97}{subsection.4.11.7}%
-\contentsline {section}{\numberline {4.12}Testing of the Implementation}{98}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Achievement of the System}{100}{section.4.13}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {5.}\hskip -0.5em CONCLUSION}}}{102}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{102}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Key Achievement}{102}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Discussion of Problems and Solutions}{102}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Lessons Learned}{103}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Limitation}{103}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Future Refinements}{103}{section.5.6}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{References}}{104}{section.5.6}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}User Flow Diagram}{46}{subsubsection.3.4.1.1}%
+\contentsline {subsection}{\numberline {3.4.2}Tax Planning Feature}{47}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}User Flow Diagram}{47}{subsubsection.3.4.2.1}%
+\contentsline {subsection}{\numberline {3.4.3}Segmentation Feature}{47}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}User Flow Diagram}{48}{subsubsection.3.4.3.1}%
+\contentsline {subsubsection}{\numberline {3.4.3.2}Sequence Diagram}{49}{subsubsection.3.4.3.2}%
+\contentsline {subsection}{\numberline {3.4.4}Privilege Feature}{49}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}User Flow Diagram}{50}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Sequence Diagram}{51}{subsubsection.3.4.4.2}%
+\contentsline {subsection}{\numberline {3.4.5}Better Box Feature}{51}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}User Flow Diagram}{52}{subsubsection.3.4.5.1}%
+\contentsline {subsubsection}{\numberline {3.4.5.2}Sequence Diagram}{53}{subsubsection.3.4.5.2}%
+\contentsline {subsection}{\numberline {3.4.6}Ultimate FCD Feature}{54}{subsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.6.1}User Flow Diagram}{54}{subsubsection.3.4.6.1}%
+\contentsline {subsubsection}{\numberline {3.4.6.2}Sequence Diagram}{56}{subsubsection.3.4.6.2}%
+\contentsline {section}{\numberline {3.5}Security Design}{57}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Risk-Based Authentication (RBA)}{57}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Multi-Factor Authentication (MFA)}{57}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Input Validation}{57}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Encryption in Transit (HTTPS)}{58}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Token-Based Authentication (JWT)}{58}{subsection.3.5.5}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {4.}\hskip -0.5em IMPLEMENTATION AND RESULT}}}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Team Structure}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Working Process}{59}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Development Process}{60}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Production Application}{61}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Request Authentication}{63}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Technical Implementation}{63}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Jira Task \& Problem}{64}{subsubsection.4.5.1.1}%
+\contentsline {paragraph}{\numberline {4.5.1.1.1}System Preparation and Technical Understanding}{64}{paragraph.4.5.1.1.1}%
+\contentsline {paragraph}{\numberline {4.5.1.1.2}Core Feature Development}{64}{paragraph.4.5.1.1.2}%
+\contentsline {paragraph}{\numberline {4.5.1.1.3}Defect and Quality Improvements}{65}{paragraph.4.5.1.1.3}%
+\contentsline {subsection}{\numberline {4.5.2}Challenges}{66}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Solutions}{66}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Tax Planning}{67}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Technical Implementation}{68}{subsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.1.1}Jira Task \& Problem}{68}{subsubsection.4.6.1.1}%
+\contentsline {paragraph}{\numberline {4.6.1.1.1}System Preparation and Technical Understanding}{68}{paragraph.4.6.1.1.1}%
+\contentsline {paragraph}{\numberline {4.6.1.1.2}Core Feature Development}{69}{paragraph.4.6.1.1.2}%
+\contentsline {paragraph}{\numberline {4.6.1.1.3}Defect and Quality Improvements}{69}{paragraph.4.6.1.1.3}%
+\contentsline {subsection}{\numberline {4.6.2}Challenges}{71}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Solutions}{71}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Privilege}{72}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Technical Implementation}{72}{subsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.1.1}Jira Task \& Problem}{72}{subsubsection.4.7.1.1}%
+\contentsline {paragraph}{\numberline {4.7.1.1.1}System Preparation and Technical Understanding}{72}{paragraph.4.7.1.1.1}%
+\contentsline {paragraph}{\numberline {4.7.1.1.2}Core Feature Development}{73}{paragraph.4.7.1.1.2}%
+\contentsline {paragraph}{\numberline {4.7.1.1.3}Defect and Quality Improvements}{74}{paragraph.4.7.1.1.3}%
+\contentsline {subsection}{\numberline {4.7.2}Challenges}{75}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Solutions}{75}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}Segmentation}{76}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Technical Implementation}{76}{subsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}Jira Task \& Problem}{77}{subsubsection.4.8.1.1}%
+\contentsline {paragraph}{\numberline {4.8.1.1.1}System Preparation and Technical Understanding}{77}{paragraph.4.8.1.1.1}%
+\contentsline {paragraph}{\numberline {4.8.1.1.2}Core Feature Development}{77}{paragraph.4.8.1.1.2}%
+\contentsline {paragraph}{\numberline {4.8.1.1.3}Defect and Quality Improvements}{78}{paragraph.4.8.1.1.3}%
+\contentsline {subsection}{\numberline {4.8.2}Challenges}{78}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Solutions}{78}{subsection.4.8.3}%
+\contentsline {section}{\numberline {4.9}Better Box}{79}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Technical Implementation}{81}{subsection.4.9.1}%
+\contentsline {subsubsection}{\numberline {4.9.1.1}Jira Task \& Problem}{81}{subsubsection.4.9.1.1}%
+\contentsline {paragraph}{\numberline {4.9.1.1.1}System Preparation and Technical Understanding}{81}{paragraph.4.9.1.1.1}%
+\contentsline {paragraph}{\numberline {4.9.1.1.2}Core Feature Development}{81}{paragraph.4.9.1.1.2}%
+\contentsline {paragraph}{\numberline {4.9.1.1.3}Defect and Quality Improvements}{83}{paragraph.4.9.1.1.3}%
+\contentsline {subsection}{\numberline {4.9.2}Challenges}{86}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Solutions}{86}{subsection.4.9.3}%
+\contentsline {section}{\numberline {4.10}Ultimate FCD}{87}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Technical Implementation}{89}{subsection.4.10.1}%
+\contentsline {subsubsection}{\numberline {4.10.1.1}Jira Task \& Problem}{89}{subsubsection.4.10.1.1}%
+\contentsline {paragraph}{\numberline {4.10.1.1.1}System Preparation and Technical Understanding}{89}{paragraph.4.10.1.1.1}%
+\contentsline {paragraph}{\numberline {4.10.1.1.2}Core Feature Development}{89}{paragraph.4.10.1.1.2}%
+\contentsline {paragraph}{\numberline {4.10.1.1.3}Defect and Quality Improvements}{91}{paragraph.4.10.1.1.3}%
+\contentsline {subsection}{\numberline {4.10.2}Challenges}{92}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Solutions}{92}{subsection.4.10.3}%
+\contentsline {section}{\numberline {4.11}Application Metric}{92}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Summary Metrics (Top Section)}{93}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Filter and Time Controls}{93}{subsection.4.11.2}%
+\contentsline {subsection}{\numberline {4.11.3}Daily New Users (Line Chart)}{93}{subsection.4.11.3}%
+\contentsline {subsection}{\numberline {4.11.4}Daily Active Users (DAU)}{94}{subsection.4.11.4}%
+\contentsline {subsection}{\numberline {4.11.5}Daily Active Users Ratio}{94}{subsection.4.11.5}%
+\contentsline {subsection}{\numberline {4.11.6}Monthly Section}{94}{subsection.4.11.6}%
+\contentsline {subsection}{\numberline {4.11.7}Analysis}{94}{subsection.4.11.7}%
+\contentsline {section}{\numberline {4.12}Testing of the Implementation}{95}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Achievement of the System}{97}{section.4.13}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {5.}\hskip -0.5em CONCLUSION}}}{99}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{99}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Key Achievement}{99}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Discussion of Problems and Solutions}{99}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Lessons Learned}{100}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Limitation}{100}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Future Refinements}{100}{section.5.6}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{References}}{101}{section.5.6}%
