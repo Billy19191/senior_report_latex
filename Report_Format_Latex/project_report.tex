@@ -1741,7 +1741,7 @@ the client application to legacy banking integrations.
 
 \subsection{Fronted Architecture (Mobile Application)}
 
-The client layer consists of the mobile application developed using
+From the Figure~\ref{fig:kkp-better-system-architecture}, the client layer consists of the mobile application developed using
 Flutter, allowing for a single codebase to support both iOS and Android
 platforms. The project structure follows a Modular Architecture,
 separating features into distinct modules to enhance maintainability and
@@ -1916,7 +1916,7 @@ To ensure system reliability and rapid delivery:
   insights, while Grafana visualizes operational metrics.
 \item
   \textbf{Logging:} Elastic and Kibana aggregates logs for security
-  auditing and incident analysis.
+  auditing and incident analysis, as shown in Figures~\ref{fig:example-user-interface-of-elastic-logging} and~\ref{fig:example-user-interface-of-kibana-logging}.
 \end{itemize}
 
 \begin{figure}[H]
@@ -1941,7 +1941,7 @@ To ensure system reliability and rapid delivery:
 \item
   \textbf{CI/CD:} Automated pipeline using Jenkins handles building,
   testing, security scanning and deployment for both mobile app and
-  backend services.
+  backend services, as shown in Figure~\ref{fig:example-user-interface-of-jenkins-cicd}.
 \end{itemize}
 
 \begin{figure}[H]
@@ -1988,7 +1988,7 @@ significantly mitigates the risk of unauthorized actions.
 
 
 
-The flow begins when the user lands on the Home Screen. From here, the
+From the Figure~\ref{fig:user-flow-diagram-for-request-authentication}, the flow begins when the user lands on the Home Screen. From here, the
 user can choose to open either the Notification Box or the All Services
 menu. These two actions branch into separate flows but share similar
 session-validation behavior.
@@ -2043,7 +2043,7 @@ fully responsible for developing and completing all components of flow
 
 
 
-The flow begins at the entry point of Flow C, where the system first
+From the Figure~\ref{fig:user-flow-diagram-for-tax-planning}, the flow begins at the entry point of Flow C, where the system first
 displays a Loading Screen to prepare the necessary data before
 proceeding. Once loading is complete, the user is taken to the Tax Rate
 Summary Screen, which presents relevant tax rate information. From
@@ -2084,7 +2084,7 @@ Kiatnakin Phatra Financial Group (KKPFG) entities.
 
 
 
-This diagram shows a simple decision flow that determines where the user
+From the Figure~\ref{fig:user-flow-diagram-for-segmentation-feature}, this diagram shows a simple decision flow that determines where the user
 should go after starting from the Home Screen. The flow begins when the user is on the Home Screen. Before allowing
 access to the next feature, the system checks whether the user currently
 has an active session. If the session exists, the user is allowed to
@@ -2100,7 +2100,7 @@ their identity before continuing.
 \caption{Sequence Diagram of customer-information}\label{fig:sequence-diagram-of-customerinformation}
 \end{figure}
 
-The sequence diagram illustrates the workflow of the GET
+From the Figure~\ref{fig:sequence-diagram-of-customerinformation}, the sequence diagram illustrates the workflow of the GET
 customer-information API, which retrieves a customer's profile and
 segmentation data for display on the Asset Summary screen. When the user
 accesses the page, the KKP Mobile application triggers the API request
@@ -2136,7 +2136,7 @@ data exchange between the banking system and the external platform
 \caption{User Flow Diagram for Privilege Feature}\label{fig:user-flow-diagram-for-privilege-feature}
 \end{figure}
 
-This flow describes how the app handles navigation to a third-party
+From the Figure~\ref{fig:user-flow-diagram-for-privilege-feature}, this flow describes how the app handles navigation to a third-party
 privilege webview, depending on where the user starts and whether a
 valid session exists.
 
@@ -2163,7 +2163,7 @@ through the PIN Screen before being allowed to continue.
 \caption{Sequence Diagram of customer-privilege-session}\label{fig:sequence-diagram-of-customerprivilegesession}
 \end{figure}
 
-The sequence diagram illustrates how the GET /customer-privilege-session
+From the Figure~\ref{fig:sequence-diagram-of-customerprivilegesession}, the sequence diagram illustrates how the GET /customer-privilege-session
 API prepares all required data for launching the Privilege WebView in
 the KKP Mobile application. The process involves four main system
 components: KKP Mobile(client app), RIB Main Service (backend gateway),
@@ -2200,7 +2200,7 @@ control over how their money is distributed.
 \caption{User Flow Diagram for Better Box Feature}\label{fig:user-flow-diagram-for-better-box-feature}
 \end{figure}
 
-This flow describes how users interact with the Better Box feature, from
+From the Figure~\ref{fig:user-flow-diagram-for-better-box-feature}, this flow describes how users interact with the Better Box feature, from
 accessing the feature to allocating funds into selected boxes.
 
 The journey begins at the Home Screen, where the user can navigate to
@@ -2231,7 +2231,7 @@ without selecting any destination box.
 \caption{Sequence Diagram of eligible-pocket}\label{fig:sequence-diagram-of-eligible-pocket}
 \end{figure}
 
-The sequence diagram illustrates how the GET /v1/eligible-pocket API
+From the Figure~\ref{fig:sequence-diagram-of-eligible-pocket}, the sequence diagram illustrates how the GET /v1/eligible-pocket API
 retrieves and validates eligible pocket data for use in the Better Box
 feature within the KKP Better application. The process involves multiple
 system components: KKP Better (client application), RIB Pocket Service
@@ -2283,7 +2283,7 @@ compliance with banking regulations and security standards.
 \caption{User Flow Diagram for Ultimate FCD Feature (Open Account)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-open-account}
 \end{figure}
 
-This flow describes the process of opening a Foreign Currency Deposit
+From the Figure~\ref{fig:user-flow-diagram-for-ultimate-fcd-feature-open-account}, this flow describes the process of opening a Foreign Currency Deposit
 (FCD) account through the Ultimate FCD feature, guiding users from
 product selection to successful account creation.
 
@@ -2312,7 +2312,7 @@ Screen.
 \caption{User Flow Diagram for Ultimate FCD Feature (Exchange)}\label{fig:user-flow-diagram-for-ultimate-fcd-feature-exchange}
 \end{figure}
 
-This flow describes the process of performing a foreign currency
+From the Figure~\ref{fig:user-flow-diagram-for-ultimate-fcd-feature-exchange}, this flow describes the process of performing a foreign currency
 exchange through the Ultimate FCD feature, guiding users from entry to
 transaction completion.
 
@@ -2343,7 +2343,7 @@ exchange flow.
 \caption{Sequence Diagram of open-account-efcd-product}\label{fig:sequence-diagram-of-open-account-efcd-product}
 \end{figure}
 
-The GET /v2/open-account-efcd-product API is responsible for preparing
+From the Figure~\ref{fig:sequence-diagram-of-open-account-efcd-product}, the GET /v2/open-account-efcd-product API is responsible for preparing
 and returning the list of available Foreign Currency Deposit (FCD)
 products for the account opening flow. The process starts when KKP
 Mobile sends a request to the RIB Open Account Service, which first
@@ -2648,21 +2648,9 @@ compliance, and reliable distribution to end-users.
   
   The frontend application is released separately to the public application stores:
 
-  \begin{figure}[H]
-  \centering
-  \includegraphics[width=5.79688in,height=3.62064in]{report_media/media/image53.png}
-  \caption{KKP Better On Google Play}\label{fig:kkp-better-on-google-play}
-  \end{figure}
-
-  \begin{figure}[H]
-  \centering
-  \includegraphics[width=5.70332in,height=4.36749in]{report_media/media/image96.png}
-  \caption{KKP Better On App Store}\label{fig:kkp-better-on-app-store}
-  \end{figure}
-
   \begin{itemize}
-  \item \textbf{Android}: Production builds are distributed through Firebase App Distribution, leading to the final release on the Google Play Store.
-  \item \textbf{iOS}: Production builds are submitted via Apple TestFlight for secure external beta testing before the official release on the Apple App Store.
+  \item \textbf{Android}: Production builds are distributed through Firebase App Distribution, leading to the final release on the Google Play Store (Figure~\ref{fig:kkp-better-on-google-play}).
+  \item \textbf{iOS}: Production builds are submitted via Apple TestFlight for secure external beta testing before the official release on the Apple App Store (Figure~\ref{fig:kkp-better-on-app-store}).
   \end{itemize}
 \end{itemize}
 
@@ -2681,6 +2669,18 @@ scans, create final container images, and manage deployment to the
 designated cluster.
 
 \end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=5.79688in,height=3.62064in]{report_media/media/image53.png}
+  \caption{KKP Better On Google Play}\label{fig:kkp-better-on-google-play}
+  \end{figure}
+
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=5.70332in,height=4.36749in]{report_media/media/image96.png}
+  \caption{KKP Better On App Store}\label{fig:kkp-better-on-app-store}
+  \end{figure}
 
 \section{Request Authentication}
 
