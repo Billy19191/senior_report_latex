@@ -42,10 +42,21 @@ Microsoft,  n.d.,
   \url{https://code.visualstudio.com/docs/getstarted/userinterface}, [Online;
   accessed September 18, 2025].
 
+\bibitem{donovan2016go}
+A.~A. Donovan and B.~W. Kernighan,
+\newblock  2016, {\bf The Go Programming Language},
+\newblock Addison-Wesley.
+
 \bibitem{go_doc}
 {Go Team},  2024,
 \newblock ``Go language documentation,'' Available at
   \url{https://go.dev/doc/}, [Online; accessed September 18, 2025].
+
+\bibitem{bogotobogo_go_web}
+BogoToBogo,  n.d.,
+\newblock ``Go web programming,'' Available at
+  \url{https://www.bogotobogo.com/GoLang/GoLang_Web.php}, [Online; accessed
+  September 18, 2025].
 
 \bibitem{google2024flutter_overview}
 Google,  2024a,
@@ -177,6 +188,12 @@ C.~Richardson,
 Spring,  n.d.,
 \newblock ``Microservices,'' Available at
   \url{https://spring.io/microservices}, [Online; accessed September 18, 2025].
+
+\bibitem{cloudflare2025waf_overview}
+Cloudflare,  2025a,
+\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
+  \url{https://developers.cloudflare.com/waf/}, [Online; accessed September 18,
+  2025].
 
 \bibitem{cloudflare2025waf_getstarted}
 Cloudflare,  2025b,
@@ -444,23 +461,6 @@ Techsauce,  n.d.,
 \newblock ``Krungsri digital platform milestone,'' Available at
   \url{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users},
   [Online; accessed September 18, 2025].
-
-\bibitem{bogotobogo_go_web}
-BogoToBogo,  n.d.,
-\newblock ``Go web programming,'' Available at
-  \url{https://www.bogotobogo.com/GoLang/GoLang_Web.php}, [Online; accessed
-  September 18, 2025].
-
-\bibitem{donovan2016go}
-A.~A. Donovan and B.~W. Kernighan,
-\newblock  2016, {\bf The Go Programming Language},
-\newblock Addison-Wesley.
-
-\bibitem{cloudflare2025waf_overview}
-Cloudflare,  2025a,
-\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
-  \url{https://developers.cloudflare.com/waf/}, [Online; accessed September 18,
-  2025].
 
 \bibitem{postman2024}
 Postman,  2024b,
