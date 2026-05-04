@@ -2706,7 +2706,7 @@ backend systems.
 
 On the frontend, the mobile application built with Flutter provides a
 structured user flow where users can view request details and choose to
-approve or reject the request. Authentication is performed using
+approve or reject the request (Figures \ref{fig:user-interface-for-request-authentication-feature-1} and \ref{fig:user-interface-for-request-authentication-feature-2}). Authentication is performed using
 multi-factor methods, primarily PIN and optional biometric verification,
 ensuring strong user identity validation.
 
@@ -2732,7 +2732,7 @@ maintainability throughout the feature development.
 
 The Request Authentication feature consists of multiple connected
 screens and flows. Each part was developed to ensure a complete and
-seamless user experience:
+seamless user experience (Figure \ref{fig:jira-tasks-for-request-authentication-development-1})
 
 \begin{figure}[H]
 \centering
@@ -2776,13 +2776,13 @@ seamless user experience:
 
 After completing the core development, we focused on improving
 reliability, fixing defects, and ensuring correct system behavior across
-all scenarios. Key improvements included:
+all scenarios. Key improvements included (Figure \ref{fig:jira-bugs-for-request-authentication}):
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=1.04167in]{report_media/media/image68.png}
 
-\caption{Jira Tasks for Request Authentication Development (2)}\label{fig:jira-tasks-for-request-authentication-development-2}
+\caption{Jira Bugs for Request Authentication}\label{fig:jira-bugs-for-request-authentication}
 \end{figure}
 
 
@@ -2811,7 +2811,7 @@ transactions.
 Additionally, fallback mechanisms are implemented to handle failures
 such as incorrect PIN input, session expiration, or service
 unavailability, ensuring a smooth and continuous user
-experience.
+experience (Figure \ref{fig:request-authentication-code}).
 
 \begin{figure}[H]
 \centering
@@ -2871,7 +2871,7 @@ securely.
 The Tax Planning feature is developed to help users forecast, optimize,
 and manage their taxes through guided and interactive user flows. The
 system integrates financial data and tax rules to provide personalized
-recommendations.
+recommendations (Figure \ref{fig:user-interface-for-tax-planning-feature-1}, \ref{fig:user-interface-for-tax-planning-feature-2}, and \ref{fig:user-interface-for-tax-planning-feature-3}).
 
 On the frontend, Flutter is used to create dynamic and user-friendly
 interfaces that guide users through different tax scenarios. The UI
@@ -2910,7 +2910,7 @@ consistently and accurately.
 
 The main development work involved building all essential screens and
 interactions that form the core experience of Flow C. The tasks
-included:
+included (Figure \ref{fig:jira-tasks-for-tax-planning-development}):
 
 \begin{figure}[H]
 \centering
@@ -2945,21 +2945,21 @@ complete, user-friendly tax result experience.
 
 During integration with other tax planning flows, several issues were
 identified, requiring focused debugging and refinement to ensure full
-system stability:
+system stability (Figure \ref{fig:jira-defects-for-tax-planning-development}):
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=0.31944in]{report_media/media/image30.png}
 \includegraphics[width=6.26772in,height=2.08333in]{report_media/media/image59.png}
 \includegraphics[width=6.26772in,height=1.54167in]{report_media/media/image54.png}
-\caption{Jira Defects for Tax Planning Development}\label{fig:jira-defects-for-tax-planning-development}
+\caption{Jira Defects for Tax Planning}\label{fig:jira-defects-for-tax-planning-development}
 \end{figure}
 
 \begin{itemize}
 \item
   \textbf{Fixes for the Tax Rate Summary Screen}
   Corrected display inaccuracies, adjusted summary logic, and ensured
-  tax brackets rendered correctly across all scenarios.
+  tax brackets rendered correctly across all scenarios (Figure \ref{fig:tax-planning-code}).
 \item
   \textbf{Result Landing Screen Corrections}
   Resolved issues involving navigation inconsistencies, data
@@ -3031,7 +3031,7 @@ responsiveness.
 The Privilege feature is developed to allow users to view and manage
 their reward points, as well as access exclusive benefits based on their
 customer tier. The system integrates with the Privilege Platform through
-secure APIs to retrieve user point balances and available rewards.
+secure APIs to retrieve user point balances and available rewards (Figure \ref{fig:user-interface-for-privilege-feature}).
 
 On the frontend, Flutter is used to provide multiple entry points to the
 feature, such as from the Asset Summary page and the All Services
@@ -3148,12 +3148,12 @@ page.
 \paragraph{Defect and Quality Improvements}
 
 During development, several technical and UI issues were identified and
-resolved to ensure accurate behavior across the application.
+resolved to ensure accurate behavior across the application (Figure \ref{fig:jira-defects-for-privilege-development}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5in,height=0.56944in]{report_media/media/image50.png}
-\caption{Jira Defects for Privilege Development}\label{fig:jira-defects-for-privilege-development}
+\caption{Jira Defects for Privilege}\label{fig:jira-defects-for-privilege-development}
 \end{figure}
 
 \begin{itemize}
@@ -3185,7 +3185,7 @@ resolved to ensure accurate behavior across the application.
   \end{itemize}
 \end{itemize}
 
-This improvement prevents outdated UI states and ensures consistent
+This improvement prevents outdated UI states (Figure \ref{fig:privilege-code}) and ensures consistent
 feature toggling during staging, testing, and rollout.
 
 
@@ -3228,13 +3228,13 @@ disrupting the overall application flow.
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/10.png}
-\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-167657}
+\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-tier}
 \end{figure}
 
 \subsection{Technical Implementation}
 
 The Segmentation feature is designed to classify users into different
-tiers based on their total financial assets, including savings and
+tiers based on their total financial assets (Figure \ref{fig:user-interface-of-segmentation-167657} and \ref{fig:user-interface-of-segmentation-tier}), including savings and
 investments across KKP Financial Group.
 
 The frontend displays the user's tier on the Asset Summary screen,
@@ -3270,7 +3270,7 @@ impact existing functionalities.
 \paragraph{Core Feature Development}
 
 The core development focused on implementing the new segmentation tier
-into both backend and frontend components.
+into both backend and frontend components (Figure \ref{fig:jira-tasks-for-segmentation-feature-development}).
 
 \begin{figure}[H]
 \centering
@@ -3416,7 +3416,7 @@ without displaying incorrect information.
 The Better Box feature enhances the savings experience by allowing users
 to divide their funds into multiple virtual pockets within a single
 account. This enables users to manage their finances more effectively
-without opening multiple accounts.
+without opening multiple accounts (Figure \ref{fig:user-interface-for-better-box-feature-1}, \ref{fig:user-interface-for-better-box-feature-2}, \ref{fig:user-interface-for-better-box-feature-3}, \ref{fig:user-interface-for-better-box-feature-4}, and \ref{fig:user-interface-for-better-box-feature-5}).
 
 The system supports bulk allocation, allowing users to transfer funds to
 multiple pockets in a single transaction. Multiple entry points are also
@@ -3433,7 +3433,7 @@ allocation system within the KKP Better application. The goal was to
 create a seamless user experience for managing multiple savings pockets
 and performing bulk transactions efficiently. The Jira tasks covered
 system understanding, feature implementation, and handling complex
-transaction scenarios. The work is summarized as follows:
+transaction scenarios. The work is summarized as follows (Figure \ref{fig:jira-tasks-for-better-box-development-1}, \ref{fig:jira-tasks-for-better-box-development-2}, \ref{fig:jira-tasks-for-better-box-development-3}, and \ref{fig:jira-tasks-for-better-box-development-4}):
 
 \paragraph{System Preparation and Technical Understanding}
 
@@ -3442,7 +3442,7 @@ system architecture, especially the integration between frontend modules
 and backend services that support financial transactions. This
 preparation included studying the project structure, API communication
 patterns, and transaction handling flows. Additionally, we reviewed
-Flutter development practices and state management approaches to ensure
+Flutter development practices (Figure \ref{fig:better-box-code}) and state management approaches to ensure
 scalability and maintainability when implementing dynamic UI components
 such as multiple boxes, fund allocation flows, and validation.
 
@@ -3551,30 +3551,30 @@ Quality Assurance (QA) and integration testing. These improvements were
 crucial for ensuring the financial integrity, high usability, and
 overall reliability of the bulk allocation feature before release. The
 rigorous defect resolution process reinforced system stability and
-adherence to KKP's stringent security and design standards.
+adherence to KKP's stringent security and design standards (Figure \ref{fig:jira-defects-for-better-box-development}, \ref{fig:jira-defects-for-better-box-development-1}, \ref{fig:jira-defects-for-better-box-development-2}, and \ref{fig:jira-defects-for-better-box-development-3}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.32813in,height=1.53758in]{report_media/media/image56.png}
-\caption{Jira Defects for Better Box Development (1)}\label{fig:jira-defects-for-better-box-development}
+\caption{Jira Bugs for Better Box (1)}\label{fig:jira-defects-for-better-box-development}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image25.png}
-\caption{Jira Defects for Better Box Development (2)}\label{fig:jira-defects-for-better-box-development-1}
+\caption{Jira Bugs for Better Box (2)}\label{fig:jira-defects-for-better-box-development-1}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=2.79167in]{report_media/media/image83.png}
-\caption{Jira Defects for Better Box Development (3)}\label{fig:jira-defects-for-better-box-development-2}
+\caption{Jira Bugs for Better Box (3)}\label{fig:jira-defects-for-better-box-development-2}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=1.77778in]{report_media/media/image19.png}
-\caption{Jira Defects for Better Box Development (4)}\label{fig:jira-defects-for-better-box-development-3}
+\caption{Jira Bugs for Better Box (4)}\label{fig:jira-defects-for-better-box-development-3}
 \end{figure}
 
 \begin{itemize}
@@ -3720,7 +3720,7 @@ account, allowing users to open and manage multiple foreign currency
 accounts directly within the application.
 
 The frontend provides a complete account opening flow, including product
-display, selection, and confirmation. It also supports a resume
+display, selection, and confirmation (Figure \ref{fig:user-interface-for-ultimate-fcd-feature-1}, \ref{fig:user-interface-for-ultimate-fcd-feature-2}, \ref{fig:user-interface-for-ultimate-fcd-feature-3}, \ref{fig:user-interface-for-ultimate-fcd-feature-4}, and \ref{fig:user-interface-for-ultimate-fcd-feature-5}). It also supports a resume
 capability via push notifications, enabling users to continue the
 process if interrupted.
 
@@ -3730,7 +3730,7 @@ and integration with core banking systems.
 
 \subsubsection{Jira Task \& Problem}
 
-The development of the Ultimate FCD feature involved a series of tasks
+The development of the Ultimate FCD feature involved a series of tasks (Figure \ref{fig:jira-tasks-for-ultimate-fcd-development-1}, \ref{fig:jira-tasks-for-ultimate-fcd-development-2}, and \ref{fig:jira-tasks-for-ultimate-fcd-development-3})
 focused on designing and implementing a seamless digital account opening
 journey for foreign currency deposits. The goal was to provide a
 user-friendly flow that handles multiple steps such as product
@@ -3814,20 +3814,15 @@ transaction execution.
 
 During the integration and testing phase, several key defects and
 stability issues were identified and resolved, particularly concerning
-the complexity of the multi-step account opening. These improvements
+the complexity of the multi-step account opening (Figure \ref{fig:jira-defects-for-ultimate-fcd}). These improvements
 were essential for ensuring compliance, data accuracy, and a smooth user
 journey across both primary flows.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=1.76389in]{report_media/media/image27.png}
-\caption{Jira Defects for Ultimate FCD Development (1)}\label{fig:jira-defects-for-ultimate-fcd-development-1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
 \includegraphics[width=6.26772in,height=0.25in]{report_media/media/image3.png}
-\caption{Jira Defects for Ultimate FCD Development (2)}\label{fig:jira-defects-for-ultimate-fcd-development-2}
+\caption{Jira Bugs for Ultimate FCD}\label{fig:jira-defects-for-ultimate-fcd}
 \end{figure}
 
 \begin{itemize}
@@ -3839,7 +3834,7 @@ journey across both primary flows.
 A number of critical defects were identified in the user interface and
 underlying logic during integration and testing. Due to the complexity
 of the multi-step flow, initial implementation revealed deficiencies in
-design alignment and core business logic. Additionally, inconsistencies
+design alignment and core business logic (Figure \ref{fig:ultimate-fcd-code}). Additionally, inconsistencies
 were noted in the implementation of transaction logic and error handling
 mechanisms, requiring immediate refinement to ensure proper system
 behavior and reliability.
@@ -3872,7 +3867,7 @@ multi-currency operations.
 
 \section{Application Metric}
 
-The Application Metric Overview dashboard provides a comprehensive view
+The Application Metric Overview dashboard (Figure \ref{fig:application-metric-overview}) provides a comprehensive view
 of application usage and performance. It enables both technical and
 business teams to monitor user behavior, track growth trends, and
 evaluate system engagement in real time. By combining high-level summary
@@ -4012,7 +4007,7 @@ feature optimization, and strategic user engagement initiatives.
 
 \section{Testing of the Implementation}
 To ensure system correctness and reliability, testing was conducted
-at multiple levels, including unit testing, integration testing, and
+at multiple levels, including unit testing (Figure \ref{fig:unit-test-code-example}), integration testing, and
 functional testing. The primary goal of this phase is to validate that
 each component works as expected under both normal and edge-case
 conditions.
@@ -4026,7 +4021,7 @@ scenarios, ensuring that individual components function correctly in
 isolation.
 The effectiveness of the unit testing process is reflected in the code
 coverage reports. The Deposit Module achieved a high line coverage of
-95.5\%, while the Financial Planning Module reached 100\% coverage,
+95.5\% (Figure \ref{fig:unit-test-deposit}), while the Financial Planning Module reached 100\% coverage (Figure \ref{fig:unit-test-financial}),
 indicating that most critical logic paths and edge cases are
 thoroughly tested.
 

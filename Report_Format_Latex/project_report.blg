@@ -7,11 +7,13 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: string.bib
 Database file #2: cpe.bib
+Warning--I didn't find a database entry for "donovan2016goo"
 Warning--I didn't find a database entry for "bogotobogo_golang"
 Warning--I didn't find a database entry for "postman2024newman"
+Warning--I didn't find a database entry for "clouflare2025waf_overview"
 You've used 81 entries,
             2177 wiz_defined-function locations,
-            1122 strings with 20365 characters,
+            1124 strings with 20404 characters,
 and the built_in function-call counts, 18013 in all, are:
 = -- 1753
 > -- 677
@@ -50,4 +52,4 @@ warning$ -- 0
 while$ -- 176
 width$ -- 83
 write$ -- 831
-(There were 2 warnings)
+(There were 4 warnings)

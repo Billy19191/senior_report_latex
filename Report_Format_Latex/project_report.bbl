@@ -42,11 +42,6 @@ Microsoft,  n.d.,
   \url{https://code.visualstudio.com/docs/getstarted/userinterface}, [Online;
   accessed September 18, 2025].
 
-\bibitem{donovan2016go}
-A.~A. Donovan and B.~W. Kernighan,
-\newblock  2016, {\bf The Go Programming Language},
-\newblock Addison-Wesley.
-
 \bibitem{go_doc}
 {Go Team},  2024,
 \newblock ``Go language documentation,'' Available at
@@ -182,12 +177,6 @@ C.~Richardson,
 Spring,  n.d.,
 \newblock ``Microservices,'' Available at
   \url{https://spring.io/microservices}, [Online; accessed September 18, 2025].
-
-\bibitem{cloudflare2025waf_overview}
-Cloudflare,  2025a,
-\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
-  \url{https://developers.cloudflare.com/waf/}, [Online; accessed September 18,
-  2025].
 
 \bibitem{cloudflare2025waf_getstarted}
 Cloudflare,  2025b,
@@ -461,6 +450,17 @@ BogoToBogo,  n.d.,
 \newblock ``Go web programming,'' Available at
   \url{https://www.bogotobogo.com/GoLang/GoLang_Web.php}, [Online; accessed
   September 18, 2025].
+
+\bibitem{donovan2016go}
+A.~A. Donovan and B.~W. Kernighan,
+\newblock  2016, {\bf The Go Programming Language},
+\newblock Addison-Wesley.
+
+\bibitem{cloudflare2025waf_overview}
+Cloudflare,  2025a,
+\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
+  \url{https://developers.cloudflare.com/waf/}, [Online; accessed September 18,
+  2025].
 
 \bibitem{postman2024}
 Postman,  2024b,
