@@ -5,6 +5,7 @@
 
 
 \usepackage{float}
+\usepackage{subcaption}
 \usepackage{ulem}
 \usepackage{soul}
 \usepackage{longtable}
@@ -55,8 +56,8 @@
 % The degree that you're persuing..
 \def\dissdegree{Bachelor of Engineering} % Name of the degree
 \def\dissdegreeabrev{B.Eng} % Abbreviation of the degree
-\def\dissyear{2026}                   % Year of submission
-\def\thaidissyear{2569}               % Year of submission (B.E.)
+\def\dissyear{2025}                   % Year of submission
+\def\thaidissyear{2568}               % Year of submission (B.E.)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Your project and independent study committee..
@@ -508,9 +509,14 @@ saving account will be disabled.
 \section{Gantt Chart}
 
 For the first semester and second semester of 2025, the breakdown is
-presented in the Gantt chart below with workload and tasks.
+presented in the Gantt chart in Figure \ref{fig:gantt-sem1} and Figure \ref{fig:gantt-sem2} with workload and tasks.
 
 \textbf{First Semester (August 2025 - December 2025)}
+
+The Gantt chart for the first semester presents a detailed timeline of the system development process, focusing primarily on establishing a strong technical foundation and implementing the core features of the application. The development process begins in August with fundamental activities, including the setup of the development environment using Flutter for the frontend and Golang for backend services. At the same time, the system architecture is designed with an emphasis on integration and security to ensure scalability, reliability, and maintainability throughout the project lifecycle.
+During September and October, the project progresses into the development phase of the first core feature, Request Authorization. This phase involves implementing authentication mechanisms, handling user requests securely, and ensuring seamless communication between frontend and backend services. In parallel, continuous work on integration and security architecture is carried out to support future feature expansion.
+As the project moves into October and November, the development workload increases with the introduction of more complex features such as Tax Planning and Segmentation. These features require more advanced logic, data processing, and system coordination, which is reflected in the longer duration and denser workload shown in the Gantt chart. The team focuses on ensuring that these features are not only functional but also well-integrated into the overall system architecture.
+In the final stage of the semester, from November to December, the focus shifts toward documentation, system refinement, and finalizing all implemented features. This includes writing technical documentation, improving code quality, fixing bugs, and optimizing system performance. By the end of the first semester, the system achieves a stable state with all core functionalities implemented and ready for further enhancement. Overall, this semester emphasizes foundational development, core feature implementation, and architectural stability.
 
 \begin{figure}[H]
 \centering
@@ -519,6 +525,10 @@ presented in the Gantt chart below with workload and tasks.
 \end{figure}
 
 \textbf{Second Semester (January 2026 - May 2026)}
+
+The Gantt chart for the second semester represents the continuation and expansion of the system with additional features, including Better Box and Ultimate FCD. In January, the project resumes with further system setup and preparation to support new functionalities.
+From February to March, the development of the Better Box feature takes place, including components such as Bulk Allocate and Category. Subsequently, from March to April, the Ultimate FCD feature is implemented, covering functionalities like Open Account and Exchange.
+In the final phase, from April to May, the project focuses on integrating all components, conducting system testing, and improving overall performance and stability. This semester primarily concentrates on advanced feature development, system integration, and preparing the system for final deployment.
 
 \begin{figure}[H]
 \centering
@@ -606,6 +616,14 @@ features.
 
 \subsection{Git}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=4.43401in,height=2.70313in]{report_media/media/image62.png}
+\caption{Common Git Workflow}\label{fig:common-git-workflow}
+Source:
+\cite{khleel2020merging}
+\end{figure}
+
 Git is a distributed version control system that enables teams to track
 and manage changes in source code across multiple contributors. Its
 decentralized architecture allows every developer to maintain a full
@@ -623,20 +641,20 @@ integrates seamlessly with continuous integration/continuous delivery
 it a critical tool for secure banking applications where traceability
 and rollback capabilities are essential \cite{loeliger2012git}.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=4.43401in,height=2.70313in]{report_media/media/image62.png}
-\caption{Common Git Workflow}\label{fig:common-git-workflow}
-Source:
-\cite{khleel2020merging}
-\end{figure}
-
 From the Figure~\ref{fig:common-git-workflow}, Git manages distributed version
 control, enabling branching, merging, and CI/CD integration to track
 secure banking code changes across
 teams.
 
+
 \subsection{Visual Studio Code}
+\begin{figure}[H]
+\centering
+\includegraphics[width=4.8485in,height=3.21354in]{report_media/media/image79.png}
+\caption{Visual Studio Code User Interface}\label{fig:visual-studio-code-user-interface}
+Source:
+\cite{microsoft_vscode_ui}
+\end{figure}
 
 Visual Studio Code (VS Code) is a lightweight yet powerful integrated
 development environment (IDE) that supports a wide range of languages
@@ -656,13 +674,6 @@ open-source nature and frequent updates from Microsoft's active
 developer community ensure continuous improvements in security and
 performance.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=4.8485in,height=3.21354in]{report_media/media/image79.png}
-\caption{Visual Studio Code User Interface}\label{fig:visual-studio-code-user-interface}
-Source:
-\cite{microsoft_vscode_ui}
-\end{figure}
 
 From the Figure~\ref{fig:visual-studio-code-user-interface}, Visual Studio Code provides a
 lightweight yet extensible IDE with IntelliSense, remote development,
@@ -892,6 +903,15 @@ management, and cloud integration.
 
 \subsection{Cloudflare}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.26772in,height=2.389in]{report_media/media/image29.png}
+
+\caption{Cloudflare Responsibilities Diagram}\label{fig:cloudflare-responsibilities-diagram}
+Source:
+\cite{systemweakness_cloudflare}
+\end{figure}
+
 Cloudflare serves as the first line of defense for the mobile banking
 platform by securing public endpoints and ensuring reliable access. It
 provides TLS termination for encrypted communication, a content delivery
@@ -906,21 +926,6 @@ services. This combination of performance optimization and multi-layered
 protection makes it a critical component of the KKP Better platform's
 infrastructure \cite{cloudflare2025waf_overview, cloudflare2025waf_getstarted}.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=3.38889in]{report_media/media/image29.png}
-
-\caption{Cloudflare Responsibilities Diagram}\label{fig:cloudflare-responsibilities-diagram}
-Source:
-\cite{systemweakness_cloudflare}
-\end{figure}
-
-
-
-From the Figure~\ref{fig:cloudflare-responsibilities-diagram}, Cloudflare provides TLS termination,
-CDN caching, and a web application firewall to protect endpoints and
-reduce
-latency.
 
 \subsection{Apache APISIX}
 
@@ -1332,7 +1337,7 @@ performance, and compliance in financial services \cite{myers2011art}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.11979in,height=3.20222in]{report_media/media/image78.png}
+\includegraphics[width=5.11979in,height=2.20222in]{report_media/media/image78.png}
 \caption{Manual Testing Process}\label{fig:manual-testing-process}
 Source:
 \cite{esds_manual_testing}
@@ -1369,7 +1374,7 @@ and ensures long-term system integrity \cite{diffie1976new, stallings2017crypto}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=5.42032in,height=2.92887in]{report_media/media/image26.png}
+\includegraphics[width=4.42032in,height=1.92887in]{report_media/media/image26.png}
 \caption{Private Key Encryption}\label{fig:private-key-encryption}
 Source:
 \cite{cheapssl_cryptography}
@@ -1399,7 +1404,7 @@ transactions \cite{diffie1976new, stallings2017crypto}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=5.5195in,height=2.7743in]{report_media/media/image64.png}
+\includegraphics[width=4.5195in,height=1.7743in]{report_media/media/image64.png}
 \caption{Public Key Encryption}\label{fig:public-key-encryption}
 Source:
 \cite{cheapssl_cryptography}
@@ -1426,7 +1431,7 @@ standards of reliability and trust \cite{rivest1978method, nist2020dss}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.62619in,height=3.16551in]{report_media/media/image94.png}
+\includegraphics[width=5.2619in,height=2.16551in]{report_media/media/image94.png}
 \caption{Digital Signature Flow}\label{fig:digital-signature-flow}
 Source:
 \cite{sectigo_digital_signatures}
@@ -1558,18 +1563,6 @@ businesses. Its design is more conservative but highly reliable,
 aligning with Bangkok Bank's image as a stable and trustworthy financial
 institution \cite{bbl_topup}.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=3.20833in,height=4.625in]{report_media/media/image7.png}
-\caption{Bangkok Bank Mobile Banking by Bangkok Bank}\label{fig:bangkok-bank-mobile-banking-by-bangkok}
-Source:
-\cite{bbl_topup}
-\end{figure}
-
-From the Figure~\ref{fig:bangkok-bank-mobile-banking-by-bangkok}, the application highlights secure and stable
-financial operations, supporting both domestic and international
-transactions consistent with Bangkok Bank's trusted image.
-
 \subsection{TTB Touch (TMBThanachart Bank)}
 
 TTB Touch offers retail banking services with an emphasis on personal
@@ -1596,15 +1589,11 @@ tools.
 
 \subsection{KMA (Krungsri Mobile App)}
 
-Krungsri Mobile App (KMA) provides customers with access to core banking
-services, credit card management, loans, and investments. It integrates
-seamlessly with Krungsri's retail ecosystem, offering promotions,
-shopping discounts, and lifestyle features. The app focuses on
-convenience and personalization, providing real-time notifications and
-AI-driven financial suggestions. Security includes two-factor
-authentication and encrypted communication. KMA's strength lies in
-combining financial services with lifestyle benefits, positioning
-Krungsri as a modern and customer-oriented digital bank \cite{techsauce_krungsri}.
+Krungsri Mobile App (KMA) is a comprehensive digital banking platform developed to provide customers with convenient access to a wide range of financial services through a single mobile application. The platform supports essential banking functionalities, including account management, fund transfers, bill payments, credit card services, loan management, and investment tracking. By integrating these services into one unified system, KMA significantly enhances user convenience and reduces the need for customers to access multiple channels.
+In addition to core banking services, KMA is closely integrated with Krungsri’s retail and lifestyle ecosystem. The application offers various value-added features such as promotional campaigns, shopping discounts, and partnerships with merchants, allowing users to benefit from exclusive deals directly within the app. This integration reflects Krungsri’s strategy of combining financial services with everyday lifestyle activities, thereby increasing user engagement and retention.
+KMA also emphasizes personalization and user experience. The application utilizes data analytics and AI-driven technologies to provide tailored financial recommendations based on user behavior, spending patterns, and financial goals. Real-time notifications are implemented to keep users informed about transactions, account activities, and personalized offers, ensuring that users can manage their finances proactively and efficiently.
+From a security perspective, KMA incorporates multiple layers of protection to ensure the safety of user data and transactions. These include two-factor authentication (2FA), biometric login options such as fingerprint and facial recognition, and end-to-end encrypted communication. Such measures are critical in building user trust and ensuring compliance with financial security standards.
+Overall, the strength of KMA lies in its ability to seamlessly combine traditional banking services with lifestyle-oriented features, supported by advanced personalization and robust security mechanisms. This positions Krungsri as a modern, customer-centric digital bank that aligns with the evolving expectations of today’s mobile-first users \cite{techsauce_krungsri}.
 
 \begin{figure}[H]
 \centering
@@ -2356,26 +2345,26 @@ transaction result and details.
 Finally, the user can return to the Cash section, completing the
 exchange flow.
 
-\subsubsection{Sequence Diagram}
+% \subsubsection{Sequence Diagram}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=5.8in,height=7.06944in]{report_media/media/image32.png}
-\caption{Sequence Diagram of open-account-efcd-product}\label{fig:sequence-diagram-of-open-account-efcd-product}
-\end{figure}
+% % \begin{figure}[H]
+% % \centering
+% % \includegraphics[width=5.8in,height=7.06944in]{report_media/media/image32.png}
+% % \caption{Sequence Diagram of open-account-efcd-product}\label{fig:sequence-diagram-of-open-account-efcd-product}
+% % \end{figure}
 
-From the Figure~\ref{fig:sequence-diagram-of-open-account-efcd-product}, the GET /v2/open-account-efcd-product API is responsible for preparing
-and returning the list of available Foreign Currency Deposit (FCD)
-products for the account opening flow. The process starts when KKP
-Mobile sends a request to the RIB Open Account Service, which first
-validates request headers and checks the current customer flow state.
+% The GET /v2/open-account-efcd-product API is responsible for preparing
+% and returning the list of available Foreign Currency Deposit (FCD)
+% products for the account opening flow. The process starts when KKP
+% Mobile sends a request to the RIB Open Account Service, which first
+% validates request headers and checks the current customer flow state.
 
-If the state is valid, the system retrieves product data from multiple
-sources, filters by the Ultimate FCD product group, and validates
-availability. It then checks the customer's existing accounts to mark
-unavailable products as disabled. Finally, the system sorts and formats
-the product list and returns it to the mobile application, enabling
-users to select currencies and proceed with opening an FCD account.
+% If the state is valid, the system retrieves product data from multiple
+% sources, filters by the Ultimate FCD product group, and validates
+% availability. It then checks the customer's existing accounts to mark
+% unavailable products as disabled. Finally, the system sorts and formats
+% the product list and returns it to the mobile application, enabling
+% users to select currencies and proceed with opening an FCD account.
 
 \section{Security Design}
 
@@ -2671,7 +2660,7 @@ compliance, and reliable distribution to end-users.
 
   \begin{itemize}
   \item \textbf{Android}: Production builds are distributed through Firebase App Distribution, leading to the final release on the Google Play Store (Figure~\ref{fig:kkp-better-on-google-play}).
-  \item \textbf{iOS}: Production builds are submitted via Apple TestFlight for secure external beta testing before the official release on the Apple App Store (Figure~\ref{fig:kkp-better-on-app-store}).
+  \item \textbf{iOS}: Production builds are submitted via Apple TestFlight for secure external beta testing before the official release on the Apple App Store.
   \end{itemize}
 \end{itemize}
 
@@ -2696,25 +2685,25 @@ designated cluster.
   \includegraphics[width=5.79688in,height=3.62064in]{report_media/media/image53.png}
   \caption{KKP Better On Google Play}\label{fig:kkp-better-on-google-play}
   \end{figure}
-
-  \begin{figure}[H]
-  \centering
-  \includegraphics[width=5.70332in,height=4.36749in]{report_media/media/image96.png}
-  \caption{KKP Better On App Store}\label{fig:kkp-better-on-app-store}
-  \end{figure}
-
 \section{Request Authentication}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/2.png}
-\caption{User Interface for Request Authentication Feature (1)}\label{fig:user-interface-for-request-authentication-feature-1}
-\end{figure}
+\begin{subfigure}{\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{report_media/media/slide/2.png}
+    \caption{User Interface Screens of Request Authentication Feature (Loading, List, Result, and Detail Pages)}
+    \label{fig:user-interface-for-request-authentication-feature-1}
+\end{subfigure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/3.png}
-\caption{User Interface for Request Authentication Feature (2)}\label{fig:user-interface-for-request-authentication-feature-2}
+\begin{subfigure}{\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{report_media/media/slide/3.png}
+    \caption{User Interface Screens of Request Authentication Process (PIN Verification, Processing, and Result Pages)}
+    \label{fig:user-interface-for-request-authentication-feature-2}
+\end{subfigure}
+\caption{User Interface for Request Authentication Feature}
+\label{fig:user-interface-for-request-authentication-feature}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -2767,30 +2756,19 @@ seamless user experience (Figure \ref{fig:jira-tasks-for-request-authentication-
 \begin{itemize}
 \item
   \textbf{Verify PIN Screen}
-  Implemented the PIN verification screen using the shared component,
-  enabling customers to verify their identity for Medium-risk
-  authentication requests.
+The Verify PIN screen was implemented using a reusable shared component to ensure consistency across the application and reduce code duplication. This screen is specifically designed to support Medium-risk authentication requests, where an additional layer of user verification is required. The implementation focuses on secure input handling, masking sensitive data, and providing immediate feedback in cases of incorrect PIN entry. Moreover, the screen is integrated with the backend authentication service to validate user credentials in real time, ensuring both security and usability. Attention was also given to user experience by keeping the interface simple, responsive, and aligned with the overall design system.
 \item
   \textbf{Request Authentication List Screen}
-  Built the screen that displays all pending authentication requests.
-  The focus was on proper data loading and smooth navigation into each
-  request item.
+The Request Authentication List screen was developed to display all pending authentication requests in a clear and organized manner. The primary focus of this screen was on efficient data fetching, proper state management, and smooth navigation. Each request item is presented with essential information such as request type, timestamp, and status, allowing users to quickly understand and prioritize actions. Lazy loading and optimized rendering techniques were applied to ensure performance remains stable even when handling multiple requests. Additionally, user interactions were carefully designed so that selecting a request seamlessly navigates the user to the detailed view without delays or confusion.
 \item
   \textbf{Request Authentication Details Screen}
-  Developed the detailed view for each request, including UI layout and
-  Accept/Decline actions. The logic was structured to connect with
-  additional verification flows depending on the request's risk level.
+The Request Authentication Details screen provides a comprehensive view of each individual request. This includes a well-structured user interface that presents all relevant information, such as request description, associated account details, and risk level indicators. The screen also includes clearly defined Accept and Decline actions, enabling users to respond confidently. The underlying logic was designed to dynamically adapt based on the risk level of the request. For example, higher-risk requests may trigger additional verification steps, such as PIN entry or biometric authentication, before completing the action. This flexible structure ensures both security and scalability for future enhancements.
 \item
   \textbf{Request Authentication Result Screens (Accepted/Rejected)}
-  Implemented clear and separate result screens for Accepted and
-  Rejected outcomes, giving users a complete and reassuring end-state
-  after responding to a request.
+Separate result screens were implemented for Accepted and Rejected outcomes to provide users with a clear and definitive conclusion after responding to a request. These screens are designed to reduce uncertainty by confirming the action taken and displaying relevant follow-up information when necessary. Visual cues, such as icons and color schemes, were used to differentiate between successful and rejected outcomes, improving user understanding at a glance. Additionally, the screens are structured to maintain consistency with the overall application design, while also reinforcing user confidence through clear messaging and feedback.
 \item
   \textbf{Notification Inbox \& Push Notification Integration}
-  Developed the notification layer to allow the app to receive push
-  notifications and inbox messages when CSM issues a new request.
-  Tapping a notification directs the user directly into the Request
-  Authentication flow.
+The notification system was developed to enhance real-time communication between the backend system (CSM) and the mobile application. This includes both push notification integration and an in-app notification inbox. When a new authentication request is generated, the system sends a push notification to the user’s device, ensuring timely awareness. Users can tap on the notification to be directly redirected into the Request Authentication flow, minimizing friction and improving response time. The inbox feature allows users to view and manage past notifications, providing a centralized location for tracking all related activities. The implementation also ensures reliable message delivery, proper handling of notification states, and seamless synchronization between the backend and frontend systems.
 \end{itemize}
 
 \paragraph{Defect and Quality Improvements}
@@ -2816,27 +2794,15 @@ all scenarios. Key improvements included (Figure \ref{fig:jira-bugs-for-request-
   Adding missing access logs to the Authorize List screen to support
   auditing and compliance.
 \item
-  Investigating issues related to backend dependencies such as
+  Investigating issues (Figure \ref{fig:request-authentication-code}) related to backend dependencies such as
   acceptance failures and request status not updating. These cases were
   analyzed and reassigned to the backend team when the root cause
   originated outside the mobile application.
 \end{itemize}
 
-
-On the backend, Golang-based microservices handle request validation,
-session management, and communication with authorization services.
-Secure APIs are implemented to retrieve request data and submit user
-decisions, with encryption and token-based authentication applied to all
-transactions.
-
-Additionally, fallback mechanisms are implemented to handle failures
-such as incorrect PIN input, session expiration, or service
-unavailability, ensuring a smooth and continuous user
-experience (Figure \ref{fig:request-authentication-code}).
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=6.26772in,height=4.65278in]{report_media/media/image77.png}
+\includegraphics[width=5.26772in,height=3.65278in]{report_media/media/image77.png}
 \caption{Request Authentication Code}
 \label{fig:request-authentication-code}
 \end{figure}
@@ -2871,21 +2837,32 @@ securely.
 
 \begin{figure}[H]
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/5.png}
-\caption{User Interface for Tax Planning Feature (1)}\label{fig:user-interface-for-tax-planning-feature-1}
-\end{figure}
+\caption{User Interface Screens of Tax Calculation and Tax Rate Summary Feature}\label{fig:user-interface-for-tax-planning-feature-1}
+\end{subfigure}
 
-\begin{figure}[H]
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/6.png}
-\caption{User Interface for Tax Planning Feature (2)}\label{fig:user-interface-for-tax-planning-feature-2}
+\caption{User Interface Screens of Tax Input and Tax Deduction Feature}\label{fig:user-interface-for-tax-planning-feature-2}
+\end{subfigure}
+\caption{User Interface for Tax Planning Feature (continued on next page)}
 \end{figure}
 
 \begin{figure}[H]
+\ContinuedFloat
+\centering
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/7.png}
-\caption{User Interface for Tax Planning Feature (3)}\label{fig:user-interface-for-tax-planning-feature-3}
+\caption{User Interface Screens of Tax Result and Tax Planning Summary Feature}\label{fig:user-interface-for-tax-planning-feature-3}
+\end{subfigure}
+\caption{User Interface for Tax Planning Feature (continued)}
+\label{fig:user-interface-for-tax-planning-feature}
 \end{figure}
+
 
 \subsection{Technical Implementation}
 
@@ -3043,7 +3020,7 @@ responsiveness.
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/12.png}
-\caption{User Interface for Privilege Feature}\label{fig:user-interface-for-privilege-feature}
+\caption{User Interface Screens of Privilege Feature and Related Service Pages}\label{fig:user-interface-for-privilege-feature}
 \end{figure}
 
 
@@ -3242,14 +3219,22 @@ disrupting the overall application flow.
 
 \begin{figure}[H]
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/9.png}
-\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-167657}
-\end{figure}
+\caption{User Interface Screens of Customer Segmentation Feature}\label{fig:user-interface-of-segmentation-167657}
+\end{subfigure}
 
-\begin{figure}[H]
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.52778in]{report_media/media/slide/10.png}
-\caption{User Interface for Segmentation}\label{fig:user-interface-of-segmentation-tier}
+\caption{Customer Segmentation Card Design for Different User Tiers
+}\label{fig:user-interface-of-segmentation-tier}
+\end{subfigure}
+\caption{User Interface for Segmentation}
+\label{fig:user-interface-of-segmentation}
+
+
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3395,41 +3380,45 @@ without displaying incorrect information.
 
 \begin{figure}[H]
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/14.png}
-
-\caption{User Interface for Better Box Feature (1)}\label{fig:user-interface-for-better-box-feature-1}
-\end{figure}
-
-
-
-\begin{figure}[H]
+\caption{User Interface Screens of Better Box Overview and Navigation Design}\label{fig:user-interface-for-better-box-feature-1}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/15.png}
-\caption{User Interface for Better Box Feature (2)}\label{fig:user-interface-for-better-box-feature-2}
+\caption{User Interface Screens of Better Box Setup and Money Allocation Process}\label{fig:user-interface-for-better-box-feature-2}
+\end{subfigure}
+\caption{User Interface for Better Box Feature (continued on next page)}
 \end{figure}
 
-
-
 \begin{figure}[H]
+\ContinuedFloat
+\centering
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/16.png}
-\caption{User Interface for Better Box Feature (3)}\label{fig:user-interface-for-better-box-feature-3}
-\end{figure}
-
-
-
-\begin{figure}[H]
+\caption{User Interface Screens of Box Selection and Amount Input Validation}\label{fig:user-interface-for-better-box-feature-3}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/17.png}
-\caption{User Interface for Better Box Feature (4)}\label{fig:user-interface-for-better-box-feature-4}
+\caption{User Interface Screens of Transaction Review and Error Handling}\label{fig:user-interface-for-better-box-feature-4}
+\end{subfigure}
+\caption{User Interface for Better Box Feature (continued on next page)}
 \end{figure}
 
-
-
 \begin{figure}[H]
+\ContinuedFloat
+\centering
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/18.png}
-\caption{User Interface for Better Box Feature (5)}\label{fig:user-interface-for-better-box-feature-5}
+\caption{UUser Interface Screens of Transaction Processing, Success, and Box Detail Navigation}\label{fig:user-interface-for-better-box-feature-5}
+\end{subfigure}
+\caption{User Interface for Better Box Feature (continued)}
+\label{fig:user-interface-for-better-box-feature}
 \end{figure}
 
 \subsection{Technical Implementation}
@@ -3463,7 +3452,7 @@ system architecture, especially the integration between frontend modules
 and backend services that support financial transactions. This
 preparation included studying the project structure, API communication
 patterns, and transaction handling flows. Additionally, we reviewed
-Flutter development practices (Figure \ref{fig:better-box-code}) and state management approaches to ensure
+Flutter development practices and state management approaches to ensure
 scalability and maintainability when implementing dynamic UI components
 such as multiple boxes, fund allocation flows, and validation.
 
@@ -3663,13 +3652,6 @@ ensuring adequate logging for debugging:
 \end{itemize}
 
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.26772in,height=4.83333in]{report_media/media/image67.png}
-\caption{Better Box Code}
-\label{fig:better-box-code}
-\end{figure}
-
 \subsection{Challenges}
 
 One major challenge was implementing bulk allocation logic while
@@ -3693,44 +3675,45 @@ feedback and system stability is maintained.
 
 \begin{figure}[H]
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/20.png}
-\caption{User Interface for Ultimate FCD Feature (1)}\label{fig:user-interface-for-ultimate-fcd-feature-1}
-\end{figure}
-
-
-
-\begin{figure}[H]
+\caption{User Interface Screens of Product Selection and Product Highlight Feature}\label{fig:user-interface-for-ultimate-fcd-feature-1}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/21.png}
-
-\caption{User Interface for Ultimate FCD Feature (2)}\label{fig:user-interface-for-ultimate-fcd-feature-2}
+\caption{User Interface Screens of Product Details and Currency Selection Process}\label{fig:user-interface-for-ultimate-fcd-feature-2}
+\end{subfigure}
+\caption{User Interface for Ultimate FCD Feature (continued on next page)}
 \end{figure}
 
-
-
 \begin{figure}[H]
+\ContinuedFloat
+\centering
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/22.png}
-
-\caption{User Interface for Ultimate FCD Feature (3)}\label{fig:user-interface-for-ultimate-fcd-feature-3}
-\end{figure}
-
-
-
-\begin{figure}[H]
+\caption{User Interface Screens of Account Information Input and Confirmation Process}\label{fig:user-interface-for-ultimate-fcd-feature-3}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/23.png}
-
-\caption{User Interface for Ultimate FCD Feature (4)}\label{fig:user-interface-for-ultimate-fcd-feature-4}
+\caption{User Interface Screens of Terms, Notifications, and Error Handling during Account Opening}\label{fig:user-interface-for-ultimate-fcd-feature-4}
+\end{subfigure}
+\caption{User Interface for Ultimate FCD Feature (continued on next page)}
 \end{figure}
 
-
-
 \begin{figure}[H]
+\ContinuedFloat
+\centering
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[width=5.5in,height=3.51389in]{report_media/media/slide/24.png}
-
-\caption{User Interface for Ultimate FCD Feature (5)}\label{fig:user-interface-for-ultimate-fcd-feature-5}
+\caption{User Interface Screens of Account Opening Results and Status Outcomes}\label{fig:user-interface-for-ultimate-fcd-feature-5}
+\end{subfigure}
+\caption{User Interface for Ultimate FCD Feature (continued)}
+\label{fig:user-interface-for-ultimate-fcd-feature}
 \end{figure}
 
 

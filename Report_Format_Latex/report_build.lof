@@ -1,0 +1,92 @@
+\addvspace {0em}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces First semester task plan (August 2025 -- December 2025)}}{5}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces Second semester task plan (January 2026 -- May 2026)}}{6}{figure.caption.2}%
+\addvspace {0em}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces Common Git Workflow}}{8}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces Visual Studio Code User Interface}}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \xpg@aux {}{english}\ignorespaces Golang Code}}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \xpg@aux {}{english}\ignorespaces Flutter Material 3 Design}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \xpg@aux {}{english}\ignorespaces Navigating Postman}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jenkins (Software)}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \xpg@aux {}{english}\ignorespaces Firebase App Distribution Workflow}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \xpg@aux {}{english}\ignorespaces Kotlin Code Implementation}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \xpg@aux {}{english}\ignorespaces Spring Boot Microservice Architecture Diagram}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \xpg@aux {}{english}\ignorespaces Cloudflare Responsibilities Diagram}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \xpg@aux {}{english}\ignorespaces APISIX Process of Centralized}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \xpg@aux {}{english}\ignorespaces Lura Project Implementation}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces \xpg@aux {}{english}\ignorespaces PostgreSQL Architecture}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \xpg@aux {}{english}\ignorespaces Redis Cluster Flow Diagram}}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces Apache Kafka Data Flow}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces \xpg@aux {}{english}\ignorespaces Grafana Dashboard}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces \xpg@aux {}{english}\ignorespaces Microservice architecture diagram}}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces \xpg@aux {}{english}\ignorespaces Bloc Design Pattern With State Management}}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces \xpg@aux {}{english}\ignorespaces Backends For Frontend (BFF) Implementation}}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces \xpg@aux {}{english}\ignorespaces API Gateway Visualization}}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces \xpg@aux {}{english}\ignorespaces CI/CD Pipelines Workflow}}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces \xpg@aux {}{english}\ignorespaces Docker Container Construct Workflow}}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces \xpg@aux {}{english}\ignorespaces Manual Testing Process}}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces \xpg@aux {}{english}\ignorespaces Private Key Encryption}}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces \xpg@aux {}{english}\ignorespaces Public Key Encryption}}{27}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces \xpg@aux {}{english}\ignorespaces Digital Signature Flow}}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces \xpg@aux {}{english}\ignorespaces Digital Signature Verification}}{28}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces \xpg@aux {}{english}\ignorespaces K PLUS by Kasikorn Bank}}{29}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces \xpg@aux {}{english}\ignorespaces SCB EASY by Siam Commercial Bank}}{29}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces \xpg@aux {}{english}\ignorespaces Krungthai NEXT by Krungthai Bank}}{30}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces \xpg@aux {}{english}\ignorespaces TTB Touch by TMBThanachart Bank}}{31}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces \xpg@aux {}{english}\ignorespaces Krungsri Mobile App by Krungsri Bank}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces \xpg@aux {}{english}\ignorespaces Mobile Banking Feature Comparison}}{33}{figure.caption.35}%
+\addvspace {0em}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces KKP Better System Architecture}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces Example User Interface of Elastic Logging}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \xpg@aux {}{english}\ignorespaces Example User Interface of Kibana Logging}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \xpg@aux {}{english}\ignorespaces Example User Interface of Jenkins CI/CD Pipeline}}{39}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Request Authentication Feature}}{40}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Tax Planning Feature}}{41}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Segmentation Feature}}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \xpg@aux {}{english}\ignorespaces Sequence Diagram of customer-information}}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Privilege Feature}}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \xpg@aux {}{english}\ignorespaces Sequence Diagram of customer-privilege-session}}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Better Box Feature}}{46}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \xpg@aux {}{english}\ignorespaces Sequence Diagram of eligible-pocket}}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Ultimate FCD Feature (Open Account)}}{48}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Flow Diagram for Ultimate FCD Feature (Exchange)}}{48}{figure.caption.49}%
+\addvspace {0em}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces KKP Better On Google Play}}{53}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Request Authentication Feature}}{54}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Request Authentication Development (1)}}{55}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Request Authentication}}{56}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}\ignorespaces Request Authentication Code}}{57}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Tax Planning Feature (continued on next page)}}{58}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Tax Planning Feature (continued)}}{59}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Tax Planning Development}}{60}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Defects for Tax Planning}}{60}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{english}\ignorespaces Tax Planning Code}}{61}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface Screens of Privilege Feature and Related Service Pages}}{62}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Defects for Privilege}}{64}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{english}\ignorespaces Privilege Code}}{65}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Segmentation}}{66}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Segmentation Feature Development}}{67}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Better Box Feature (continued on next page)}}{69}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Better Box Feature (continued on next page)}}{70}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Better Box Feature (continued)}}{71}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Better Box Development (1)}}{72}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Better Box Development (2)}}{72}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Better Box Development (3)}}{72}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Better Box Development (4)}}{72}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Better Box (1)}}{73}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Better Box (2)}}{73}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Better Box (3)}}{74}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Better Box (4)}}{74}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Ultimate FCD Feature (continued on next page)}}{76}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Ultimate FCD Feature (continued on next page)}}{77}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces \xpg@aux {}{english}\ignorespaces User Interface for Ultimate FCD Feature (continued)}}{78}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Ultimate FCD Development (1)}}{79}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Ultimate FCD Development (2)}}{79}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Tasks for Ultimate FCD Development (3)}}{79}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces \xpg@aux {}{english}\ignorespaces Jira Bugs for Ultimate FCD}}{80}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces \xpg@aux {}{english}\ignorespaces Ultimate FCD Code}}{81}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces \xpg@aux {}{english}\ignorespaces KKP Better Application Metric Overview}}{82}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces \xpg@aux {}{english}\ignorespaces Code Coverage Report (Unit Test - Deposit Module)}}{84}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces \xpg@aux {}{english}\ignorespaces Code Coverage Report (Unit Test - Financial Module)}}{85}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces \xpg@aux {}{english}\ignorespaces Unit Test Code Example}}{85}{figure.caption.87}%
+\addvspace {0em}

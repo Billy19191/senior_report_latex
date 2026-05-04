@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{khleel2020merging}
+N.~A.~A. Khleel and K.~Nehéz,
+\newblock  2020, ``Merging problems in modern version control systems,''
+\newblock {\bf Multidiszciplináris Tudományok}, vol. 10, no. 3, pp. 365--376,
+  2020,
+\newblock Available at
+  \url{https://www.researchgate.net/figure/Common-Git-Workflow-15_fig1_344675138},
+  [Online; accessed September 18, 2025].
+
 \bibitem{chacon2021progit_v2}
 S.~Chacon and B.~Straub,  2021,
 \newblock ``Pro Git,'' Available at \url{https://git-scm.com/book/en/v2},
@@ -10,14 +19,11 @@ J.~Loeliger and M.~McCullough,
 \newblock  2012, {\bf Version Control with Git},
 \newblock O'Reilly Media, 2nd edition.
 
-\bibitem{khleel2020merging}
-N.~A.~A. Khleel and K.~Nehéz,
-\newblock  2020, ``Merging problems in modern version control systems,''
-\newblock {\bf Multidiszciplináris Tudományok}, vol. 10, no. 3, pp. 365--376,
-  2020,
-\newblock Available at
-  \url{https://www.researchgate.net/figure/Common-Git-Workflow-15_fig1_344675138},
-  [Online; accessed September 18, 2025].
+\bibitem{microsoft_vscode_ui}
+Microsoft,  n.d.,
+\newblock ``Visual Studio Code user interface,'' Available at
+  \url{https://code.visualstudio.com/docs/getstarted/userinterface}, [Online;
+  accessed September 18, 2025].
 
 \bibitem{microsoft2024vscode_doc}
 Microsoft,  2024a,
@@ -34,12 +40,6 @@ David Amos et~al.,
 Microsoft,  2024b,
 \newblock ``VS Code Remote Development,'' Available at
   \url{https://code.visualstudio.com/docs/remote/remote-overview}, [Online;
-  accessed September 18, 2025].
-
-\bibitem{microsoft_vscode_ui}
-Microsoft,  n.d.,
-\newblock ``Visual Studio Code user interface,'' Available at
-  \url{https://code.visualstudio.com/docs/getstarted/userinterface}, [Online;
   accessed September 18, 2025].
 
 \bibitem{donovan2016go}
@@ -189,6 +189,13 @@ Spring,  n.d.,
 \newblock ``Microservices,'' Available at
   \url{https://spring.io/microservices}, [Online; accessed September 18, 2025].
 
+\bibitem{systemweakness_cloudflare}
+{System Weakness},  n.d.,
+\newblock ``Automate and finds the IP address of a website behind Cloudflare,''
+  Available at
+  \url{https://systemweakness.com/automate-and-finds-the-ip-address-of-a-website-behind-cloudflare-45db99510b4b},
+  [Online; accessed September 18, 2025].
+
 \bibitem{cloudflare2025waf_overview}
 Cloudflare,  2025a,
 \newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
@@ -200,13 +207,6 @@ Cloudflare,  2025b,
 \newblock ``Get started with WAF,'' Available at
   \url{https://developers.cloudflare.com/waf/get-started/}, [Online; accessed
   September 18, 2025].
-
-\bibitem{systemweakness_cloudflare}
-{System Weakness},  n.d.,
-\newblock ``Automate and finds the IP address of a website behind Cloudflare,''
-  Available at
-  \url{https://systemweakness.com/automate-and-finds-the-ip-address-of-a-website-behind-cloudflare-45db99510b4b},
-  [Online; accessed September 18, 2025].
 
 \bibitem{apisix2024getting_started}
 {Apache APISIX},  2024,
