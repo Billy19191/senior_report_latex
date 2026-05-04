@@ -53,7 +53,7 @@
 \contentsline {subsection}{\numberline {2.6.4}Bangkok Bank Mobile Banking (Bangkok Bank)}{35}{subsection.2.6.4}%
 \contentsline {subsection}{\numberline {2.6.5}TTB Touch (TMBThanachart Bank)}{36}{subsection.2.6.5}%
 \contentsline {subsection}{\numberline {2.6.6}KMA (Krungsri Mobile App)}{37}{subsection.2.6.6}%
-\contentsline {section}{\numberline {2.7}Mobile Banking Feature Comparison}{39}{section.2.7}%
+\contentsline {section}{\numberline {2.7}Mobile Banking Feature Comparison}{38}{section.2.7}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{{\numberline {3.}\hskip -0.5em METHODOLOGY AND DESIGN}}}{40}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Overview of Methodology}{40}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Software Development Life Cycle}{40}{section.3.2}%
