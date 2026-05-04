@@ -7,44 +7,47 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: string.bib
 Database file #2: cpe.bib
-You've used 55 entries,
+Warning--I didn't find a database entry for "bogotobogo_golang"
+Warning--I didn't find a database entry for "postman2024newman"
+You've used 81 entries,
             2177 wiz_defined-function locations,
-            1028 strings with 13851 characters,
-and the built_in function-call counts, 12591 in all, are:
-= -- 1218
-> -- 489
+            1122 strings with 20365 characters,
+and the built_in function-call counts, 18013 in all, are:
+= -- 1753
+> -- 677
 < -- 0
-+ -- 206
-- -- 146
-* -- 745
-:= -- 2178
-add.period$ -- 55
-call.type$ -- 55
-change.case$ -- 184
++ -- 286
+- -- 200
+* -- 1023
+:= -- 3106
+add.period$ -- 81
+call.type$ -- 81
+change.case$ -- 262
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 474
-empty$ -- 1157
-format.name$ -- 146
-if$ -- 2628
+cite$ -- 81
+duplicate$ -- 655
+empty$ -- 1684
+format.name$ -- 200
+if$ -- 3769
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 32
-newline$ -- 243
-num.names$ -- 110
-pop$ -- 410
+int.to.str$ -- 81
+missing$ -- 31
+newline$ -- 347
+num.names$ -- 162
+pop$ -- 614
 preamble$ -- 1
-purify$ -- 178
+purify$ -- 257
 quote$ -- 0
-skip$ -- 413
+skip$ -- 621
 stack$ -- 0
-substring$ -- 415
-swap$ -- 55
+substring$ -- 570
+swap$ -- 81
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 194
+type$ -- 300
 warning$ -- 0
-while$ -- 122
-width$ -- 57
-write$ -- 570
+while$ -- 176
+width$ -- 83
+write$ -- 831
+(There were 2 warnings)

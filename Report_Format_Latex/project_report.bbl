@@ -1,9 +1,314 @@
 \begin{thebibliography}{10}
 
+\bibitem{chacon2021progit_v2}
+S.~Chacon and B.~Straub,  2021,
+\newblock ``Pro Git,'' Available at \url{https://git-scm.com/book/en/v2},
+  [Online; accessed September 18, 2025].
+
+\bibitem{loeliger2012git}
+J.~Loeliger and M.~McCullough,
+\newblock  2012, {\bf Version Control with Git},
+\newblock O'Reilly Media, 2nd edition.
+
+\bibitem{khleel2020merging}
+N.~A.~A. Khleel and K.~Nehéz,
+\newblock  2020, ``Merging problems in modern version control systems,''
+\newblock {\bf Multidiszciplináris Tudományok}, vol. 10, no. 3, pp. 365--376,
+  2020,
+\newblock Available at
+  \url{https://www.researchgate.net/figure/Common-Git-Workflow-15_fig1_344675138},
+  [Online; accessed September 18, 2025].
+
+\bibitem{microsoft2024vscode_doc}
+Microsoft,  2024a,
+\newblock ``Visual Studio Code documentation,'' Available at
+  \url{https://code.visualstudio.com/docs}, [Online; accessed September 18,
+  2025].
+
 \bibitem{amos2023practical}
 David Amos et~al.,
 \newblock  2023, {\bf Practical VS Code: Mastering Visual Studio Code},
 \newblock O'Reilly Media.
+
+\bibitem{microsoft2024vscode_remote}
+Microsoft,  2024b,
+\newblock ``VS Code Remote Development,'' Available at
+  \url{https://code.visualstudio.com/docs/remote/remote-overview}, [Online;
+  accessed September 18, 2025].
+
+\bibitem{microsoft_vscode_ui}
+Microsoft,  n.d.,
+\newblock ``Visual Studio Code user interface,'' Available at
+  \url{https://code.visualstudio.com/docs/getstarted/userinterface}, [Online;
+  accessed September 18, 2025].
+
+\bibitem{donovan2016go}
+A.~A. Donovan and B.~W. Kernighan,
+\newblock  2016, {\bf The Go Programming Language},
+\newblock Addison-Wesley.
+
+\bibitem{go_doc}
+{Go Team},  2024,
+\newblock ``Go language documentation,'' Available at
+  \url{https://go.dev/doc/}, [Online; accessed September 18, 2025].
+
+\bibitem{google2024flutter_overview}
+Google,  2024a,
+\newblock ``Flutter overview,'' Available at \url{https://flutter.dev/},
+  [Online; accessed September 18, 2025].
+
+\bibitem{yu2021cross}
+Y.~Yu et~al.,
+\newblock  2021, ``Cross-platform UI frameworks: A performance comparison,''
+\newblock {\bf ACM Transactions on Mobile Computing}, vol. 20, no. 5, pp.
+  1--24, 2021.
+
+\bibitem{google2024flutter_security}
+Google,  2024b,
+\newblock ``Flutter security and plugins,'' Available at
+  \url{https://flutter.dev/security}, [Online; accessed September 18, 2025].
+
+\bibitem{flutter_issue_91605}
+Flutter,  n.d.,
+\newblock ``Issue \#91605,'' Available at
+  \url{https://github.com/flutter/flutter/issues/91605}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{postman2024platform}
+Postman,  2024a,
+\newblock ``Postman API platform overview,'' Available at
+  \url{https://www.postman.com/product/api-platform/}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{zhao2022automated}
+J.~Zhao and L.~Wang,
+\newblock  2022, ``Automated API testing and collaborative development with
+  Postman,''
+\newblock {\bf Software Practice \& Experience}, vol. 52, no. 7, pp.
+  1234--1250, 2022.
+
+\bibitem{postman_navigating}
+Postman,  n.d.,
+\newblock ``Navigating Postman,'' Available at
+  \url{https://learning.postman.com/docs/getting-started/basics/navigating-postman/},
+  [Online; accessed September 18, 2025].
+
+\bibitem{fowler2006ci}
+M.~Fowler,  2006,
+\newblock ``Continuous Integration,'' Available at
+  \url{https://martinfowler.com/articles/continuousIntegration.html}, [Online;
+  accessed September 18, 2025].
+
+\bibitem{jenkins_doc}
+Jenkins,  2024,
+\newblock ``Jenkins user documentation,'' Available at
+  \url{https://www.jenkins.io/doc/}, [Online; accessed September 18, 2025].
+
+\bibitem{sharma2021automated}
+R.~Sharma and M.~Sood,
+\newblock  2021, ``Automated CI/CD pipelines using Jenkins,''
+\newblock {\bf International Journal of Computer Applications}, vol. 183, no.
+  42, pp. 15--21, 2021.
+
+\bibitem{wikipedia_jenkins}
+{Wikipedia contributors},  n.d.,
+\newblock ``Jenkins (software),'' Available at
+  \url{https://en.wikipedia.org/wiki/Jenkins_%28software%29}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{google2024firebase_distribution}
+Google,  2024c,
+\newblock ``Firebase app distribution,'' Available at
+  \url{https://firebase.google.com/docs/app-distribution}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{apple2024testflight}
+Apple,  2024,
+\newblock ``TestFlight beta testing,'' Available at
+  \url{https://developer.apple.com/testflight/}, [Online; accessed September
+  18, 2025].
+
+\bibitem{zhang2022continuous}
+Y.~Zhang et~al.,
+\newblock  2022, ``Continuous mobile testing with Firebase and TestFlight,''
+\newblock {\bf Journal of Mobile Computing}, vol. 11, no. 3, pp. 45--58, 2022.
+
+\bibitem{takamii2021jenkins}
+Takamii,  2021,
+\newblock ``Jenkins overview,'' Available at
+  \url{https://takamii.hatenablog.com/entry/2021/01/10/174039}, [Online;
+  accessed September 18, 2025].
+
+\bibitem{breslav2017kotlin}
+A.~Breslav et~al.,
+\newblock  2017, {\bf Kotlin in Action},
+\newblock Manning Publications.
+
+\bibitem{jetbrains2024kotlin_ref}
+JetBrains,  2024,
+\newblock ``Kotlin language reference,'' Available at
+  \url{https://kotlinlang.org/docs/home.html}, [Online; accessed September 18,
+  2025].
+
+\bibitem{google2024android_basics}
+Google,  2024d,
+\newblock ``Android Basics with Compose,'' Available at
+  \url{https://developer.android.com/courses/android-basics-compose/course},
+  [Online; accessed September 18, 2025].
+
+\bibitem{ibyte_java_vs_kotlin}
+{IByte Infomatics},  n.d.,
+\newblock ``Java vs Kotlin,'' Available at
+  \url{https://ibyteinfomatics.com/blog/tag/java-vs-kotlin/}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{johnson2023spring}
+R.~Johnson et~al.,
+\newblock  2023, {\bf Spring in Action},
+\newblock Manning Publications, 6th edition.
+
+\bibitem{richardson2018microservices}
+C.~Richardson,
+\newblock  2018, {\bf Microservices Patterns: With examples in Java},
+\newblock Manning Publications.
+
+\bibitem{pivotal2024springboot}
+{Pivotal Software, Inc.},  2024,
+\newblock ``Spring Boot reference documentation,'' Available at
+  \url{https://docs.spring.io/spring-boot/}, [Online; accessed September 18,
+  2025].
+
+\bibitem{spring_microservices}
+Spring,  n.d.,
+\newblock ``Microservices,'' Available at
+  \url{https://spring.io/microservices}, [Online; accessed September 18, 2025].
+
+\bibitem{cloudflare2025waf_overview}
+Cloudflare,  2025a,
+\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
+  \url{https://developers.cloudflare.com/waf/}, [Online; accessed September 18,
+  2025].
+
+\bibitem{cloudflare2025waf_getstarted}
+Cloudflare,  2025b,
+\newblock ``Get started with WAF,'' Available at
+  \url{https://developers.cloudflare.com/waf/get-started/}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{systemweakness_cloudflare}
+{System Weakness},  n.d.,
+\newblock ``Automate and finds the IP address of a website behind Cloudflare,''
+  Available at
+  \url{https://systemweakness.com/automate-and-finds-the-ip-address-of-a-website-behind-cloudflare-45db99510b4b},
+  [Online; accessed September 18, 2025].
+
+\bibitem{apisix2024getting_started}
+{Apache APISIX},  2024,
+\newblock ``Getting Started,'' Available at
+  \url{https://apisix.apache.org/docs/apisix/getting-started/README/}, [Online;
+  accessed September 18, 2025].
+
+\bibitem{apisix2024high_performance}
+{Apache APISIX Documentation},  2024,
+\newblock ``High-Performance Cloud-Native API Gateway,'' Available at
+  \url{https://apisix.apache.org/blog/2021/09/06/python-helps-you-quickly-with-apache-apisix-development/#apache-apisix},
+  [Online; accessed September 18, 2025].
+
+\bibitem{cncf2024landscape}
+{CNCF Landscape},  2024,
+\newblock ``Cloud Native Computing Foundation Projects,'' Available at
+  \url{https://landscape.cncf.io/}, [Online; accessed September 18, 2025].
+
+\bibitem{apisix2022auth}
+{Apache APISIX},  2022,
+\newblock ``Authentication,'' Available at
+  \url{https://apisix.apache.org/blog/2022/01/04/authing/}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{lura2024gateway}
+{Lura Project},  2024,
+\newblock ``The Lura Project Gateway Documentation,'' Available at
+  \url{https://luraproject.org/}, [Online; accessed September 18, 2025].
+
+\bibitem{lura_repo}
+{Lura Project},  n.d.,
+\newblock ``Lura (KrakenD) repository,'' Available at
+  \url{https://github.com/luraproject/lura}, [Online; accessed September 18,
+  2025].
+
+\bibitem{postgres_doc}
+{PostgreSQL Global Development Group},  n.d.,
+\newblock ``PostgreSQL documentation,'' Available at
+  \url{https://www.postgresql.org/docs/}, [Online; accessed September 18,
+  2025].
+
+\bibitem{netapp_postgres}
+NetApp,  n.d.,
+\newblock ``PostgreSQL architecture,'' Available at
+  \url{https://docs.netapp.com/us-en/ontap-apps-dbs/postgres/postgres-architecture.html},
+  [Online; accessed September 18, 2025].
+
+\bibitem{redis2025doc}
+Redis,  2025a,
+\newblock ``Redis documentation,'' Available at
+  \url{https://redis.io/docs/latest/}, [Online; accessed September 18, 2025].
+
+\bibitem{somkiat_redis}
+Somkiat Puisungnoen,  n.d.,
+\newblock ``Redis architecture,'' Available at
+  \url{https://www.somkiat.cc/redis-architecture/}, [Online; accessed September
+  18, 2025].
+
+\bibitem{kafka_doc}
+{Apache Kafka},  n.d.,
+\newblock ``Apache Kafka documentation,'' Available at
+  \url{https://kafka.apache.org/documentation/}, [Online; accessed September
+  18, 2025].
+
+\bibitem{sachin_kafka}
+Sachin,  n.d.,
+\newblock ``How industries solve their use cases with Kafka,'' Available at
+  \url{https://medium.com/@sachin28/how-industries-solve-their-use-cases-with-kafka-b0e5f8434662},
+  [Online; accessed September 18, 2025].
+
+\bibitem{grafana_doc}
+{Grafana Labs},  n.d.,
+\newblock ``Grafana technical documentation,'' Available at
+  \url{https://grafana.com/docs/}, [Online; accessed September 18, 2025].
+
+\bibitem{dynatrace2025what}
+Dynatrace,  2025,
+\newblock ``What is Dynatrace?,'' Available at
+  \url{https://docs.dynatrace.com/docs/discover-dynatrace/what-is-dynatrace},
+  [Online; accessed September 18, 2025].
+
+\bibitem{splunk2025what}
+Splunk,  2025,
+\newblock ``What is Splunk?,'' Available at
+  \url{https://www.fortinet.com/resources/cyberglossary/what-is-splunk},
+  [Online; accessed September 18, 2025].
+
+\bibitem{grafana_oss}
+{Grafana Labs},  n.d.,
+\newblock ``Grafana,'' Available at \url{https://grafana.com/oss/grafana/},
+  [Online; accessed September 18, 2025].
+
+\bibitem{newman2021building}
+S.~Newman,
+\newblock  2021, {\bf Building Microservices: Designing Fine-Grained Systems},
+\newblock O'Reilly Media, 2nd edition.
+
+\bibitem{webandcrafts_microservices}
+Webandcrafts,  n.d.,
+\newblock ``What is microservices architecture,'' Available at
+  \url{https://webandcrafts.com/blog/what-is-microservices-architecture},
+  [Online; accessed September 18, 2025].
+
+\bibitem{gamma1994design}
+E.~Gamma, R.~Helm, R.~Johnson, and J.~Vlissides,
+\newblock  1994, {\bf Design Patterns: Elements of Reusable Object-Oriented
+  Software},
+\newblock Addison-Wesley.
 
 \bibitem{angelov2020flutter}
 S.~Angelov,
@@ -11,273 +316,156 @@ S.~Angelov,
   Dart \& Flutter},
 \newblock Independently Published.
 
-\bibitem{apisix2024getting}
-{Apache APISIX},  2024,
-\newblock ``Apache APISIX Getting Started,'' Available at
-  \url{https://apisix.apache.org/docs/apisix/getting-started/README/}.
+\bibitem{flutter_bloc_beginners}
+{Flutter Community},  n.d.,
+\newblock ``Flutter BLoC for beginners,'' Available at
+  \url{https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5},
+  [Online; accessed September 18, 2025].
 
-\bibitem{apisix2024doc}
-{Apache APISIX Documentation},  2024,
-\newblock ``High-Performance Cloud-Native API Gateway,'' Available at
-  \url{https://apisix.apache.org/blog/2021/09/06/python-helps-you-quickly-with-apache-apisix-development/\#apache-apisix}.
+\bibitem{javarevisited2023bff}
+Javarevisited,  2023,
+\newblock ``How does BFF (backend for frontend) work,'' Available at
+  \url{https://javarevisited.blogspot.com/2023/06/how-does-bff-backend-for-frontend.html},
+  [Online; accessed September 18, 2025].
 
-\bibitem{kafka2024doc}
-{Apache Kafka},  n.d.-a,
-\newblock ``Apache Kafka documentation,'' Available at
-  \url{https://kafka.apache.org/documentation/}.
+\bibitem{lura_doc_nd}
+{Lura Project},  n.d.,
+\newblock ``The Lura Project Documentation,'' Available at
+  \url{https://luraproject.org/}, [Online; accessed September 18, 2025].
 
-\bibitem{apple2024testflight}
-Apple,  2024,
-\newblock ``TestFlight beta testing,'' Available at
-  \url{https://developer.apple.com/testflight/}.
+\bibitem{microsoft_microservices_gateway}
+Microsoft,  n.d.,
+\newblock ``Direct client-to-microservice communication versus the API gateway
+  pattern,'' Available at
+  \url{https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern},
+  [Online; accessed September 18, 2025].
 
-\bibitem{bbl2024mobile}
-{Bangkok Bank},  n.d.,
-\newblock ``Bangkok Bank Mobile Banking,'' Available at
-  \url{https://www.bangkokbank.com}.
+\bibitem{github_actions_understanding}
+GitHub,  n.d.,
+\newblock ``Understanding GitHub Actions,'' Available at
+  \url{https://docs.github.com/en/actions/get-started/understand-github-actions},
+  [Online; accessed September 18, 2025].
 
-\bibitem{bay2024kma}
-{Bank of Ayudhya (Krungsri)},  n.d.,
-\newblock ``Krungsri Mobile App (KMA),'' Available at
-  \url{https://www.krungsri.com}.
-
-\bibitem{breslav2017kotlin}
-Dmitry Breslav et~al.,
-\newblock  2017, {\bf Kotlin in Action},
-\newblock Manning Publications.
+\bibitem{harimahesh_cicd}
+Hari Mahesh,  n.d.,
+\newblock ``What is CI/CD,'' Available at
+  \url{https://testrigor.com/blog/what-is-cicd/}, [Online; accessed September
+  18, 2025].
 
 \bibitem{burns2017designing}
-Brendan Burns,
+B.~Burns,
 \newblock  2017, {\bf Designing Distributed Systems: Patterns and Paradigms for
   Scalable, Reliable Services},
 \newblock O'Reilly Media.
 
-\bibitem{chacon2021progit}
-Scott Chacon and Ben Straub,
-\newblock  2021, {\bf Pro Git},
-\newblock Apress, 2nd edition,
-\newblock Available at \url{https://git-scm.com/book/en/v2}.
+\bibitem{ttsoftware_docker}
+{T.T. Software Solution},  n.d.,
+\newblock ``Docker image container,'' Available at
+  \url{https://medium.com/t-t-software-solution/\%E0\%B8\%9D\%E0\%B8\%B6\%E0\%B8\%81\%E0\%B8\%A7\%E0\%B8\%B4\%E0\%B8\%8A\%E0\%B8\%B2-docker-image-container-8765a513f2b4},
+  [Online; accessed September 18, 2025].
 
-\bibitem{cloudflare2025waf}
-Cloudflare,  2025a,
-\newblock ``Cloudflare Web Application Firewall (WAF) overview,'' Available at
-  \url{https://developers.cloudflare.com/waf/}.
+\bibitem{myers2011art}
+G.~J. Myers, C.~Sandler, and T.~Badgett,
+\newblock  2011, {\bf The Art of Software Testing},
+\newblock Wiley, 3rd edition.
 
-\bibitem{cloudflare2025wafget}
-Cloudflare,  2025b,
-\newblock ``Get started with WAF,'' Available at
-  \url{https://developers.cloudflare.com/waf/get-started/}.
-
-\bibitem{cncf2024landscape}
-{CNCF Landscape},  2024,
-\newblock ``Cloud Native Computing Foundation Projects,'' Available at
-  \url{https://landscape.cncf.io/}.
+\bibitem{esds_manual_testing}
+ESDS,  n.d.,
+\newblock ``Manual testing process lifecycle,'' Available at
+  \url{https://www.esds.co.in/blog/manual-testing-process-lifecycle/}, [Online;
+  accessed September 18, 2025].
 
 \bibitem{diffie1976new}
-Whitfield Diffie and Martin Hellman,
+W.~Diffie and M.~Hellman,
 \newblock  1976, ``New directions in cryptography,''
 \newblock {\bf IEEE Transactions on Information Theory}, vol. 22, no. 6, pp.
   644--654, 1976.
 
-\bibitem{donovan2016go}
-Alan~A Donovan and Brian~W Kernighan,
-\newblock  2016, {\bf The Go Programming Language},
-\newblock Addison-Wesley.
+\bibitem{stallings2017crypto}
+W.~Stallings,
+\newblock  2017, {\bf Cryptography and Network Security: Principles and
+  Practice},
+\newblock Pearson, 7th edition.
 
-\bibitem{dynatrace2025what}
-Dynatrace,  2025,
-\newblock ``What is Dynatrace?,'' Available at
-  \url{https://docs.dynatrace.com/docs/discover-dynatrace/what-is-dynatrace}.
+\bibitem{cheapssl_cryptography}
+CheapSSLsecurity,  n.d.,
+\newblock ``What is public key and private key cryptography and how does it
+  work,'' Available at
+  \url{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/},
+  [Online; accessed September 18, 2025].
 
-\bibitem{fowler2006ci}
-Martin Fowler,  2006,
-\newblock ``Continuous Integration,'' Available at
-  \url{https://martinfowler.com/articles/continuousIntegration.html}.
-
-\bibitem{gamma1994design}
-Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides,
-\newblock  1994, {\bf Design Patterns: Elements of Reusable Object-Oriented
-  Software},
-\newblock Addison-Wesley.
-
-\bibitem{github2024actions}
-GitHub,  n.d.,
-\newblock ``Understanding GitHub Actions,'' Available at
-  \url{https://docs.github.com/en/actions/get-started/understand-github-actions}.
-
-\bibitem{go2024doc}
-{Go Team},  2024,
-\newblock ``Go language documentation,'' Available at
-  \url{https://go.dev/doc/}.
-
-\bibitem{google2024flutter}
-Google,  2024a,
-\newblock ``Flutter overview,'' Available at \url{https://flutter.dev/}.
-
-\bibitem{google2024fluttersec}
-Google,  2024b,
-\newblock ``Flutter security and plugins,'' Available at
-  \url{https://flutter.dev/security}.
-
-\bibitem{google2024firebase}
-Google,  2024c,
-\newblock ``Firebase app distribution,'' Available at
-  \url{https://firebase.google.com/docs/app-distribution}.
-
-\bibitem{google2024android}
-Google,  2024d,
-\newblock ``Android Basics with Compose,'' Available at
-  \url{https://developer.android.com/courses/android-basics-compose/course}.
-
-\bibitem{grafana2024doc}
-{Grafana Labs},  n.d.,
-\newblock ``Grafana technical documentation,'' Available at
-  \url{https://grafana.com/docs/}.
-
-\bibitem{jenkins2024doc}
-Jenkins,  2024,
-\newblock ``Jenkins user documentation,'' Available at
-  \url{https://www.jenkins.io/doc/}.
-
-\bibitem{jetbrains2024kotlin}
-JetBrains,  2024,
-\newblock ``Kotlin language reference,'' Available at
-  \url{https://kotlinlang.org/docs/home.html}.
-
-\bibitem{johnson2023spring}
-Craig Johnson et~al.,
-\newblock  2023, {\bf Spring in Action},
-\newblock Manning Publications, 6th edition.
-
-\bibitem{kbank2024kplus}
-Kasikornbank,  n.d.,
-\newblock ``K PLUS Mobile Banking,'' Available at
-  \url{https://www.kasikornbank.com}.
-
-\bibitem{ktb2024next}
-{Krungthai Bank},  n.d.,
-\newblock ``Krungthai NEXT,'' Available at \url{https://www.krungthai.com}.
-
-\bibitem{loeliger2012git}
-Jon Loeliger and Matthew McCullough,
-\newblock  2012, {\bf Version Control with Git},
-\newblock O'Reilly Media, 2nd edition.
-
-\bibitem{lura2024gateway}
-{Lura Project},  2024,
-\newblock ``The Lura Project Gateway Documentation,'' Available at
-  \url{https://luraproject.org/}.
-
-\bibitem{lura2024doc}
-{Lura Project},  n.d.,
-\newblock ``The Lura Project Documentation,'' Available at
-  \url{https://luraproject.org/}.
-
-\bibitem{microsoft2024vscode}
-Microsoft,  2024a,
-\newblock ``Visual Studio Code documentation,'' Available at
-  \url{https://code.visualstudio.com/docs/}.
-
-\bibitem{microsoft2024vscoderemote}
-Microsoft,  2024b,
-\newblock ``VS Code Remote Development,'' Available at
-  \url{https://code.visualstudio.com/docs/remote/remote-overview}.
-
-\bibitem{myers2011art}
-Glenford~J Myers, Corey Sandler, and Tom Badgett,
-\newblock  2011, {\bf The Art of Software Testing},
-\newblock Wiley, 3rd edition.
-
-\bibitem{newman2021building}
-Sam Newman,
-\newblock  2021, {\bf Building Microservices: Designing Fine-Grained Systems},
-\newblock O'Reilly Media, 2nd edition.
+\bibitem{rivest1978method}
+R.~Rivest, A.~Shamir, and L.~Adleman,
+\newblock  1978, ``A method for obtaining digital signatures and public-key
+  cryptosystems,''
+\newblock {\bf Communications of the ACM}, vol. 21, no. 2, pp. 120--126, 1978.
 
 \bibitem{nist2020dss}
 NIST,  2020,
 \newblock ``Digital Signature Standard (DSS),'' .
 
+\bibitem{sectigo_digital_signatures}
+Sectigo,  n.d.,
+\newblock ``How digital signatures work,'' Available at
+  \url{https://www.sectigo.com/resource-library/how-digital-signatures-work},
+  [Online; accessed September 18, 2025].
+
 \bibitem{owasp2021mstg}
 OWASP,  2021,
 \newblock ``Mobile Security Testing Guide (MSTG),'' .
 
-\bibitem{pivotal2024spring}
-{Pivotal Software, Inc.},  2024,
-\newblock ``Spring Boot reference documentation,'' Available at
-  \url{https://docs.spring.io/spring-boot/}.
+\bibitem{element_issue_15877}
+Element,  n.d.,
+\newblock ``Issue \#15877,'' Available at
+  \url{https://github.com/element-hq/element-web/issues/15877}, [Online;
+  accessed September 18, 2025].
 
-\bibitem{postgres2024doc}
-{PostgreSQL Global Development Group},  n.d.-a,
-\newblock ``PostgreSQL documentation,'' Available at
-  \url{https://www.postgresql.org/docs/}.
+\bibitem{pornkamol_kplus}
+Pornkamol,  n.d.,
+\newblock ``K PLUS case study,'' Available at
+  \url{https://www.pornkamol.com/work/kplus}, [Online; accessed September 18,
+  2025].
 
-\bibitem{postman2024overview}
-Postman,  2024a,
-\newblock ``Postman API platform overview,'' Available at
-  \url{https://www.postman.com/product/api-platform/}.
+\bibitem{minnsittux_scb}
+Minnsittux,  n.d.,
+\newblock ``Redesigning SCB Easy app design challenge,'' Available at
+  \url{https://medium.com/@minnsittux/redesigning-scb-easy-app-design-challenge-cacaf4997ae4},
+  [Online; accessed September 18, 2025].
 
-\bibitem{postman2024newman}
+\bibitem{macthai2020next}
+MacThai,  2020,
+\newblock ``Krungthai NEXT,'' Available at
+  \url{https://www.macthai.com/2020/09/23/krungthai-next/}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{bbl_topup}
+{Bangkok Bank},  n.d.,
+\newblock ``Mobile top-up,'' Available at
+  \url{https://www.bangkokbank.com/en/Personal/Digital-Banking/Bualuang-mBanking/How-to-Use/MobileTopUp},
+  [Online; accessed September 18, 2025].
+
+\bibitem{thailandinsurance_ttb}
+{Thailand Insurance News},  n.d.,
+\newblock ``TTB digital strategy,'' Available at
+  \url{https://thailandinsurancenews.com/featured/ttb-\%E0\%B8\%8A\%E0\%B8\%B9-4-\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%A2\%E0\%B8\%B8\%E0\%B8\%97\%E0\%B8\%92\%E0\%B9\%8C-\%E0\%B8\%82\%E0\%B8\%A2\%E0\%B8\%B2\%E0\%B8\%A2\%E0\%B8\%90\%E0\%B8\%B2\%E0\%B8\%99\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%B8\%E0\%B9\%88/},
+  [Online; accessed September 18, 2025].
+
+\bibitem{techsauce_krungsri}
+Techsauce,  n.d.,
+\newblock ``Krungsri digital platform milestone,'' Available at
+  \url{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users},
+  [Online; accessed September 18, 2025].
+
+\bibitem{bogotobogo_go_web}
+BogoToBogo,  n.d.,
+\newblock ``Go web programming,'' Available at
+  \url{https://www.bogotobogo.com/GoLang/GoLang_Web.php}, [Online; accessed
+  September 18, 2025].
+
+\bibitem{postman2024}
 Postman,  2024b,
 \newblock ``Newman CLI for automated testing,'' Available at
-  \url{https://learning.postman.com/docs/collections/using-newman/}.
-
-\bibitem{redis2025doc}
-Redis,  2025a,
-\newblock ``Redis documentation,'' Available at
-  \url{https://redis.io/docs/latest/}.
-
-\bibitem{richardson2018microservices}
-Chris Richardson,
-\newblock  2018, {\bf Microservices Patterns: With examples in Java},
-\newblock Manning Publications.
-
-\bibitem{rivest1978method}
-Ronald Rivest, Adi Shamir, and Leonard Adleman,
-\newblock  1978, ``A method for obtaining digital signatures and public-key
-  cryptosystems,''
-\newblock {\bf Communications of the ACM}, vol. 21, no. 2, pp. 120--126, 1978.
-
-\bibitem{sharma2021automated}
-R~Sharma and M~Sood,
-\newblock  2021, ``Automated CI/CD pipelines using Jenkins,''
-\newblock {\bf International Journal of Computer Applications}, vol. 183, no.
-  42, pp. 15--21, 2021.
-
-\bibitem{scb2024easy}
-{Siam Commercial Bank},  n.d.,
-\newblock ``SCB EASY,'' Available at \url{https://www.scb.co.th}.
-
-\bibitem{splunk2025what}
-Splunk,  2025,
-\newblock ``What is Splunk?,'' Available at
-  \url{https://www.fortinet.com/resources/cyberglossary/what-is-splunk}.
-
-\bibitem{stallings2017crypto}
-William Stallings,
-\newblock  2017, {\bf Cryptography and Network Security: Principles and
-  Practice},
-\newblock Pearson, 7th edition.
-
-\bibitem{ttb2024touch}
-{TMBThanachart Bank (TTB)},  n.d.,
-\newblock ``TTB Touch,'' Available at \url{https://www.ttbbank.com}.
-
-\bibitem{yu2021cross}
-Y~Yu et~al.,
-\newblock  2021, ``Cross-platform UI frameworks: A performance comparison,''
-\newblock {\bf ACM Transactions on Mobile Computing}, vol. 20, no. 5, pp.
-  1--24, 2021.
-
-\bibitem{zhang2022continuous}
-Y~Zhang et~al.,
-\newblock  2022, ``Continuous mobile testing with Firebase and TestFlight,''
-\newblock {\bf Journal of Mobile Computing}, vol. 11, no. 3, pp. 45--58, 2022.
-
-\bibitem{zhao2022automated}
-J~Zhao and L~Wang,
-\newblock  2022, ``Automated API testing and collaborative development with
-  Postman,''
-\newblock {\bf Software Practice \& Experience}, vol. 52, no. 7, pp.
-  1234--1250, 2022.
+  \url{https://learning.postman.com/docs/collections/using-newman/}, [Online;
+  accessed September 18, 2025].
 
 \end{thebibliography}

@@ -610,7 +610,7 @@ Git is a distributed version control system that enables teams to track
 and manage changes in source code across multiple contributors. Its
 decentralized architecture allows every developer to maintain a full
 copy of the repository, ensuring that work can continue even if network
-connectivity is interrupted (Chacon \& Straub, 2021). Branching and
+connectivity is interrupted \cite{chacon2021progit_v2}. Branching and
 merging strategies such as Git Flow or trunk-based development
 facilitate parallel feature development while preserving a clean and
 auditable history of changes. Git supports code reviews and pull
@@ -621,14 +621,14 @@ debugging and release management. In modern agile environments, Git
 integrates seamlessly with continuous integration/continuous delivery
 (CI/CD) pipelines, automated testing, and deployment workflows, making
 it a critical tool for secure banking applications where traceability
-and rollback capabilities are essential (Loeliger \& McCullough, 2012).
+and rollback capabilities are essential \cite{loeliger2012git}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.43401in,height=2.70313in]{report_media/media/image62.png}
 \caption{Common Git Workflow}\label{fig:common-git-workflow}
 Source:
-\href{https://www.researchgate.net/figure/Common-Git-Workflow-15_fig1_344675138}{https://www.researchgate.net/figure/Common-Git-Workflow-15\_fig1\_344675138}
+\cite{khleel2020merging}
 \end{figure}
 
 From the Figure~\ref{fig:common-git-workflow}, Git manages distributed version
@@ -643,7 +643,7 @@ development environment (IDE) that supports a wide range of languages
 and frameworks including Dart/Flutter, Go, Java, and JavaScript. Its
 modular design and extensive extension marketplace allow developers to
 customize the environment with debugging tools, code linters, container
-development kits, and Git integration (Microsoft, 2024a). VS Code's
+development kits, and Git integration \cite{microsoft2024vscode_doc}. VS Code's
 IntelliSense engine provides smart code completion and refactoring
 suggestions, improving developer productivity and reducing syntax
 errors. Built-in support for remote development over SSH or containers
@@ -651,7 +651,7 @@ enables teams to maintain consistent environments across different
 operating systems, which is essential for large cross-platform projects.
 Features such as Live Share permit real-time collaborative editing and
 debugging, a valuable capability for agile teams working on secure
-financial software (Amos et al., 2023; Microsoft, 2024b). Its
+financial software \cite{amos2023practical, microsoft2024vscode_remote}. Its
 open-source nature and frequent updates from Microsoft's active
 developer community ensure continuous improvements in security and
 performance.
@@ -661,7 +661,7 @@ performance.
 \includegraphics[width=4.8485in,height=3.21354in]{report_media/media/image79.png}
 \caption{Visual Studio Code User Interface}\label{fig:visual-studio-code-user-interface}
 Source:
-\href{https://code.visualstudio.com/docs/getstarted/userinterface}{https://code.visualstudio.com/docs/getstarted/userinterface}
+\cite{microsoft_vscode_ui}
 \end{figure}
 
 From the Figure~\ref{fig:visual-studio-code-user-interface}, Visual Studio Code provides a
@@ -676,12 +676,11 @@ programming language created by Google to combine the performance of C
 with the simplicity of modern scripting languages. Go's lightweight
 goroutines and channel-based concurrency model allow developers to build
 highly scalable network services capable of handling thousands of
-simultaneous connections with minimal overhead (Donovan \& Kernighan,
-2016). Its garbage-collected memory management reduces common issues
+simultaneous connections with minimal overhead \cite{donovan2016go}. Its garbage-collected memory management reduces common issues
 like memory leaks, while strong typing improves code reliability. Go's
 standard library provides robust packages for cryptography, networking,
 and JSON processing, making it particularly suitable for secure
-financial transactions and real-time event streaming (Go Team, 2024).
+financial transactions and real-time event streaming \cite{go_doc}.
 Benchmarks consistently show that Go outperforms many interpreted
 languages in throughput and latency, which is critical for mobile
 banking backends that demand low-latency processing. Its fast
@@ -693,7 +692,7 @@ cycles and simplify maintenance.
 \includegraphics[width=3.71643in,height=3.85938in]{report_media/media/image23.png}
 \caption{Golang Code}\label{fig:golang-code}
 Source:
-\href{https://www.bogotobogo.com/GoLang/GoLang_Web.php}{https://www.bogotobogo.com/GoLang/GoLang\_Web.php}
+\cite{bogotobogo_golang}
 \end{figure}
 
 From the Figure~\ref{fig:golang-code}, the code shows a simple HTTP server
@@ -707,25 +706,25 @@ Flutter is an open-source UI framework developed by Google that enables
 the creation of cross-platform mobile, web, and desktop applications
 from a single codebase. By compiling to native ARM code and using its
 own high-performance rendering engine, Flutter achieves near-native
-performance on both iOS and Android devices (Google, 2024a). Its
+performance on both iOS and Android devices \cite{google2024flutter_overview}. Its
 widget-based architecture allows developers to create expressive and
 adaptive interfaces that automatically adjust to different screen sizes
 and resolutions. The ``hot reload'' feature enables real-time updates
 during development, reducing iteration time and improving design
-experimentation (Yu et al., 2021). Flutter integrates seamlessly with
+experimentation \cite{yu2021cross}. Flutter integrates seamlessly with
 backend APIs and supports reactive programming patterns through packages
 like Riverpod and Bloc, making it well suited for dynamic financial
 dashboards. The growing ecosystem of plugins supports secure
 authentication, biometric login, and encrypted storage, all of which are
 vital for banking applications that handle sensitive personal data
-(Google, 2024b).
+\cite{google2024flutter_security}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.08721in,height=3.73958in]{report_media/media/image14.png}
 \caption{Flutter Material 3 Design}\label{fig:flutter-material-3-design}
 Source:
-\href{https://github.com/flutter/flutter/issues/91605}{https://github.com/flutter/flutter/issues/91605}
+\cite{flutter_issue_91605}
 \end{figure}
 
 From Figure~\ref{fig:flutter-material-3-design}, Flutter integrates the Material 3 UI
@@ -741,15 +740,14 @@ Postman is a comprehensive platform for designing, testing, and
 documenting Application Programming Interfaces (APIs). It allows
 developers to create environment-specific collections, automate test
 cases, and simulate various request/response scenarios before
-integration into production systems (Postman, 2024a). Features such as
+integration into production systems \cite{postman2024platform}). Features such as
 pre-request scripts, automated assertions, and mock servers streamline
 the validation of RESTful and GraphQL APIs, reducing the risk of defects
 during deployment. Postman's collaboration capabilities, shared
 workspaces, version control, and real-time comments, enhance
-communication between frontend, backend, and QA teams (Zhao \& Wang,
-2022). The platform integrates with CI/CD pipelines through Newman or
+communication between frontend, backend, and QA teams \cite{zhao2022automated}. The platform integrates with CI/CD pipelines through Newman or
 Postman CLI, enabling automated regression testing in continuous
-delivery workflows (Postman, 2024b). For financial services where secure
+delivery workflows \cite{postman2024newman}. For financial services where secure
 and reliable API communication is critical, Postman provides a
 controlled environment to verify authentication flows, encryption
 requirements, and error-handling mechanisms before live rollout.
@@ -759,7 +757,7 @@ requirements, and error-handling mechanisms before live rollout.
 \includegraphics[width=4.71646in,height=3.88021in]{report_media/media/image90.png}
 \caption{Navigating Postman}\label{fig:navigating-postman}
 Source:
-\href{https://learning.postman.com/docs/getting-started/basics/navigating-postman/}{https://learning.postman.com/docs/getting-started/basics/navigating-postman/}
+\cite{postman_navigating}
 \end{figure}
 
 From the Figure~\ref{fig:navigating-postman}, Postman allows API design, testing, and
@@ -773,24 +771,24 @@ Jenkins is an open-source automation server that facilitates continuous
 integration and continuous delivery for software projects of any scale.
 It provides a plugin-based architecture that supports hundreds of
 integrations for building, testing, and deploying applications across
-diverse environments (Fowler, 2006). Jenkins pipelines allow developers
+diverse environments \cite{fowler2006ci}). Jenkins pipelines allow developers
 to define complex workflows as code, enabling automated unit tests,
 static analysis, container image creation, and deployment to Kubernetes
-or cloud services (Jenkins, 2024). Built-in role-based access control
+or cloud services \cite{jenkins_doc}). Built-in role-based access control
 and encrypted credential management help maintain security in sensitive
 projects such as banking systems. Jenkins' scalability through
 distributed build agents allows parallel execution of tasks,
 significantly reducing build times for large microservice architectures.
 Its compatibility with GitHub Actions and GitLab CI makes it a flexible
 backbone for hybrid CI/CD strategies that require both cloud and
-on-premise deployments (Sharma \& Sood, 2021).
+on-premise deployments \cite{sharma2021automated}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.8831in,height=2.60938in]{report_media/media/image2.png}
 \caption{Jenkins (Software)}\label{fig:jenkins-software}
 Source:
-\href{https://en.wikipedia.org/wiki/Jenkins_\%28software\%29}{https://en.wikipedia.org/wiki/Jenkins\_\%28software\%29}
+\cite{wikipedia_jenkins}
 \end{figure}
 
 From the Figure~\ref{fig:jenkins-software}, Jenkins automates CI/CD pipelines,
@@ -804,24 +802,24 @@ Firebase App Distribution and Apple TestFlight are complementary tools
 for distributing pre-release mobile applications to testers. Firebase
 App Distribution supports both Android and iOS, offering streamlined
 release management, crash reporting, and real-time feedback channels
-(Google, 2024c). Testers receive build updates via email or the Firebase
+\cite{google2024firebase_distribution}. Testers receive build updates via email or the Firebase
 console, allowing rapid iteration during development. Apple TestFlight,
 managed through App Store Connect, provides a secure mechanism to
 distribute beta versions of iOS applications to up to 10,000 external
-testers with role-based access control (Apple, 2024). Both platforms
+testers with role-based access control \cite{apple2024testflight}. Both platforms
 integrate with CI/CD pipelines to automate build uploads and notify
 testers of new releases. Early feedback from these tools helps identify
 UI/UX issues, performance bottlenecks, and security vulnerabilities
 before public deployment, which is especially critical in financial
 applications where regulatory compliance and user trust are paramount
-(Zhang et al., 2022).
+\cite{zhang2022continuous}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.50301in,height=2.72984in]{report_media/media/image52.png}
 \caption{Firebase App Distribution Workflow}\label{fig:firebase-app-distribution-workflow}
 Source:
-\href{https://takamii.hatenablog.com/entry/2021/01/10/174039}{https://takamii.hatenablog.com/entry/2021/01/10/174039}
+\cite{takamii2021jenkins}
 \end{figure}
 
 From the Figure~\ref{fig:firebase-app-distribution-workflow}, Firebase App Distribution and TestFlight
@@ -835,24 +833,24 @@ Kotlin is a modern programming language that runs on the Java Virtual
 Machine and is fully interoperable with existing Java codebases.
 Designed by JetBrains, Kotlin offers concise syntax, null-safety
 features, and coroutines for asynchronous programming, all of which
-contribute to safer and more maintainable code (Breslav et al., 2017).
+contribute to safer and more maintainable code \cite{breslav2017kotlin}.
 Compared with Java, Kotlin reduces boilerplate code by up to 40\%,
 improving readability and development speed. Its seamless
 interoperability with Java allows gradual migration of legacy systems,
 making it ideal for large financial institutions that must balance
-modernization with operational continuity (JetBrains, 2024). Kotlin's
+modernization with operational continuity \cite{jetbrains2024kotlin_ref}. Kotlin's
 strong type inference and data-class capabilities reduce runtime errors,
 while support for multiplatform development enables shared business
 logic across Android, iOS, and backend services. The language is
 officially supported by Google for Android development, ensuring
-long-term ecosystem stability and tooling support (Google, 2024d).
+long-term ecosystem stability and tooling support \cite{google2024android_basics}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=3.19444in]{report_media/media/image60.png}
 \caption{Kotlin Code Implementation}\label{fig:kotlin-code-implementation}
 Source:
-\href{https://ibyteinfomatics.com/blog/tag/java-vs-kotlin/}{https://ibyteinfomatics.com/blog/tag/java-vs-kotlin/}
+\cite{ibyte_java_vs_kotlin}
 \end{figure}
 
 From the Figure~\ref{fig:kotlin-code-implementation}, Kotlin offers concise syntax and
@@ -865,7 +863,7 @@ code
 Spring Boot is a widely used Java framework that simplifies the creation
 of production-grade microservices. It provides opinionated defaults,
 auto-configuration, and an embedded server, enabling rapid deployment of
-RESTful APIs and enterprise services (Johnson et al., 2023). Built-in
+RESTful APIs and enterprise services \cite{johnson2023spring}. Built-in
 support for dependency injection, transaction management, and security
 modules such as Spring Security makes it particularly suitable for
 banking applications requiring strict authentication and authorization
@@ -876,14 +874,14 @@ health checks and metrics for real-time monitoring, while Spring Data
 simplifies interactions with relational and NoSQL databases. The active
 open-source community ensures continuous updates and security patches,
 which is crucial for maintaining compliance with financial regulations
-(Richardson, 2018; Pivotal Software, 2024).
+\cite{richardson2018microservices, pivotal2024springboot}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.98264in,height=3.20313in]{report_media/media/image58.png}
 \caption{Spring Boot Microservice Architecture Diagram}\label{fig:spring-boot-microservice-architecture-diagram}
 Source:
-\href{https://spring.io/microservices}{https://spring.io/microservices}
+\cite{spring_microservices}
 \end{figure}
 
 From the Figure~\ref{fig:spring-boot-microservice-architecture-diagram}, Spring Boot simplifies creating secure
@@ -906,7 +904,7 @@ With its global edge network, Cloudflare enhances both security and
 responsiveness, ensuring users experience fast and safe access to
 services. This combination of performance optimization and multi-layered
 protection makes it a critical component of the KKP Better platform's
-infrastructure (Cloudflare, 2025a; Cloudflare, 2025b).
+infrastructure \cite{cloudflare2025waf_overview, cloudflare2025waf_getstarted}.
 
 \begin{figure}[H]
 \centering
@@ -914,7 +912,7 @@ infrastructure (Cloudflare, 2025a; Cloudflare, 2025b).
 
 \caption{Cloudflare Responsibilities Diagram}\label{fig:cloudflare-responsibilities-diagram}
 Source:
-\href{https://systemweakness.com/automate-and-finds-the-ip-address-of-a-website-behind-cloudflare-45db99510b4b}{https://systemweakness.com/automate-and-finds-the-ip-address-of-a-website-behind-cloudflare-45db99510b4b}
+\cite{systemweakness_cloudflare}
 \end{figure}
 
 
@@ -929,8 +927,7 @@ latency.
 Apache APISIX is a high-performance, cloud-native API gateway designed
 for dynamic traffic management in microservice architectures. Built on
 Nginx and etcd, it supports real-time configuration changes without
-downtime, enabling zero-restart deployment and hot updates (Apache
-APISIX, 2024). Its plugin-based architecture provides features such as
+downtime, enabling zero-restart deployment and hot updates \cite{apisix2024getting_started}. Its plugin-based architecture provides features such as
 authentication, rate limiting, load balancing, service discovery, and
 observability through metrics and tracing. APISIX natively integrates
 with Kubernetes and service mesh patterns, making it suitable for
@@ -943,15 +940,14 @@ even under heavy load, a key requirement for mobile banking APIs. For a
 project like KKP Better, APISIX can act as a central control layer to
 route, secure, and monitor requests between mobile clients and
 distributed services. Its open-source community and CNCF incubation
-status ensure active development and enterprise reliability. (Apache
-APISIX Documentation, 2024; CNCF Landscape, 2024)
+status ensure active development and enterprise reliability. \cite{apisix2024high_performance, cncf2024landscape}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=3.72222in]{report_media/media/image63.png}
 \caption{APISIX Process of Centralized}\label{fig:apisix-process-of-centralized}
 Source:
-\href{https://apisix.apache.org/blog/2022/01/04/authing/}{https://apisix.apache.org/blog/2022/01/04/authing/}
+\cite{apisix2022auth}
 \end{figure}
 
 From the Figure~\ref{fig:apisix-process-of-centralized}, Apache APISIX acts as a high-performance API
@@ -964,7 +960,7 @@ The Lura Project, previously known as KrakenD, is an open-source
 high-performance API gateway and aggregator designed for microservice
 and serverless environments. It enables API composition by merging
 multiple backend responses into a single endpoint, reducing round-trip
-calls from mobile or web clients (Lura Project, 2024). Lura uses a
+calls from mobile or web clients \cite{lura2024gateway}. Lura uses a
 stateless, configuration-driven model that eliminates custom coding for
 routing, transformation, and caching, simplifying maintenance in large
 distributed systems. It supports advanced features such as
@@ -978,15 +974,14 @@ encrypted transport layers, meeting strict banking compliance
 requirements. Its modular architecture lets teams add or remove
 middleware without disrupting existing services, making it ideal for
 evolving financial applications. With an active community and commercial
-support options, Lura offers both flexibility and production-grade
-stability. (Lura Project, 2024)
+stability. \cite{lura2024gateway}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.87847in,height=2.91971in]{report_media/media/image73.png}
 \caption{Lura Project Implementation}\label{fig:lura-project-implementation}
 Source:
-\href{https://github.com/luraproject/lura}{https://github.com/luraproject/lura}
+\cite{lura_repo}
 \end{figure}
 
 From the Figure~\ref{fig:lura-project-implementation}, the Lura Project aggregates multiple
@@ -1008,14 +1003,14 @@ failover contribute to system reliability, while strong security
 mechanisms help meet compliance requirements. For KKP Better, PostgreSQL
 underpins essential services that require both precision and resilience,
 making it a trusted foundation for secure financial operations
-(PostgreSQL Global Development Group, n.d.-a).
+\cite{postgres_doc}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.00156in,height=2.92933in]{report_media/media/image24.png}
 \caption{PostgreSQL Architecture}\label{fig:postgresql-architecture}
 Source:
-\href{https://docs.netapp.com/us-en/ontap-apps-dbs/postgres/postgres-architecture.html}{https://docs.netapp.com/us-en/ontap-apps-dbs/postgres/postgres-architecture.html}
+\cite{netapp_postgres}
 \end{figure}
 
 From Figure~\ref{fig:postgresql-architecture}, the PostgreSQL architecture demonstrates
@@ -1039,14 +1034,14 @@ safeguard critical session data while ensuring fast recovery in case of
 failures. By serving as a high-speed caching layer, Redis enables smooth
 user experiences for time-sensitive operations like balance inquiries,
 transaction lookups, and identity verification, ensuring the platform
-remains responsive under heavy load (Redis, 2025a).
+remains responsive under heavy load \cite{redis2025doc}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=3.83333in]{report_media/media/image46.png}
 \caption{Redis Cluster Flow Diagram}\label{fig:redis-cluster-flow-diagram}
 Source:
-\href{https://www.somkiat.cc/redis-architecture/}{https://www.somkiat.cc/redis-architecture/}
+\cite{somkiat_redis}
 \end{figure}
 
 From the Figure~\ref{fig:redis-cluster-flow-diagram}, Redis delivers in-memory caching and
@@ -1068,14 +1063,14 @@ Kafka guarantees durability and supports processing large volumes of
 financial events without data loss. In KKP Better, Kafka is integral for
 real-time analytics pipelines, monitoring, and compliance reporting,
 ensuring that both operational visibility and regulatory requirements
-are met (Apache Kafka, n.d.-a).
+are met \cite{kafka_doc}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.27083in,height=2.08663in]{report_media/media/image45.png}
 \caption{Apache Kafka Data Flow}\label{fig:apache-kafka-data-flow}
 Source:
-\href{https://medium.com/@sachin28/how-industries-solve-their-use-cases-with-kafka-b0e5f8434662}{https://medium.com/@sachin28/how-industries-solve-their-use-cases-with-kafka-b0e5f8434662}
+\cite{sachin_kafka}
 \end{figure}
 
 From the Figure~\ref{fig:apache-kafka-data-flow}, Apache Kafka supports real-time event
@@ -1099,15 +1094,14 @@ a multi-layered observability stack that supports proactive detection of
 issues, reduces downtime, and strengthens compliance with financial
 regulations. By integrating monitoring, tracing, and log management into
 daily operations, the platform ensures reliability, transparency, and
-accountability across all environments (Grafana Labs, n.d.; Dynatrace,
-2025; Splunk, 2025).
+accountability across all environments \cite{grafana_doc, dynatrace2025what, splunk2025what}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.20063in,height=2.71249in]{report_media/media/image82.png}
 \caption{Grafana Dashboard}\label{fig:grafana-dashboard}
 Source:
-\href{https://grafana.com/oss/grafana/}{https://grafana.com/oss/grafana/}
+\cite{grafana_oss}
 \end{figure}
 
 From the Figure~\ref{fig:grafana-dashboard}, Grafana provides monitoring, tracing, and log
@@ -1126,14 +1120,14 @@ registration, or notification delivery, allowing teams to develop,
 scale, and maintain services without impacting the entire system. This
 approach reduces coupling, supports horizontal scaling, and enables
 continuous delivery, which is critical for a financial application that
-must evolve rapidly while remaining stable and secure (Newman, 2021).
+must evolve rapidly while remaining stable and secure \cite{newman2021building}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.03628in,height=2.26339in]{report_media/media/image38.png}
 \caption{Microservice architecture diagram}\label{fig:microservice-architecture-diagram}
 Source:
-\href{https://webandcrafts.com/blog/what-is-microservices-architecture}{https://webandcrafts.com/blog/what-is-microservices-architecture}
+\cite{webandcrafts_microservices}
 \end{figure}
 
 From the Figure~\ref{fig:microservice-architecture-diagram}, client requests from mobile or web apps are routed
@@ -1154,14 +1148,14 @@ configuration and reduce code duplication. These patterns provide a
 clear separation of concerns, reduce technical debt, and support
 long-term system evolution. By leveraging proven design principles, the
 platform achieves greater development efficiency and consistency across
-teams (Gamma, Helm, Johnson, \& Vlissides, 1994; Angelov, 2020).
+teams \cite{gamma1994design, angelov2020flutter}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=1.56944in]{report_media/media/image6.png}
 \caption{Bloc Design Pattern With State Management}\label{fig:bloc-design-pattern-with-state-management}
 Source:
-\href{https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5}{https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5}
+\cite{flutter_bloc_beginners}
 \end{figure}
 
 From the Figure~\ref{fig:bloc-design-pattern-with-state-management}, the interaction between UI, business logic (Bloc),
@@ -1183,14 +1177,14 @@ API interactions. The BFF also supports role-based access control and
 session management, ensuring compliance with financial regulations.
 Overall, the BFF pattern enhances user experience by streamlining
 communication between diverse clients and the underlying microservices
-(Richardson, 2018; Newman, 2021).
+\cite{richardson2018microservices, newman2021building}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.30769in,height=3.24361in,alt={Javarevisited: How does The BFF (Backend For Frontend) Pattern Work?}]{report_media/media/image18.jpg}
 \caption{Backends For Frontend (BFF) Implementation}\label{fig:backends-for-frontend-bff-implementation}
 Source:
-\href{https://javarevisited.blogspot.com/2023/06/how-does-bff-backend-for-frontend.html}{https://javarevisited.blogspot.com/2023/06/how-does-bff-backend-for-frontend.html}
+\cite{javarevisited2023bff}
 \end{figure}
 
 From the Figure~\ref{fig:backends-for-frontend-bff-implementation}, client applications connect to dedicated BFF
@@ -1224,15 +1218,14 @@ automates updates and synchronizes settings across SIT, UAT, and PROD
 environments.
 
 This approach simplifies backend integration, supports scalability, and
-ensures compliance with security and performance standards (Richardson,
-2018; Lura Project, n.d.;).
+ensures compliance with security and performance standards \cite{richardson2018microservices, lura_doc_nd}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.26772in,height=3.51389in]{report_media/media/image10.png}
 \caption{API Gateway Visualization}\label{fig:api-gateway-visualization}
 Source:
-\href{https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern}{https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern}
+\cite{microsoft_microservices_gateway}
 \end{figure}
 
 From the Figure~\ref{fig:api-gateway-visualization}, the architecture highlights how the gateway
@@ -1262,14 +1255,14 @@ Jenkins, each serving complementary roles:
 
 Together, these tools support frequent and reliable releases, enabling
 rapid iteration while maintaining compliance and security standards
-(Fowler, 2006; GitHub, n.d.; Jenkins, 2024).
+\cite{fowler2006ci, github_actions_understanding, jenkins_doc}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.79715in,height=2.43634in]{report_media/media/image80.png}
 \caption{CI/CD Pipelines Workflow}\label{fig:cicd-pipelines-workflow}
 Source:
-\href{https://testrigor.com/blog/what-is-cicd/}{https://testrigor.com/blog/what-is-cicd/}
+\cite{harimahesh_cicd}
 \end{figure}
 
 From the Figure~\ref{fig:cicd-pipelines-workflow}, automation tools coordinate the end-to-end
@@ -1301,14 +1294,14 @@ observability.
 
 For the KKP Better platform, adopting Cloud-Native design ensures
 services are modular, portable, and scalable, supporting rapid iteration
-while maintaining security and high availability (Burns, 2017).
+while maintaining security and high availability \cite{burns2017designing}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.3912in,height=2.65978in]{report_media/media/image92.png}
 \caption{Docker Container Construct Workflow}\label{fig:docker-container-construct-workflow}
 Source:
-\href{https://medium.com/t-t-software-solution/\%E0\%B8\%9D\%E0\%B8\%B6\%E0\%B8\%81\%E0\%B8\%A7\%E0\%B8\%B4\%E0\%B8\%8A\%E0\%B8\%B2-docker-image-container-8765a513f2b4}{https://medium.com/t-t-software-solution/\%E0\%B8\%9D\%E0\%B8\%B6\%E0\%B8\%81\%E0\%B8\%A7\%E0\%B8\%B4\%E0\%B8\%8A\%E0\%B8\%B2-docker-image-container-8765a513f2b4}
+\cite{ttsoftware_docker}
 \end{figure}
 
 From the Figure~\ref{fig:docker-container-construct-workflow}, Docker images are built from Dockerfiles and run
@@ -1335,15 +1328,14 @@ system reliability:
 \end{itemize}
 
 For KKP Better, this layered process is critical to ensure security,
-performance, and compliance in financial services (Myers, Sandler, \&
-Badgett, 2011).
+performance, and compliance in financial services \cite{myers2011art}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.11979in,height=3.20222in]{report_media/media/image78.png}
 \caption{Manual Testing Process}\label{fig:manual-testing-process}
 Source:
-\href{https://www.esds.co.in/blog/manual-testing-process-lifecycle/}{https://www.esds.co.in/blog/manual-testing-process-lifecycle/}
+\cite{esds_manual_testing}
 \end{figure}
 
 From the Figure~\ref{fig:manual-testing-process}, the lifecycle shows requirement analysis,
@@ -1373,15 +1365,14 @@ be altered or replayed by malicious actors. Private keys also support
 strong encryption protocols, which protect transaction requests and
 responses during communication. By enforcing strict management policies
 around private key handling, the platform minimizes risks of compromise
-and ensures long-term system integrity (Diffie \& Hellman, 1976;
-Stallings, 2017).
+and ensures long-term system integrity \cite{diffie1976new, stallings2017crypto}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.42032in,height=2.92887in]{report_media/media/image26.png}
 \caption{Private Key Encryption}\label{fig:private-key-encryption}
 Source:
-\href{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}
+\cite{cheapssl_cryptography}
 \end{figure}
 
 From the Figure~\ref{fig:private-key-encryption}, the process shows how a private key encrypts and
@@ -1404,14 +1395,14 @@ the public key verifies that a transaction was genuinely signed by the
 authorized source. By leveraging the public-private key pair, KKP Better
 ensures strong trust between clients, backend services, and external
 systems, aligning with industry best practices for secure digital
-transactions (Diffie \& Hellman, 1976; Stallings, 2017).
+transactions \cite{diffie1976new, stallings2017crypto}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5195in,height=2.7743in]{report_media/media/image64.png}
 \caption{Public Key Encryption}\label{fig:public-key-encryption}
 Source:
-\href{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}{https://cheapsslsecurity.com/p/what-is-public-key-and-private-key-cryptography-and-how-does-it-work/}
+\cite{cheapssl_cryptography}
 \end{figure}
 
 From the Figure~\ref{fig:public-key-encryption}, the diagram shows how the public key encrypts data
@@ -1431,15 +1422,14 @@ from an authorized source and has not been altered. This mechanism also
 provides non-repudiation, meaning that the user cannot deny initiating a
 transaction once it has been signed. By embedding RefNo. with a private
 key signature, KKP Better ensures that all operations meet the highest
-standards of reliability and trust (Rivest, Shamir, \& Adleman, 1978;
-NIST, 2020).
+standards of reliability and trust \cite{rivest1978method, nist2020dss}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.62619in,height=3.16551in]{report_media/media/image94.png}
 \caption{Digital Signature Flow}\label{fig:digital-signature-flow}
 Source:
-\href{https://www.sectigo.com/resource-library/how-digital-signatures-work}{https://www.sectigo.com/resource-library/how-digital-signatures-work}
+\cite{sectigo_digital_signatures}
 \end{figure}
 
 From the Figure~\ref{fig:digital-signature-flow}, the process shows how a message is hashed and
@@ -1459,15 +1449,14 @@ forwards a confirmation to the Backend-for-Frontend (BFF) layer. If
 verification fails, the request is rejected to prevent fraudulent
 activity. This mechanism prevents unauthorized devices from executing
 sensitive operations, thereby protecting users from account takeover and
-ensuring compliance with strict financial security standards (Fowler,
-2006; OWASP, 2021).
+ensuring compliance with strict financial security standards \cite{fowler2006ci, owasp2021mstg}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.62915in,height=3.01563in]{report_media/media/image11.png}
 \caption{Digital Signature Verification}\label{fig:digital-signature-verification}
 Source:
-\href{https://github.com/element-hq/element-web/issues/15877}{https://github.com/element-hq/element-web/issues/15877}
+\cite{element_issue_15877}
 \end{figure}
 
 From the Figure~\ref{fig:digital-signature-verification}, the login verification process is shown, where a
@@ -1493,14 +1482,14 @@ services such as e-commerce, ride-hailing, and promotions. Security
 measures include biometric login and transaction verification. K PLUS
 positions itself not only as a banking app but also as a digital
 lifestyle platform, making it a leader in customer engagement
-(Kasikornbank, n.d.).
+\cite{pornkamol_kplus}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.44641in,height=2.21181in]{report_media/media/image43.png}
 \caption{K PLUS by Kasikorn Bank}\label{fig:k-plus-by-kasikorn-bank}
 Source:
-\href{https://www.pornkamol.com/work/kplus}{https://www.pornkamol.com/work/kplus}
+\cite{pornkamol_kplus}
 \end{figure}
 
 From the Figure~\ref{fig:k-plus-by-kasikorn-bank}, the interface highlights how the app extends
@@ -1518,14 +1507,14 @@ cardless ATM withdrawals and QR code payments. SCB EASY also
 incorporates AI-driven financial insights to improve customer
 engagement. Its large user base and integration with SCB's digital
 ecosystem make it one of the strongest competitors in the Thai banking
-sector (Siam Commercial Bank, n.d.).
+sector \cite{minnsittux_scb}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=3.58489in,height=2.37391in]{report_media/media/image61.png}
 \caption{SCB EASY by Siam Commercial Bank}\label{fig:scb-easy-by-siam-commercial-bank}
 Source:
-\href{https://medium.com/@minnsittux/redesigning-scb-easy-app-design-challenge-cacaf4997ae4}{https://medium.com/@minnsittux/redesigning-scb-easy-app-design-challenge-cacaf4997ae4}
+\cite{minnsittux_scb}
 \end{figure}
 
 From the Figure~\ref{fig:scb-easy-by-siam-commercial-bank}, the interface illustrates its role as a
@@ -1542,14 +1531,14 @@ disbursements. The app offers high transaction capacity, supporting
 millions of daily users. Security is enhanced through biometric
 verification and dynamic PIN systems. Krungthai NEXT plays a crucial
 role in national financial infrastructure, making it indispensable for
-government-backed digital payments and services (Krungthai Bank, n.d.).
+government-backed digital payments and services \cite{macthai2020next}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.83489in,height=2.44536in]{report_media/media/image5.png}
 \caption{Krungthai NEXT by Krungthai Bank}\label{fig:krungthai-next-by-krungthai-bank}
 Source:
-\href{https://www.macthai.com/2020/09/23/krungthai-next/}{https://www.macthai.com/2020/09/23/krungthai-next/}
+\cite{macthai2020next}
 \end{figure}
 
 From the Figure~\ref{fig:krungthai-next-by-krungthai-bank}, the interface highlights its dual role in personal
@@ -1567,14 +1556,14 @@ transfer standards such as SWIFT. With Bangkok Bank's strong presence in
 ASEAN, the app is a key channel for international customers and
 businesses. Its design is more conservative but highly reliable,
 aligning with Bangkok Bank's image as a stable and trustworthy financial
-institution (Bangkok Bank, n.d.).
+institution \cite{bbl_topup}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=3.20833in,height=4.625in]{report_media/media/image7.png}
 \caption{Bangkok Bank Mobile Banking by Bangkok Bank}\label{fig:bangkok-bank-mobile-banking-by-bangkok}
 Source:
-\href{https://www.bangkokbank.com/en/Personal/Digital-Banking/Bualuang-mBanking/How-to-Use/MobileTopUp}{https://www.bangkokbank.com/en/Personal/Digital-Banking/Bualuang-mBanking/How-to-Use/MobileTopUp}
+\cite{bbl_topup}
 \end{figure}
 
 From the Figure~\ref{fig:bangkok-bank-mobile-banking-by-bangkok}, the application highlights secure and stable
@@ -1591,15 +1580,14 @@ offering tailored recommendations for saving and debt management.
 Security is ensured through biometric login and device-based
 authentication. TTB Touch positions itself as a customer-centric
 platform that helps users ``get more from life,'' aligning with the
-bank's branding after the TMB--Thanachart merger (TMBThanachart Bank
-(TTB), n.d.).
+bank's branding after the TMB--Thanachart merger \cite{thailandinsurance_ttb}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.0058in,height=3.3912in]{report_media/media/image36.png}
 \caption{TTB Touch by TMBThanachart Bank}\label{fig:ttb-touch-by-tmbthanachart-bank}
 Source:
-\href{https://thailandinsurancenews.com/featured/ttb-\%E0\%B8\%8A\%E0\%B8\%B9-4-\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%A2\%E0\%B8\%B8\%E0\%B8\%97\%E0\%B8\%98\%E0\%B9\%8C-\%E0\%B8\%82\%E0\%B8\%A2\%E0\%B8\%B2\%E0\%B8\%A2\%E0\%B8\%90\%E0\%B8\%B2\%E0\%B8\%99\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%B8\%E0\%B9\%88/}{https://thailandinsurancenews.com/featured/ttb-\%E0\%B8\%8A\%E0\%B8\%B9-4-\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%A2\%E0\%B8\%B8\%E0\%B8\%97\%E0\%B8\%98\%E0\%B9\%8C-\%E0\%B8\%82\%E0\%B8\%A2\%E0\%B8\%B2\%E0\%B8\%A2\%E0\%B8\%90\%E0\%B8\%B2\%E0\%B8\%99\%E0\%B8\%81\%E0\%B8\%A5\%E0\%B8\%B8\%E0\%B9\%88/}
+\cite{thailandinsurance_ttb}
 \end{figure}
 
 From the Figure~\ref{fig:ttb-touch-by-tmbthanachart-bank}, the app showcases its focus on personal financial
@@ -1616,15 +1604,14 @@ convenience and personalization, providing real-time notifications and
 AI-driven financial suggestions. Security includes two-factor
 authentication and encrypted communication. KMA's strength lies in
 combining financial services with lifestyle benefits, positioning
-Krungsri as a modern and customer-oriented digital bank (Bank of Ayudhya
-(Krungsri), n.d.).
+Krungsri as a modern and customer-oriented digital bank \cite{techsauce_krungsri}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=4.5739in,height=3.04926in]{report_media/media/image66.png}
 \caption{Krungsri Mobile App by Krungsri Bank}\label{fig:krungsri-mobile-app-by-krungsri-bank}
 Source:
-\href{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users}{https://techsauce.co/pr-news/krungsri-unveils-next-milestone-of-kma-digital-platform-with-new-features-to-double-volume-of-active-users}
+\cite{techsauce_krungsri}
 \end{figure}
 
 From the Figure~\ref{fig:krungsri-mobile-app-by-krungsri-bank}, the interface highlights this dual approach by
@@ -1647,7 +1634,7 @@ customer engagement.
 
 \section{Overview of Methodology}
 
-The development of the KKP Batter mobile banking application follows
+The development of the KKP Better mobile banking application follows
 agile software development methodology, allowing the team to iteratively
 plan, design, implement, and refine features throughout each sprint
 cycle. Under the approach, work is divided into manageable increments,

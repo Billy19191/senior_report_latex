@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2026.5.4)  4 MAY 2026 04:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2026.5.4)  4 MAY 2026 05:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,17 +1027,26 @@ File: report_media/media/image23.png Graphic file (type bmp)
 <report_media/media/image23.png>
 
 
+LaTeX Warning: Citation `bogotobogo_golang' on page 10 undefined on input line 
+695.
+
+
+
 [10]
 File: report_media/media/image14.png Graphic file (type bmp)
 <report_media/media/image14.png>
 
-Overfull \hbox (6.29454pt too wide) in paragraph at lines 725--726
+Overfull \hbox (6.29454pt too wide) in paragraph at lines 724--725
  [][] 
  []
 
 
 
 [11]
+
+LaTeX Warning: Citation `postman2024newman' on page 12 undefined on input line 
+750.
+
 File: report_media/media/image90.png Graphic file (type bmp)
 <report_media/media/image90.png>
 
@@ -1056,7 +1065,7 @@ File: report_media/media/image52.png Graphic file (type bmp)
 File: report_media/media/image60.png Graphic file (type bmp)
 <report_media/media/image60.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 852--853
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 850--851
  [][] 
  []
 
@@ -1068,7 +1077,7 @@ File: report_media/media/image58.png Graphic file (type bmp)
 
 
 [16]
-Overfull \hbox (1.02657pt too wide) in paragraph at lines 905--910
+Overfull \hbox (1.02657pt too wide) in paragraph at lines 903--908
 []\TU/TimesNewRoman(0)/m/n/10 With its global edge network, Cloudflare enhances
  both security and responsiveness, ensuring users experience
  []
@@ -1076,7 +1085,7 @@ Overfull \hbox (1.02657pt too wide) in paragraph at lines 905--910
 File: report_media/media/image29.png Graphic file (type bmp)
 <report_media/media/image29.png>
 
-Overfull \hbox (19.34988pt too wide) in paragraph at lines 913--914
+Overfull \hbox (19.34988pt too wide) in paragraph at lines 911--912
  [][] 
  []
 
@@ -1086,7 +1095,7 @@ Overfull \hbox (19.34988pt too wide) in paragraph at lines 913--914
 File: report_media/media/image63.png Graphic file (type bmp)
 <report_media/media/image63.png>
 
-Overfull \hbox (19.34099pt too wide) in paragraph at lines 951--952
+Overfull \hbox (19.34099pt too wide) in paragraph at lines 947--948
  [][] 
  []
 
@@ -1106,7 +1115,7 @@ File: report_media/media/image24.png Graphic file (type bmp)
 File: report_media/media/image46.png Graphic file (type bmp)
 <report_media/media/image46.png>
 
-Overfull \hbox (19.35982pt too wide) in paragraph at lines 1046--1047
+Overfull \hbox (19.35982pt too wide) in paragraph at lines 1041--1042
  [][] 
  []
 
@@ -1116,7 +1125,7 @@ Overfull \hbox (19.35982pt too wide) in paragraph at lines 1046--1047
 File: report_media/media/image45.png Graphic file (type bmp)
 <report_media/media/image45.png>
 
-Overfull \hbox (19.572pt too wide) in paragraph at lines 1075--1076
+Overfull \hbox (19.572pt too wide) in paragraph at lines 1070--1071
  [][] 
  []
 
@@ -1131,25 +1140,25 @@ File: report_media/media/image82.png Graphic file (type bmp)
 File: report_media/media/image38.png Graphic file (type bmp)
 <report_media/media/image38.png>
 
-Overfull \hbox (6.99242pt too wide) in paragraph at lines 1139--1143
+Overfull \hbox (6.99242pt too wide) in paragraph at lines 1133--1137
 \TU/TimesNewRoman(0)/m/n/10 individual microservices, each with its own databas
 e. A message broker supports asynchronous communication,
+ []
+
+File: report_media/media/image6.png Graphic file (type bmp)
+<report_media/media/image6.png>
+
+Overfull \hbox (19.35294pt too wide) in paragraph at lines 1155--1156
+ [][] 
  []
 
 
 
 [24]
-File: report_media/media/image6.png Graphic file (type bmp)
-<report_media/media/image6.png>
-
-Overfull \hbox (19.35294pt too wide) in paragraph at lines 1161--1162
- [][] 
- []
-
 File: report_media/media/image18.jpg Graphic file (type bmp)
 <report_media/media/image18.jpg>
 
-Overfull \hbox (22.23235pt too wide) in paragraph at lines 1190--1191
+Overfull \hbox (22.23235pt too wide) in paragraph at lines 1184--1185
  [][] 
  []
 
@@ -1159,14 +1168,14 @@ Overfull \hbox (22.23235pt too wide) in paragraph at lines 1190--1191
 File: report_media/media/image10.png Graphic file (type bmp)
 <report_media/media/image10.png>
 
-Overfull \hbox (19.32108pt too wide) in paragraph at lines 1232--1233
+Overfull \hbox (19.32108pt too wide) in paragraph at lines 1225--1226
  [][] 
  []
 
 
 
 [26]
-Overfull \hbox (15.51385pt too wide) in paragraph at lines 1250--1252
+Overfull \hbox (15.51385pt too wide) in paragraph at lines 1243--1245
 []\TU/TimesNewRoman(0)/m/n/10 The KKP Better platform adopts CI/ CD pipelines u
 sing GitHub Actions, and Jenkins, each serving complementary
  []
@@ -1174,9 +1183,7 @@ sing GitHub Actions, and Jenkins, each serving complementary
 File: report_media/media/image80.png Graphic file (type bmp)
 <report_media/media/image80.png>
 
-
-[27]
-Overfull \hbox (1.52003pt too wide) in paragraph at lines 1282--1286
+Overfull \hbox (1.52003pt too wide) in paragraph at lines 1275--1279
 []\TU/TimesNewRoman(0)/m/n/10 Cloud-Native principles emphasize building applic
 ations that fully leverage cloud infrastructure for scalability,
  []
@@ -1185,23 +1192,23 @@ File: report_media/media/image92.png Graphic file (type bmp)
 <report_media/media/image92.png>
 
 
-[28]
+[27]
 File: report_media/media/image78.png Graphic file (type bmp)
 <report_media/media/image78.png>
 
-Overfull \hbox (8.65627pt too wide) in paragraph at lines 1343--1344
+Overfull \hbox (8.65627pt too wide) in paragraph at lines 1335--1336
  [][] 
  []
 
 
 
-[29]
+[28]
 File: report_media/media/image26.png Graphic file (type bmp)
 <report_media/media/image26.png>
 
 
-[30]
-Overfull \hbox (5.88107pt too wide) in paragraph at lines 1387--1391
+[29]
+Overfull \hbox (5.88107pt too wide) in paragraph at lines 1378--1382
 []\TU/TimesNewRoman(0)/m/n/10 From the Figure [][]2.24[][], the process shows h
 ow a private key encrypts and decrypts data to maintain confidentiality
  []
@@ -1210,51 +1217,45 @@ File: report_media/media/image64.png Graphic file (type bmp)
 <report_media/media/image64.png>
 
 
-[31]
+[30]
 File: report_media/media/image94.png Graphic file (type bmp)
 <report_media/media/image94.png>
 
-Overfull \hbox (45.2303pt too wide) in paragraph at lines 1439--1440
+Overfull \hbox (45.2303pt too wide) in paragraph at lines 1429--1430
  [][] 
  []
 
 
 
-[32]
+[31]
 File: report_media/media/image11.png Graphic file (type bmp)
 <report_media/media/image11.png>
 
 
-[33]
+[32]
 File: report_media/media/image43.png Graphic file (type bmp)
 <report_media/media/image43.png>
 
 
-[34]
+[33]
 File: report_media/media/image61.png Graphic file (type bmp)
 <report_media/media/image61.png>
 
 
-[35]
+[34]
 File: report_media/media/image5.png Graphic file (type bmp)
 <report_media/media/image5.png>
 File: report_media/media/image7.png Graphic file (type bmp)
 <report_media/media/image7.png>
 
 
-[36]
+[35]
 File: report_media/media/image36.png Graphic file (type bmp)
 <report_media/media/image36.png>
 
-Overfull \hbox (216.28723pt too wide) in paragraph at lines 1601--1603
- \TU/TimesNewRoman(0)/m/n/10 %E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%90%E0%B
-8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88/[][] 
- []
 
-
-
-[37]
-Overfull \hbox (5.30406pt too wide) in paragraph at lines 1611--1621
+[36]
+Overfull \hbox (5.30406pt too wide) in paragraph at lines 1599--1608
 []\TU/TimesNewRoman(0)/m/n/10 Krungsri Mobile App (KMA) provides customers with
  access to core banking services, credit card management,
  []
@@ -1263,50 +1264,50 @@ File: report_media/media/image66.png Graphic file (type bmp)
 <report_media/media/image66.png>
 
 
-[38]
+[37]
 File: report_media/media/market_compare.png Graphic file (type bmp)
 <report_media/media/market_compare.png>
 
-Overfull \hbox (19.34613pt too wide) in paragraph at lines 1638--1639
+Overfull \hbox (19.34613pt too wide) in paragraph at lines 1625--1626
  [][] 
+ []
+
+
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+
  []
 
 
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1644
-
- []
-
-
-
-[40]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -5.0pt
-(hyperref)                removed on input line 1646.
+(hyperref)                removed on input line 1633.
 
 
 
-[41
+[40
 
 ]
 File: report_media/media/image31.png Graphic file (type bmp)
 <report_media/media/image31.png>
 
-Overfull \hbox (19.3431pt too wide) in paragraph at lines 1751--1752
+Overfull \hbox (19.3431pt too wide) in paragraph at lines 1738--1739
  [][] 
  []
 
 
 
+[41]
+
 [42]
 
 [43]
-
-[44]
-Overfull \hbox (9.58383pt too wide) in paragraph at lines 1928--1931
+Overfull \hbox (9.58383pt too wide) in paragraph at lines 1915--1918
 []\TU/TimesNewRoman(0)/b/n/10 Monitoring: \TU/TimesNewRoman(0)/m/n/10 Dynatrace
  provides service-level performance insights, while Grafana visualizes operatio
 nal
@@ -1318,40 +1319,40 @@ File: report_media/media/image71.png Graphic file (type bmp)
 <report_media/media/image71.png>
 
 
-[45]
+[44]
 File: report_media/media/image76.png Graphic file (type bmp)
 <report_media/media/image76.png>
 
 
-[46]
+[45]
 File: report_media/media/image4.png Graphic file (type bmp)
 <report_media/media/image4.png>
 
-Overfull \hbox (19.33769pt too wide) in paragraph at lines 1995--1996
+Overfull \hbox (19.33769pt too wide) in paragraph at lines 1982--1983
  [][] 
  []
 
 File: report_media/media/image86.png Graphic file (type bmp)
 <report_media/media/image86.png>
 
-Overfull \hbox (19.34312pt too wide) in paragraph at lines 2001--2002
+Overfull \hbox (19.34312pt too wide) in paragraph at lines 1988--1989
+ [][] 
+ []
+
+
+
+[46]
+File: report_media/media/image84.png Graphic file (type bmp)
+<report_media/media/image84.png>
+
+Overfull \hbox (19.34216pt too wide) in paragraph at lines 2018--2019
  [][] 
  []
 
 
 
 [47]
-File: report_media/media/image84.png Graphic file (type bmp)
-<report_media/media/image84.png>
-
-Overfull \hbox (19.34216pt too wide) in paragraph at lines 2031--2032
- [][] 
- []
-
-
-
-[48]
-Underfull \hbox (badness 1127) in paragraph at lines 2069--2072
+Underfull \hbox (badness 1127) in paragraph at lines 2056--2059
  \TU/TimesNewRoman(0)/b/n/10 3.4.1.1.3 Defect and Quality Improvements[][] \TU/
 TimesNewRoman(0)/m/n/10 After completing the core development, we focused
  []
@@ -1359,57 +1360,57 @@ TimesNewRoman(0)/m/n/10 After completing the core development, we focused
 File: report_media/media/image68.png Graphic file (type bmp)
 <report_media/media/image68.png>
 
-Overfull \hbox (19.35245pt too wide) in paragraph at lines 2075--2076
+Overfull \hbox (19.35245pt too wide) in paragraph at lines 2062--2063
  [][] 
  []
 
 File: report_media/media/request_authen_user_flow.png Graphic file (type bmp)
 <report_media/media/request_authen_user_flow.png>
 
-Overfull \hbox (46.99716pt too wide) in paragraph at lines 2100--2101
+Overfull \hbox (46.99716pt too wide) in paragraph at lines 2087--2088
+ [][] 
+ []
+
+
+
+[48]
+File: report_media/media/image34.png Graphic file (type bmp)
+<report_media/media/image34.png>
+
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 2138--2139
  [][] 
  []
 
 
 
 [49]
-File: report_media/media/image34.png Graphic file (type bmp)
-<report_media/media/image34.png>
-
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 2151--2152
- [][] 
- []
-
-
-
-[50]
 File: report_media/media/image51.png Graphic file (type bmp)
 <report_media/media/image51.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 2157--2158
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 2144--2145
  [][] 
  []
 
 File: report_media/media/image95.png Graphic file (type bmp)
 <report_media/media/image95.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 2163--2164
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 2150--2151
+ [][] 
+ []
+
+
+
+[50]
+File: report_media/media/image41.png Graphic file (type bmp)
+<report_media/media/image41.png>
+
+Overfull \hbox (19.34651pt too wide) in paragraph at lines 2181--2182
  [][] 
  []
 
 
 
 [51]
-File: report_media/media/image41.png Graphic file (type bmp)
-<report_media/media/image41.png>
-
-Overfull \hbox (19.34651pt too wide) in paragraph at lines 2194--2195
- [][] 
- []
-
-
-
-[52]
 File: report_media/media/image30.png Graphic file (type bmp)
 <report_media/media/image30.png>
 File: report_media/media/image59.png Graphic file (type bmp)
@@ -1417,48 +1418,48 @@ File: report_media/media/image59.png Graphic file (type bmp)
 File: report_media/media/image54.png Graphic file (type bmp)
 <report_media/media/image54.png>
 
-Overfull \hbox (19.3397pt too wide) in paragraph at lines 2229--2232
+Overfull \hbox (19.3397pt too wide) in paragraph at lines 2216--2219
  [][] 
  []
 
 
-Overfull \hbox (19.33482pt too wide) in paragraph at lines 2229--2232
+Overfull \hbox (19.33482pt too wide) in paragraph at lines 2216--2219
  [] 
  []
 
 
-Overfull \hbox (19.35095pt too wide) in paragraph at lines 2229--2232
+Overfull \hbox (19.35095pt too wide) in paragraph at lines 2216--2219
  [] 
  []
 
 
 
-[53]
+[52]
 File: report_media/media/tax_planning_user_flow.png Graphic file (type bmp)
 <report_media/media/tax_planning_user_flow.png>
 
-Overfull \hbox (19.34157pt too wide) in paragraph at lines 2263--2264
+Overfull \hbox (19.34157pt too wide) in paragraph at lines 2250--2251
  [][] 
  []
 
 File: report_media/media/image49.png Graphic file (type bmp)
 <report_media/media/image49.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 2302--2303
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 2289--2290
  [][] 
  []
 
 
 
-[54]
-Overfull \hbox (0.10141pt too wide) in paragraph at lines 2318--2327
+[53]
+Overfull \hbox (0.10141pt too wide) in paragraph at lines 2305--2314
  \TU/TimesNewRoman(0)/b/n/10 3.4.3.1.1 System Preparation and Technical Underst
 anding[][] \TU/TimesNewRoman(0)/m/n/10 During the preparation phase, we reviewe
 d
  []
 
 
-Overfull \hbox (11.80649pt too wide) in paragraph at lines 2330--2332
+Overfull \hbox (11.80649pt too wide) in paragraph at lines 2317--2319
  \TU/TimesNewRoman(0)/b/n/10 3.4.3.1.2 Core Feature Development[][] \TU/TimesNe
 wRoman(0)/m/n/10 The core development focused on implementing the new segmentat
 ion
@@ -1467,46 +1468,46 @@ ion
 File: report_media/media/image9.png Graphic file (type bmp)
 <report_media/media/image9.png>
 
-Overfull \hbox (19.34851pt too wide) in paragraph at lines 2335--2336
+Overfull \hbox (19.34851pt too wide) in paragraph at lines 2322--2323
+ [][] 
+ []
+
+
+
+[54]
+File: report_media/media/segmentation_user_flow.png Graphic file (type bmp)
+<report_media/media/segmentation_user_flow.png>
+
+Overfull \hbox (19.34366pt too wide) in paragraph at lines 2403--2404
  [][] 
  []
 
 
 
 [55]
-File: report_media/media/segmentation_user_flow.png Graphic file (type bmp)
-<report_media/media/segmentation_user_flow.png>
+File: report_media/media/image89.png Graphic file (type bmp)
+<report_media/media/image89.png>
 
-Overfull \hbox (19.34366pt too wide) in paragraph at lines 2416--2417
+Overfull \hbox (2.52399pt too wide) in paragraph at lines 2422--2423
  [][] 
  []
 
 
 
 [56]
-File: report_media/media/image89.png Graphic file (type bmp)
-<report_media/media/image89.png>
+File: report_media/media/image42.png Graphic file (type bmp)
+<report_media/media/image42.png>
 
-Overfull \hbox (2.52399pt too wide) in paragraph at lines 2435--2436
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 2454--2455
  [][] 
  []
 
 
 
 [57]
-File: report_media/media/image42.png Graphic file (type bmp)
-<report_media/media/image42.png>
-
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 2467--2468
- [][] 
- []
-
-
 
 [58]
-
-[59]
-Overfull \hbox (3.4191pt too wide) in paragraph at lines 2566--2567
+Overfull \hbox (3.4191pt too wide) in paragraph at lines 2553--2554
 []\TU/TimesNewRoman(0)/b/n/10 Null Segmentation\TU/TimesNewRoman(0)/m/n/10 : Pr
 events invalid access and shows a generic error message when segmentation
  []
@@ -1514,153 +1515,153 @@ events invalid access and shows a generic error message when segmentation
 File: report_media/media/image50.png Graphic file (type bmp)
 <report_media/media/image50.png>
 
-Overfull \hbox (19.34851pt too wide) in paragraph at lines 2579--2580
+Overfull \hbox (19.34851pt too wide) in paragraph at lines 2566--2567
  [][] 
  []
 
 File: report_media/media/privilege_user_flow.png Graphic file (type bmp)
 <report_media/media/privilege_user_flow.png>
 
-Overfull \hbox (19.57138pt too wide) in paragraph at lines 2619--2620
+Overfull \hbox (19.57138pt too wide) in paragraph at lines 2606--2607
+ [][] 
+ []
+
+
+
+[59]
+File: report_media/media/image20.png Graphic file (type bmp)
+<report_media/media/image20.png>
+
+Overfull \hbox (14.68451pt too wide) in paragraph at lines 2634--2635
  [][] 
  []
 
 
 
 [60]
-File: report_media/media/image20.png Graphic file (type bmp)
-<report_media/media/image20.png>
+File: report_media/media/image93.png Graphic file (type bmp)
+<report_media/media/image93.png>
 
-Overfull \hbox (14.68451pt too wide) in paragraph at lines 2647--2648
+Overfull \hbox (19.35524pt too wide) in paragraph at lines 2668--2669
  [][] 
  []
 
 
 
 [61]
-File: report_media/media/image93.png Graphic file (type bmp)
-<report_media/media/image93.png>
-
-Overfull \hbox (19.35524pt too wide) in paragraph at lines 2681--2682
- [][] 
- []
-
-
-
-[62]
 File: report_media/media/image69.png Graphic file (type bmp)
 <report_media/media/image69.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 2690--2691
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 2677--2678
  [][] 
  []
 
 File: report_media/media/image35.png Graphic file (type bmp)
 <report_media/media/image35.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 2699--2700
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 2686--2687
  [][] 
  []
 
 
 
-[63]
+[62]
 File: report_media/media/image47.png Graphic file (type bmp)
 <report_media/media/image47.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 2708--2709
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 2695--2696
  [][] 
  []
 
 File: report_media/media/image87.png Graphic file (type bmp)
 <report_media/media/image87.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 2717--2718
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 2704--2705
  [][] 
  []
 
 
 
-[64]
+[63]
 File: report_media/media/image75.png Graphic file (type bmp)
 <report_media/media/image75.png>
 
-Overfull \hbox (19.35312pt too wide) in paragraph at lines 2755--2756
+Overfull \hbox (19.35312pt too wide) in paragraph at lines 2742--2743
  [][] 
  []
 
 File: report_media/media/image17.png Graphic file (type bmp)
 <report_media/media/image17.png>
 
-Overfull \hbox (19.35115pt too wide) in paragraph at lines 2761--2762
+Overfull \hbox (19.35115pt too wide) in paragraph at lines 2748--2749
  [][] 
  []
 
 
 
-[65]
+[64]
 File: report_media/media/image1.png Graphic file (type bmp)
 <report_media/media/image1.png>
 
-Overfull \hbox (19.34822pt too wide) in paragraph at lines 2767--2768
+Overfull \hbox (19.34822pt too wide) in paragraph at lines 2754--2755
  [][] 
  []
 
 File: report_media/media/image44.png Graphic file (type bmp)
 <report_media/media/image44.png>
 
-Overfull \hbox (19.34822pt too wide) in paragraph at lines 2773--2774
+Overfull \hbox (19.34822pt too wide) in paragraph at lines 2760--2761
  [][] 
  []
 
 
 
-[66]
+[65]
 File: report_media/media/image56.png Graphic file (type bmp)
 <report_media/media/image56.png>
 
-Overfull \hbox (23.7254pt too wide) in paragraph at lines 2854--2855
+Overfull \hbox (23.7254pt too wide) in paragraph at lines 2841--2842
  [][] 
  []
 
 File: report_media/media/image25.png Graphic file (type bmp)
 <report_media/media/image25.png>
 
-Overfull \hbox (19.33939pt too wide) in paragraph at lines 2860--2861
+Overfull \hbox (19.33939pt too wide) in paragraph at lines 2847--2848
  [][] 
  []
 
 File: report_media/media/image83.png Graphic file (type bmp)
 <report_media/media/image83.png>
 
-Overfull \hbox (19.35312pt too wide) in paragraph at lines 2866--2867
+Overfull \hbox (19.35312pt too wide) in paragraph at lines 2853--2854
+ [][] 
+ []
+
+
+
+[66]
+File: report_media/media/image19.png Graphic file (type bmp)
+<report_media/media/image19.png>
+
+Overfull \hbox (19.35312pt too wide) in paragraph at lines 2859--2860
  [][] 
  []
 
 
 
 [67]
-File: report_media/media/image19.png Graphic file (type bmp)
-<report_media/media/image19.png>
+File: report_media/media/better_box_user_flow.png Graphic file (type bmp)
+<report_media/media/better_box_user_flow.png>
 
-Overfull \hbox (19.35312pt too wide) in paragraph at lines 2872--2873
+Overfull \hbox (19.3382pt too wide) in paragraph at lines 2931--2932
  [][] 
  []
 
 
 
 [68]
-File: report_media/media/better_box_user_flow.png Graphic file (type bmp)
-<report_media/media/better_box_user_flow.png>
-
-Overfull \hbox (19.3382pt too wide) in paragraph at lines 2944--2945
- [][] 
- []
-
-
-
-[69]
-Overfull \hbox (5.42305pt too wide) in paragraph at lines 2967--2970
+Overfull \hbox (5.42305pt too wide) in paragraph at lines 2954--2957
 []\TU/TimesNewRoman(0)/m/n/10 This flow ensures that users complete all require
 d steps for fund allocation while preventing invalid transactions,
  []
@@ -1668,14 +1669,14 @@ d steps for fund allocation while preventing invalid transactions,
 File: report_media/media/image57.jpg Graphic file (type bmp)
 <report_media/media/image57.jpg>
 
-Overfull \hbox (28.22932pt too wide) in paragraph at lines 2975--2976
+Overfull \hbox (28.22932pt too wide) in paragraph at lines 2962--2963
  [][] 
  []
 
 
 
-[70]
-Overfull \hbox (0.73738pt too wide) in paragraph at lines 3013--3021
+[69]
+Overfull \hbox (0.73738pt too wide) in paragraph at lines 3000--3008
 \TU/TimesNewRoman(0)/m/n/10 services more conveniently. By integrating currency
  selection, exchange functionality, and digital onboarding.
  []
@@ -1683,175 +1684,175 @@ Overfull \hbox (0.73738pt too wide) in paragraph at lines 3013--3021
 File: report_media/media/image13.png Graphic file (type bmp)
 <report_media/media/image13.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3024--3025
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3011--3012
  [][] 
  []
 
 File: report_media/media/image12.png Graphic file (type bmp)
 <report_media/media/image12.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3033--3034
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3020--3021
  [][] 
  []
 
 
 
-[71]
+[70]
 File: report_media/media/image91.png Graphic file (type bmp)
 <report_media/media/image91.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3042--3043
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3029--3030
  [][] 
  []
 
 File: report_media/media/image28.png Graphic file (type bmp)
 <report_media/media/image28.png>
 
-Overfull \hbox (19.3443pt too wide) in paragraph at lines 3051--3052
+Overfull \hbox (19.3443pt too wide) in paragraph at lines 3038--3039
  [][] 
  []
 
 
 
-[72]
+[71]
 File: report_media/media/image16.png Graphic file (type bmp)
 <report_media/media/image16.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3060--3061
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3047--3048
  [][] 
  []
 
 
-Overfull \hbox (3.49026pt too wide) in paragraph at lines 3069--3078
+Overfull \hbox (3.49026pt too wide) in paragraph at lines 3056--3065
 []\TU/TimesNewRoman(0)/m/n/10 The development of the Ultimate FCD feature invol
 ved a series of tasks focused on designing and implementing
  []
 
 
 
-[73]
+[72]
 File: report_media/media/image70.png Graphic file (type bmp)
 <report_media/media/image70.png>
 
-Overfull \hbox (21.9429pt too wide) in paragraph at lines 3102--3103
+Overfull \hbox (21.9429pt too wide) in paragraph at lines 3089--3090
  [][] 
  []
 
 File: report_media/media/image55.png Graphic file (type bmp)
 <report_media/media/image55.png>
 
-Overfull \hbox (19.34695pt too wide) in paragraph at lines 3109--3110
+Overfull \hbox (19.34695pt too wide) in paragraph at lines 3096--3097
  [][] 
  []
 
 File: report_media/media/image22.png Graphic file (type bmp)
 <report_media/media/image22.png>
 
-Overfull \hbox (19.34822pt too wide) in paragraph at lines 3116--3117
+Overfull \hbox (19.34822pt too wide) in paragraph at lines 3103--3104
  [][] 
  []
 
 
 
-[74]
+[73]
 File: report_media/media/image27.png Graphic file (type bmp)
 <report_media/media/image27.png>
 
-Overfull \hbox (19.35312pt too wide) in paragraph at lines 3159--3160
+Overfull \hbox (19.35312pt too wide) in paragraph at lines 3146--3147
  [][] 
  []
 
 File: report_media/media/image3.png Graphic file (type bmp)
 <report_media/media/image3.png>
 
-Overfull \hbox (19.35115pt too wide) in paragraph at lines 3165--3166
+Overfull \hbox (19.35115pt too wide) in paragraph at lines 3152--3153
  [][] 
  []
 
 
 
-[75]
+[74]
 File: report_media/media/ultimated_fcd_user_flow_1.png Graphic file (type bmp)
 <report_media/media/ultimated_fcd_user_flow_1.png>
 
-Overfull \hbox (19.56383pt too wide) in paragraph at lines 3188--3189
+Overfull \hbox (19.56383pt too wide) in paragraph at lines 3175--3176
  [][] 
  []
 
 File: report_media/media/ultimate_fcd_user_flow_2.png Graphic file (type bmp)
 <report_media/media/ultimate_fcd_user_flow_2.png>
 
-Overfull \hbox (19.57068pt too wide) in paragraph at lines 3217--3218
+Overfull \hbox (19.57068pt too wide) in paragraph at lines 3204--3205
+ [][] 
+ []
+
+
+
+[75]
+File: report_media/media/image32.png Graphic file (type bmp)
+<report_media/media/image32.png>
+
+Overfull \hbox (19.32784pt too wide) in paragraph at lines 3235--3236
  [][] 
  []
 
 
 
 [76]
-File: report_media/media/image32.png Graphic file (type bmp)
-<report_media/media/image32.png>
-
-Overfull \hbox (19.32784pt too wide) in paragraph at lines 3248--3249
- [][] 
- []
-
-
 
 [77]
 
 [78]
-
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 3390--3391
+Underfull \hbox (badness 10000) in paragraph at lines 3377--3378
 
  []
 
 
 
-[80]
+[79]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -5.0pt
-(hyperref)                removed on input line 3393.
+(hyperref)                removed on input line 3380.
 
 
-Overfull \hbox (22.42683pt too wide) in paragraph at lines 3397--3402
+Overfull \hbox (22.42683pt too wide) in paragraph at lines 3384--3389
 \TU/TimesNewRoman(0)/m/n/10 methodology. This structure supports iterative deve
 lopment, continuous delivery, and rapid feature implementation. 
  []
 
 
 
-[81
+[80
 
 ]
-Overfull \hbox (18.4558pt too wide) in paragraph at lines 3478--3484
+Overfull \hbox (18.4558pt too wide) in paragraph at lines 3465--3471
 \TU/TimesNewRoman(0)/m/n/10 showcase the completed feature implementations. Thi
 s ceremony validates that the developed functionalities
  []
 
 
 
-[82]
+[81]
 File: report_media/media/image53.png Graphic file (type bmp)
 <report_media/media/image53.png>
 File: report_media/media/image96.png Graphic file (type bmp)
 <report_media/media/image96.png>
 
 
-[83]
+[82]
 File: report_media/media/image4.png Graphic file (type bmp)
 <report_media/media/image4.png>
 
-Overfull \hbox (19.33769pt too wide) in paragraph at lines 3595--3596
+Overfull \hbox (19.33769pt too wide) in paragraph at lines 3582--3583
  [][] 
  []
 
 
 
-[84]
-Overfull \hbox (13.68509pt too wide) in paragraph at lines 3613--3618
+[83]
+Overfull \hbox (13.68509pt too wide) in paragraph at lines 3600--3605
 []\TU/TimesNewRoman(0)/m/n/10 On the backend, Golang-based microservices handle
  request validation, session management, and communication
  []
@@ -1859,14 +1860,14 @@ Overfull \hbox (13.68509pt too wide) in paragraph at lines 3613--3618
 File: report_media/media/image77.png Graphic file (type bmp)
 <report_media/media/image77.png>
 
-Overfull \hbox (19.34756pt too wide) in paragraph at lines 3626--3627
+Overfull \hbox (19.34756pt too wide) in paragraph at lines 3613--3614
  [][] 
  []
 
 
 
-[85]
-Overfull \hbox (0.15665pt too wide) in paragraph at lines 3639--3644
+[84]
+Overfull \hbox (0.15665pt too wide) in paragraph at lines 3626--3631
 \TU/TimesNewRoman(0)/m/n/10 distinguishing between different requests. This iss
 ue significantly impacted the reliability of the authentication
  []
@@ -1874,24 +1875,24 @@ ue significantly impacted the reliability of the authentication
 File: report_media/media/image51.png Graphic file (type bmp)
 <report_media/media/image51.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 3661--3662
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 3648--3649
+ [][] 
+ []
+
+
+
+[85]
+File: report_media/media/image21.png Graphic file (type bmp)
+<report_media/media/image21.png>
+
+Overfull \hbox (19.33139pt too wide) in paragraph at lines 3675--3676
  [][] 
  []
 
 
 
 [86]
-File: report_media/media/image21.png Graphic file (type bmp)
-<report_media/media/image21.png>
-
-Overfull \hbox (19.33139pt too wide) in paragraph at lines 3688--3689
- [][] 
- []
-
-
-
-[87]
-Overfull \hbox (9.29483pt too wide) in paragraph at lines 3718--3722
+Overfull \hbox (9.29483pt too wide) in paragraph at lines 3705--3709
 \TU/TimesNewRoman(0)/m/n/10 strategies on the backend. Caching and structured A
 PI design helped reduce latency and improve responsiveness. 
  []
@@ -1899,74 +1900,74 @@ PI design helped reduce latency and improve responsiveness.
 File: report_media/media/image49.png Graphic file (type bmp)
 <report_media/media/image49.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 3727--3728
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 3714--3715
+ [][] 
+ []
+
+
+
+[87]
+File: report_media/media/image40.png Graphic file (type bmp)
+<report_media/media/image40.png>
+
+Overfull \hbox (19.34091pt too wide) in paragraph at lines 3739--3740
  [][] 
  []
 
 
 
 [88]
-File: report_media/media/image40.png Graphic file (type bmp)
-<report_media/media/image40.png>
+File: report_media/media/image42.png Graphic file (type bmp)
+<report_media/media/image42.png>
 
-Overfull \hbox (19.34091pt too wide) in paragraph at lines 3752--3753
+Overfull \hbox (19.33087pt too wide) in paragraph at lines 3769--3770
  [][] 
  []
 
 
 
 [89]
-File: report_media/media/image42.png Graphic file (type bmp)
-<report_media/media/image42.png>
+File: report_media/media/image85.png Graphic file (type bmp)
+<report_media/media/image85.png>
 
-Overfull \hbox (19.33087pt too wide) in paragraph at lines 3782--3783
+Overfull \hbox (19.35219pt too wide) in paragraph at lines 3789--3790
  [][] 
  []
 
 
 
 [90]
-File: report_media/media/image85.png Graphic file (type bmp)
-<report_media/media/image85.png>
+File: report_media/media/image35.png Graphic file (type bmp)
+<report_media/media/image35.png>
 
-Overfull \hbox (19.35219pt too wide) in paragraph at lines 3802--3803
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3816--3817
  [][] 
  []
 
 
 
 [91]
-File: report_media/media/image35.png Graphic file (type bmp)
-<report_media/media/image35.png>
+File: report_media/media/image67.png Graphic file (type bmp)
+<report_media/media/image67.png>
 
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3829--3830
+Overfull \hbox (19.35277pt too wide) in paragraph at lines 3836--3837
  [][] 
  []
 
 
 
 [92]
-File: report_media/media/image67.png Graphic file (type bmp)
-<report_media/media/image67.png>
+File: report_media/media/image13.png Graphic file (type bmp)
+<report_media/media/image13.png>
 
-Overfull \hbox (19.35277pt too wide) in paragraph at lines 3849--3850
+Overfull \hbox (19.34145pt too wide) in paragraph at lines 3863--3864
  [][] 
  []
 
 
 
 [93]
-File: report_media/media/image13.png Graphic file (type bmp)
-<report_media/media/image13.png>
-
-Overfull \hbox (19.34145pt too wide) in paragraph at lines 3876--3877
- [][] 
- []
-
-
-
-[94]
-Overfull \hbox (3.97644pt too wide) in paragraph at lines 3886--3890
+Overfull \hbox (3.97644pt too wide) in paragraph at lines 3873--3877
 []\TU/TimesNewRoman(0)/m/n/10 The frontend provides a complete account opening 
 flow, including product display, selection, and confirmation.
  []
@@ -1974,148 +1975,360 @@ flow, including product display, selection, and confirmation.
 File: report_media/media/image81.png Graphic file (type bmp)
 <report_media/media/image81.png>
 
-Overfull \hbox (19.34373pt too wide) in paragraph at lines 3897--3898
+Overfull \hbox (19.34373pt too wide) in paragraph at lines 3884--3885
+ [][] 
+ []
+
+
+
+[94]
+File: report_media/media/image74.png Graphic file (type bmp)
+<report_media/media/image74.png>
+
+Overfull \hbox (19.35072pt too wide) in paragraph at lines 3917--3918
  [][] 
  []
 
 
 
 [95]
-File: report_media/media/image74.png Graphic file (type bmp)
-<report_media/media/image74.png>
-
-Overfull \hbox (19.35072pt too wide) in paragraph at lines 3930--3931
- [][] 
- []
-
-
 
 [96]
 
 [97]
-
-[98]
 File: report_media/media/unit_test_deposit.png Graphic file (type bmp)
 <report_media/media/unit_test_deposit.png>
 
-Overfull \hbox (19.33438pt too wide) in paragraph at lines 4081--4082
+Overfull \hbox (19.33438pt too wide) in paragraph at lines 4068--4069
  [][] 
  []
 
 File: report_media/media/unit_test_fininacial.png Graphic file (type bmp)
 <report_media/media/unit_test_fininacial.png>
 
-Overfull \hbox (19.35065pt too wide) in paragraph at lines 4087--4088
+Overfull \hbox (19.35065pt too wide) in paragraph at lines 4074--4075
+ [][] 
+ []
+
+
+
+[98]
+File: report_media/media/unit_code_example.png Graphic file (type bmp)
+<report_media/media/unit_code_example.png>
+
+Overfull \hbox (19.33534pt too wide) in paragraph at lines 4080--4081
  [][] 
  []
 
 
 
 [99]
-File: report_media/media/unit_code_example.png Graphic file (type bmp)
-<report_media/media/unit_code_example.png>
-
-Overfull \hbox (19.33534pt too wide) in paragraph at lines 4093--4094
- [][] 
- []
-
-
 
 [100]
-
-[101]
-Underfull \hbox (badness 10000) in paragraph at lines 4110--4111
+Underfull \hbox (badness 10000) in paragraph at lines 4097--4098
 
  []
 
 
 
-[102]
+[101]
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -5.0pt
-(hyperref)                removed on input line 4113.
+(hyperref)                removed on input line 4100.
 
 
-Overfull \hbox (8.54285pt too wide) in paragraph at lines 4125--4132
+Overfull \hbox (8.54285pt too wide) in paragraph at lines 4112--4119
 \TU/TimesNewRoman(0)/m/n/10 of conventional mobile banking applications, such a
 s the lack of financial planning tools, limited personalization,
  []
 
 
 
-[103
+[102
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4247--4248
+Underfull \hbox (badness 10000) in paragraph at lines 4234--4235
 
  []
 
 (project_report.bbl
 
-[104]
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
+[103]
+Underfull \hbox (badness 6188) in paragraph at lines 14--21
+[]\TU/TimesNewRoman(0)/m/n/10 N. A. A. Khleel and K. Nehéz,  2020, “Merging pro
+blems in modern version control
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--21
+[][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][] [] [][][] [] [][][]
+[][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][
+][][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 91--95
+[]\TU/TimesNewRoman(0)/m/n/10 Postman, n.d.,  “Navigating Postman,” Available a
+t [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][]
+[][] []
+ []
+
+
+
+[104
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
+[]\TU/TimesNewRoman(0)/m/n/10 System Weakness, n.d.,  “Automate and finds the I
+P address of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
+\TU/TimesNewRoman(0)/m/n/10 website behind Cloudflare,” Available at [][]$[][][
+][][] [] [] [] [][][][][][][][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 []\TU/TimesNewRoman(0)/m/n/10 Apache APISIX Documentation, 2024,  “High-Perform
 ance Cloud-Native API
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 \TU/TimesNewRoman(0)/m/n/10 Gateway,” Available at [][]$[][][][][] [] [] [] [][
 ][][][][] [] [][][][][][] [] [][][] [] [][][][] [] [][][][] [] [][] [] [][] []
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 88--91
+Underfull \hbox (badness 6526) in paragraph at lines 212--216
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][]
+$[][]\TU/TimesNewRoman(0)/m/n/10 , [Online;
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 246--250
+[]\TU/TimesNewRoman(0)/m/n/10 NetApp, n.d.,  “PostgreSQL architecture,” Availab
+le at [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][][][][]
+[] []
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 246--250
+[][][][][][][][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 , [Online; ac
+cessed September 18,
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 257--261
+[]\TU/TimesNewRoman(0)/m/n/10 Somkiat Puisungnoen, n.d.,  “Redis architecture,”
+ Available at [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][] []
+ []
+
+
+
+[105]
+Underfull \hbox (badness 6526) in paragraph at lines 269--273
+[][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+$[][]\TU/TimesNewRoman(0)/m/n/10 , [Online;
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 280--284
 []\TU/TimesNewRoman(0)/m/n/10 Dynatrace, 2025,  “What is Dynatrace?,” Available
  at [][]$[][][][][] [] [] [] [][][][] [] [][][][][][][][][] [] [][][] [] [][][]
 [] []
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 93--96
-[]\TU/TimesNewRoman(0)/m/n/10 Martin Fowler, 2006,  “Continuous Integration,” A
-vailable at [][]$[][][][][] [] [] [] [][][][][][][][][][][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 104--107
-[]\TU/TimesNewRoman(0)/m/n/10 GitHub, n.d.,  “Understanding GitHub Actions,” Av
-ailable at [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][] 
-[]
- []
-
-
-
-[105
-
-]
-Underfull \hbox (badness 3343) in paragraph at lines 251--254
+Underfull \hbox (badness 3343) in paragraph at lines 286--290
 []\TU/TimesNewRoman(0)/m/n/10 Splunk, 2025,  “What is Splunk?,” Available at []
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][]
 [] []
  []
 
 
+Underfull \hbox (badness 1616) in paragraph at lines 320--324
+[]\TU/TimesNewRoman(0)/m/n/10 Flutter Community, n.d.,  “Flutter BLoC for begin
+ners,” Available at [][]$[][][][][] [] [] [] [][][][][][] [] [][][] []
+ []
 
-[106])
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--324
+[][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/10
+ , [Online; accessed
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 326--330
+[]\TU/TimesNewRoman(0)/m/n/10 Javarevisited, 2023,  “How does BFF (backend for 
+frontend) work,” Available at [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--330
+[] [] [][][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][] [] [
+][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] [] [][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
+[]\TU/TimesNewRoman(0)/m/n/10 Microsoft, n.d.,  “Direct client-to-microservice 
+communication versus the API
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
+\TU/TimesNewRoman(0)/m/n/10 gateway pattern,” Available at [][]$[][][][][] [] [
+] [] [][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
+[][][][][][][][][][][][] [] [][][][][][][][][][][][][] [] [][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 344--348
+[]\TU/TimesNewRoman(0)/m/n/10 GitHub, n.d.,  “Understanding GitHub Actions,” Av
+ailable at [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][] 
+[]
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 362--366
+[]\TU/TimesNewRoman(0)/m/n/10 T.T. Software Solution, n.d.,  “Docker image cont
+ainer,” Available at [][]$[][][][][] [] [] [] [][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--366
+[][][][][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][] [] [][] [] [
+][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] 
+[][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
+[]\TU/TimesNewRoman(0)/m/n/10 CheapSSLsecurity, n.d.,  “What is public key and 
+private key cryptography
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
+\TU/TimesNewRoman(0)/m/n/10 and how does it work,” Available at [][]$[][][][][]
+ [] [] [] [][][][][][][][][][][][][][][][] [] [][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][]$[][]\TU/TimesNewRoman(0)/m/n/10 , [Online;
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 408--412
+[]\TU/TimesNewRoman(0)/m/n/10 Sectigo, n.d.,  “How digital signatures work,” Av
+ailable at [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--434
+[][][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[
+][]\TU/TimesNewRoman(0)/m/n/10 , [Online;
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 436--440
+[]\TU/TimesNewRoman(0)/m/n/10 MacThai, 2020,  “Krungthai NEXT,” Available at []
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][] [] [][] [
+] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--452
+[]\TU/TimesNewRoman(0)/m/n/10 Thailand Insurance News, n.d.,  “TTB digital stra
+tegy,” Available at [][]$[][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--452
+[][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][
+][][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][][] [] [][] [] []
+[] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--452
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][][][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--452
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][][]$[][]\TU/TimesNewRoman(0)/m/n/10 , [Online;
+ []
+
+
+Overfull \hbox (193.38pt too wide) in paragraph at lines 454--458
+[][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+)
 
 [107] (project_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `project_report.out' has not changed.
 (rerunfilecheck)             Checksum: 5E414645CFD7A380C89428CC078498A9;29193.
  ) 
 Here is how much of TeX's memory you used:
- 19491 strings out of 404776
- 379450 string characters out of 2477446
- 854588 words of memory out of 3000000
- 47904 multiletter control sequences out of 15000+600000
+ 19517 strings out of 404776
+ 380082 string characters out of 2477446
+ 859766 words of memory out of 3000000
+ 47930 multiletter control sequences out of 15000+600000
  630765 words of font info for 85 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 102i,9n,105p,636b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,9n,105p,603b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on project_report.pdf (120 pages).
